@@ -1,0 +1,3 @@
+specimen	yield	n50
+drMalSylv7	11239599678	14410
+drMalSylv7	7379265943	13916

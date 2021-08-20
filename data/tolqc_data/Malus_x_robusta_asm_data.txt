@@ -1,0 +1,1 @@
+specimen	asm	ncontig50	contigs	length	BUSCO

@@ -1,0 +1,3 @@
+source	specimen	kmer	haploid	repeat	het
+illumina	drMalRobu1	31	638900201	41.02	1.99
+illumina	drMalRobu1	21	642039767	51.76	2.14

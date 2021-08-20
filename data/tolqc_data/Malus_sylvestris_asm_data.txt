@@ -1,0 +1,5 @@
+specimen	asm	ncontig50	contigs	length	BUSCO
+drMalSylv7	hifiasm	8146353	668	684950473	C:98.6%[S:59.3%,D:39.3%],F:0.6%,M:0.8%,n:2326
+drMalSylv7	hifiasm.purging	8372347	162	643066904	C:98.4%[S:59.6%,D:38.8%],F:0.6%,M:1.0%,n:2326
+drMalSylv7	hicanu	1256421	3862	1251693797	C:98.7%[S:28.2%,D:70.5%],F:0.5%,M:0.8%,n:2326
+drMalSylv7	hicanu.purging	2434740	543	636296213	C:98.0%[S:59.4%,D:38.6%],F:0.7%,M:1.3%,n:2326
