@@ -1,1 +1,1 @@
-specimen	yield	n50
+source	specimen	id	yield	n50

@@ -1,2 +1,2 @@
-specimen	id	read_pairs	yield
-drMalRobu1	39617#40	376093964	56790188564
+source	specimen	id	read_pairs	yield
+illumina	drMalRobu1	39617#40	376093964	56790188564
