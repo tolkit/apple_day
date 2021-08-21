@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
 
+# Max Brown; Wellcome Sanger Institute 2021
+
 # get all the apple data from tolqc (make an api guys! ;))
 
 import os
@@ -109,7 +111,7 @@ for tr_no in range(1, gscope_tbody_rows):
 
 ill_table = []
 # headers
-ill_table.append("specimen\tid\tread_pairs\tyield")
+ill_table.append("source\tspecimen\tid\tread_pairs\tyield")
 
 if check_interactable_by_xpath(
     "/html/body/div[2]/div[7]/div[1]/div[3]/div[2]/ul/li[2]/a"
@@ -156,7 +158,9 @@ if check_interactable_by_xpath(
                 ).text.replace(",", "")
 
                 ill_table.append(
-                    ill_specimen
+                    "illumina"
+                    + "\t"
+                    + ill_specimen
                     + "\t"
                     + ill_run_id
                     + "\t"
@@ -202,7 +206,15 @@ else:
         ).text.replace(",", "")
 
         ill_table.append(
-            ill_specimen + "\t" + ill_run_id + "\t" + ill_read_pairs + "\t" + ill_yield
+            "illumina"
+            + "\t"
+            + ill_specimen
+            + "\t"
+            + ill_run_id
+            + "\t"
+            + ill_read_pairs
+            + "\t"
+            + ill_yield
         )
         print(ill_specimen + " illumina table processed.")
 
@@ -210,7 +222,7 @@ else:
 
 pbio_table = []
 # headers
-pbio_table.append("specimen\tyield\tn50")
+pbio_table.append("source\tspecimen\tid\tyield\tn50")
 
 # check if it contains a second row...
 if check_exists_by_xpath(
@@ -231,6 +243,12 @@ if check_exists_by_xpath(
             + "]/td[1]"
         ).text
 
+        pbio_run_id = pacbio_tbody.find_element_by_xpath(
+            "/html/body/div[2]/div[5]/div[1]/div[2]/div[2]/table/tbody/tr["
+            + str(tr_no)
+            + "]/td[3]"
+        ).text
+
         pbio_yield = pacbio_tbody.find_element_by_xpath(
             "/html/body/div[2]/div[5]/div[1]/div[2]/div[2]/table/tbody/tr["
             + str(tr_no)
@@ -243,7 +261,17 @@ if check_exists_by_xpath(
             + "]/td[8]"
         ).text.replace(",", "")
 
-        pbio_table.append(pbio_specimen + "\t" + pbio_yield + "\t" + pbio_n50)
+        pbio_table.append(
+            "pacbio"
+            + "\t"
+            + pbio_specimen
+            + "\t"
+            + pbio_run_id
+            + "\t"
+            + pbio_yield
+            + "\t"
+            + pbio_n50
+        )
         print(pbio_specimen + " pacbio table processed.")
 
 # get the assemblies
