@@ -1,0 +1,80 @@
+specimen	asm	ncontig50	contigs	length	BUSCO	species	cultivar	origin	gbp	ssid
+drMalSylv7	hifiasm	8146353	668	684950473	C:98.6%[S:59.3%,D:39.3%],F:0.6%,M:0.8%,n:2326	Malus sylvestris	Wild	Markus?		""
+drMalSylv7	hifiasm.purging	8372347	162	643066904	C:98.4%[S:59.6%,D:38.8%],F:0.6%,M:1.0%,n:2326	Malus sylvestris	Wild	Markus?		""
+drMalSylv7	hicanu	1256421	3862	1251693797	C:98.7%[S:28.2%,D:70.5%],F:0.5%,M:0.8%,n:2326	Malus sylvestris	Wild	Markus?		""
+drMalSylv7	hicanu.purging	2434740	543	636296213	C:98.0%[S:59.4%,D:38.6%],F:0.7%,M:1.3%,n:2326	Malus sylvestris	Wild	Markus?		""
+drMalDome58	hicanu.purging	1954443	879	654094937	C:97.4%[S:56.9%,D:40.5%],F:0.9%,M:1.7%,n:2326	Malus domestica	Newtons	Woolsthorpe Manor		""
+drMalDome58	hicanu	650558	5992	1634451429	C:98.9%[S:16.9%,D:82.0%],F:0.5%,M:0.6%,n:2326	Malus domestica	Newtons	Woolsthorpe Manor		""
+drMalDome58	hifiasm	2559476	1550	1116818396	C:98.7%[S:30.7%,D:68.0%],F:0.6%,M:0.7%,n:2326	Malus domestica	Newtons	Woolsthorpe Manor		""
+drMalDome58	hifiasm.purging	6117356	306	640846730	C:98.0%[S:58.0%,D:40.0%],F:0.8%,M:1.2%,n:2326	Malus domestica	Newtons	Woolsthorpe Manor		""
+drMalDome11	hifiasm	37700991	233	676132429	C:98.5%[S:59.8%,D:38.7%],F:0.5%,M:1.0%,n:2326	Malus domestica	Bardsey Island Apple	Wisley	0.81	""
+drMalDome11	hifiasm.purging	37700991	41	648466869	C:98.4%[S:59.9%,D:38.5%],F:0.6%,M:1.0%,n:2326	Malus domestica	Bardsey Island Apple	Wisley	0.81	""
+drMalDome11	hicanu	16110080	1174	1285740503	C:98.8%[S:20.0%,D:78.8%],F:0.5%,M:0.7%,n:2326	Malus domestica	Bardsey Island Apple	Wisley	0.81	""
+drMalDome11	hicanu.purging	30329279	71	642961596	C:98.1%[S:59.4%,D:38.7%],F:0.6%,M:1.3%,n:2326	Malus domestica	Bardsey Island Apple	Wisley	0.81	""
+drMalDome5	hicanu	4359834	2064	1265480718	C:98.8%[S:21.5%,D:77.3%],F:0.6%,M:0.6%,n:2326	Malus domestica	Costard	Kew	0.83	""
+drMalDome5	hicanu.purging	6256646	244	638040265	C:97.6%[S:57.7%,D:39.9%],F:0.7%,M:1.7%,n:2326	Malus domestica	Costard	Kew	0.83	""
+drMalDome5	hifiasm	29384144	457	677821462	C:98.6%[S:58.9%,D:39.7%],F:0.6%,M:0.8%,n:2326	Malus domestica	Costard	Kew	0.83	""
+drMalDome5	hifiasm.purging	31493897	67	635207189	C:98.1%[S:59.1%,D:39.0%],F:0.6%,M:1.3%,n:2326	Malus domestica	Costard	Kew	0.83	""
+drMalDome10	hicanu.purging	13642266	104	651053183	C:97.9%[S:59.1%,D:38.8%],F:0.7%,M:1.4%,n:2326	Malus domestica	Brown Snout	Wisley	0.82	""
+drMalDome10	hicanu	8672517	1391	1275388553	C:98.9%[S:21.9%,D:77.0%],F:0.5%,M:0.6%,n:2326	Malus domestica	Brown Snout	Wisley	0.82	""
+drMalDome10	hifiasm	32837329	290	672320394	C:98.5%[S:59.5%,D:39.0%],F:0.5%,M:1.0%,n:2326	Malus domestica	Brown Snout	Wisley	0.82	""
+drMalDome10	hifiasm.purging	32837329	53	651867713	C:98.3%[S:59.5%,D:38.8%],F:0.5%,M:1.2%,n:2326	Malus domestica	Brown Snout	Wisley	0.82	""
+drMalDome37						Malus domestica	Early Julyan	RBGE Living Collections		AppleDay10498813
+drMalDome28						Malus domestica	Bloody Ploughman	RBGE Living Collections		AppleDay10498821
+?						Malus domestica	Alderman	RBGE Living Collections		""
+drMalDome29						Malus domestica	Lass o Gowrie	RBGE Living Collections		AppleDay10498820
+?						Malus domestica	Port Allen Russet	RBGE Living Collections		""
+?						Malus domestica	White Paradise	RBGE Living Collections		""
+drMalDome33						Malus domestica	Red Windsor	RBGE Living Collections		AppleDay10498816
+drMalDome30						Malus domestica	Bramleys Seedling Clone20	RBGE Living Collections		AppleDay10498819
+drMalDome38						Malus domestica	Egremont Russet	RBGE Living Collections		AppleDay10498812
+drMalDome34						Malus domestica	Pixie	RBGE Living Collections		AppleDay10498815
+drMalDome39						Malus domestica	Discovery	RBGE Living Collections		AppleDay10498811
+drMalDome27						Malus domestica	James Grieve	RBGE Living Collections		AppleDay10498822
+drMalDome42						Malus domestica	Laxton’s Superb	RBGE Living Collections		AppleDay10498808
+drMalDome40						Malus domestica	Newton Wonder	RBGE Living Collections		AppleDay10498810
+drMalDome41						Malus domestica	Ellisons Orange	RBGE Living Collections		AppleDay10498809
+drMalDome35						Malus domestica	Red Bountiful	RBGE Living Collections		AppleDay10498814
+drMalDome36						Malus domestica	Red Falstaff	RBGE Living Collections		AppleDay10498807
+drMalDome44						Malus domestica	Scrumptious	RBGE Living Collections		AppleDay10498805
+drMalDome43						Malus domestica	Red Devil	RBGE Living Collections		AppleDay10498806
+drMalDome24						Malus domestica	Hawthornden	RBGE Living Collections		AppleDay10498825
+drMalDome21						Malus domestica	Oslin	RBGE Living Collections		AppleDay10498827
+drMalDome25						Malus domestica	Stirling Castle	RBGE Living Collections		AppleDay10498824
+drMalDome22						Malus domestica	Scotch Bridget	RBGE Living Collections		AppleDay10498826
+drMalDome23						Malus domestica	Tower of Glamis	RBGE Living Collections	1.24	AppleDay10498792
+drMalDome26						Malus domestica	East Lothian Pippin	RBGE Living Collections		AppleDay10498823
+drMalDome45						Malus domestica	Beauty of Moray	RBGE Living Collections		AppleDay10498804
+?						Malus domestica	Stobo Castle	RBGE Living Collections		""
+drMalDome32						Malus domestica	Cutler Grieve	RBGE Living Collections		AppleDay10498817
+?						Malus domestica	Hoods Supreme	RBGE Living Collections		""
+drMalDome31						Malus domestica	Scotch Dumpling	RBGE Living Collections		AppleDay10498818
+?						Malus domestica	Coxs Orange Pippin	Kew		""
+drMalDome2						Malus domestica	Irish Peach	Kew	0.83	AppleDay10498793
+drMalDome1						Malus domestica	Killerton Sweet	Kew	1.22	AppleDay10498794
+drMalDome4						Malus domestica	Lord Burghley	Kew	0.81	AppleDay10498791
+drMalDome7						Malus domestica	Malus domestica Coxs self	CamBot		AppleDay10498802
+drMalDome8						Malus domestica	Malus John Downie	CamBot		AppleDay10498801
+drMalDome9						Malus domestica	Malus pumila Flower of Kent	CamBot		AppleDay10498800
+drMalRobu1						Malus domestica	Robusta 5	East Malling	0.8	AppleDay10498830
+drMalDome20						Malus domestica	Park Farm Pippin	East Malling	0.86	AppleDay10498828
+drMalDome19						Malus domestica	Fiesta	East Malling	0.81	AppleDay10498829
+drMalDome18						Malus domestica	Decio	East Malling	0.83	AppleDay10498831
+drMalDome17						Malus domestica	Ashmead’s Kernel	Wisley	1.23	AppleDay10498833
+drMalDome12						Malus domestica	Harvey	Wisley	0.84	AppleDay10498834
+drMalDome14						Malus domestica	Kingston Black	Wisley	0.84	AppleDay10498837
+drMalDome13						Malus domestica	Breakwells Seedling	Wisley	0.81	AppleDay10498832
+drMalDome16						Malus domestica	Worcester Pearmain	Wisley	0.83	AppleDay10498835
+drMalDome15						Malus domestica	Blenheim Orange	Wisley	1.23	AppleDay10498836
+drMalDome6						Malus domestica	Sangers Newton	Sanger	1.32	AppleDay10498803
+drMalDome57						Malus domestica	Trinitys Newton	Trinity College Cambridge		AppleDay10498838
+drMalSylv6						Malus sylvestris	""	""		AppleDay10498795
+drMalSylv5						Malus sylvestris	""	""		AppleDay10498796
+drMalSylv4						Malus sylvestris	""	""		AppleDay10498797
+drMalSylv3						Malus sylvestris	""	""		AppleDay10498798
+drMalSylv1						Malus sylvestris	""	""		AppleDay10498799
+drMalSylv80						Malus sylvestris	""	""		AppleDay10498839
+drMalSylv82						Malus sylvestris	""	""		AppleDay10498840
+drMalSylv83						Malus sylvestris	""	""		AppleDay10498841
+drMalSylv84						Malus sylvestris	""	""		AppleDay10498842
+drMalSylv85						Malus sylvestris	""	""		AppleDay10498843
