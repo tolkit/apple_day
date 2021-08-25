@@ -146,8 +146,8 @@ illumina	drMalDome8	39617#11	354959876	53598941276	0	31	648745926	43.83	2.5	Malu
 illumina	drMalDome9	39617#10	706331846	106656108746	0	31	-1	0	-100	Malus domestica	Malus pumila Flower of Kent	CamBot		AppleDay10498800
 illumina	drMalDome9	39617#10	706331846	106656108746	0	21	-1	0	-100	Malus domestica	Malus pumila Flower of Kent	CamBot		AppleDay10498800
 illumina	drMalDome9	39617#10	706331846	106656108746	0	31	644388915	37.92	0.82	Malus domestica	Malus pumila Flower of Kent	CamBot		AppleDay10498800
-illumina	drMalRobu1	39617#40	376093964	56790188564	0	31	638900201	41.02	1.99	Malus domestica	Robusta 5	East Malling	0.8	AppleDay10498830
-illumina	drMalRobu1	39617#40	376093964	56790188564	0	21	642039767	51.76	2.14	Malus domestica	Robusta 5	East Malling	0.8	AppleDay10498830
+illumina	drMalRobu1	39617#40	376093964	56790188564	0	31	638900201	41.02	1.99	Malus x robusta	Robusta 5	East Malling	0.8	AppleDay10498830
+illumina	drMalRobu1	39617#40	376093964	56790188564	0	21	642039767	51.76	2.14	Malus x robusta	Robusta 5	East Malling	0.8	AppleDay10498830
 illumina	drMalDome20	39617#38	358420828	54121545028	0	31	658047042	41.09	1.18	Malus domestica	Park Farm Pippin	East Malling	0.86	AppleDay10498828
 illumina	drMalDome20	39617#38	358420828	54121545028	0	21	660697159	51.73	1.28	Malus domestica	Park Farm Pippin	East Malling	0.86	AppleDay10498828
 illumina	drMalDome20	39617#38	358420828	54121545028	0	31	656084718	41.17	1.18	Malus domestica	Park Farm Pippin	East Malling	0.86	AppleDay10498828

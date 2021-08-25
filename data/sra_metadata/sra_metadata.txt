@@ -1,0 +1,107 @@
+species 	cultivar	origin	source	accession	sra_number
+Malus domestica	Chisel Jersey	United Kingdom	Sun et al., 2020	A04	SRR10541644
+Malus domestica	Cox's Orange Pippin	United Kingdom	Sun et al., 2020	A05	SRR10541633
+Malus domestica	Pixie	United Kingdom	Sun et al., 2020	A20	SRR10541658
+Malus domestica	Greensleeves	United Kingdom	Sun et al., 2020	X2	SRR10541654
+Malus domestica	Anna	Israel	Sun et al., 2020	A01	SRR10541667
+Malus domestica	Antonovka 1.5 pounds	Former Soviet Union	Sun et al., 2020	A02	SRR10541666
+Malus domestica	Calville Blanc	France	Sun et al., 2020	A03	SRR10541655
+Malus domestica	Delicious	United States	Sun et al., 2020	A06	SRR10541622
+Malus domestica	Fuji Red Sport Type 2	Japan	Sun et al., 2020	A08	SRR10541612
+Malus domestica	Granny Smith	Australia	Sun et al., 2020	A10	SRR10541611
+Malus domestica	Jonathan	United States	Sun et al., 2020	A11	SRR10541610
+Malus domestica	Lady	France	Sun et al., 2020	A12	SRR10541609
+Malus domestica	Liberty	United States	Sun et al., 2020	A13	SRR10541665
+Malus domestica	Northern Spy	United States	Sun et al., 2020	A14	SRR10541664
+Malus domestica	Novosibirski Sweet	Former Soviet Union	Sun et al., 2020	A15	SRR10541663
+Malus domestica	Rhode Island Greening	United States	Sun et al., 2020	A16	SRR10541662
+Malus domestica	Rome Beauty Law	United States	Sun et al., 2020	A17	SRR10541661
+Malus domestica	Wijcik McIntosh	Canada	Sun et al., 2020	A18	SRR10541660
+Malus domestica	Yellow Transparent	Former Soviet Union	Sun et al., 2020	A19	SRR10541659
+Malus domestica	Honeycrisp	United States	Sun et al., 2020	A21	SRR10541657
+Malus domestica	Anna	Israel	Duan et al., 2017	A01_D_Israel	SRR3571077
+Malus domestica	Anna	Israel	Duan et al., 2017	A01_D_Israel	SRR3571078
+Malus domestica	Antonovka 1.5 pounds	Russia	Duan et al., 2017	A02_D_Russia	SRR3571079
+Malus domestica	Calville Blanc	France	Duan et al., 2017	A03_D_France	SRR3571080
+Malus domestica	Chisel Jersey	United Kingdom	Duan et al., 2017	A04_D_UK	SRR3571085
+Malus domestica	Chisel Jersey	United Kingdom	Duan et al., 2017	A04_D_UK	SRR3571086
+Malus domestica	Cox's Orange Pippin	United Kingdom	Duan et al., 2017	A05_D_UK	SRR3571087
+Malus domestica	Cox's Orange Pippin	United Kingdom	Duan et al., 2017	A05_D_UK	SRR3571088
+Malus domestica	Delicious	USA	Duan et al., 2017	A06_D_USA	SRR3571089
+Malus domestica	Esopus Spitzenburg	USA	Duan et al., 2017	A07_D_USA	SRR3571091
+Malus domestica	Esopus Spitzenburg	USA	Duan et al., 2017	A07_D_USA	SRR3571092
+Malus domestica	Fuji Red Sport Type 2	Japan	Duan et al., 2017	A08_D_Japan	SRR3571096
+Malus domestica	Fuji Red Sport Type 2	Japan	Duan et al., 2017	A08_D_Japan	SRR3571097
+Malus domestica	Fuji Red Sport Type 2	Japan	Duan et al., 2017	A08_D_Japan	SRR3571098
+Malus domestica	Gala	New Zealand	Duan et al., 2017	A09_D_NewZealand	SRR3571099
+Malus domestica	Gala	New Zealand	Duan et al., 2017	A09_D_NewZealand	SRR3571100
+Malus domestica	Granny Smith	Australia	Duan et al., 2017	A10_D_Australia	SRR3571103
+Malus domestica	Granny Smith	Australia	Duan et al., 2017	A10_D_Australia	SRR3571104
+Malus domestica	Granny Smith	Australia	Duan et al., 2017	A10_D_Australia	SRR3571105
+Malus domestica	Jonathan	USA	Duan et al., 2017	A11_D_USA	SRR3571106
+Malus domestica	Lady	France	Duan et al., 2017	A12_D_France	SRR3571110
+Malus domestica	Liberty	USA	Duan et al., 2017	A13_D_USA	SRR3571112
+Malus domestica	Liberty	USA	Duan et al., 2017	A13_D_USA	SRR3571113
+Malus domestica	Liberty	USA	Duan et al., 2017	A13_D_USA	SRR3571114
+Malus domestica	Northern Spy	USA	Duan et al., 2017	A14_D_USA	SRR3571117
+Malus domestica	Northern Spy	USA	Duan et al., 2017	A14_D_USA	SRR3571119
+Malus domestica	Novosibirski Sweet	Russia	Duan et al., 2017	A15_D_Russia	SRR3571120
+Malus domestica	Novosibirski Sweet	Russia	Duan et al., 2017	A15_D_Russia	SRR3571121
+Malus domestica	Novosibirski Sweet	Russia	Duan et al., 2017	A15_D_Russia	SRR3571122
+Malus domestica	Novosibirski Sweet	Russia	Duan et al., 2017	A15_D_Russia	SRR3571123
+Malus domestica	Rhode Island Greening	USA	Duan et al., 2017	A16_D_USA	SRR3571124
+Malus domestica	Rhode Island Greening	USA	Duan et al., 2017	A16_D_USA	SRR3571125
+Malus domestica	Rhode Island Greening	USA	Duan et al., 2017	A16_D_USA	SRR3571126
+Malus domestica	Rome Beauty Law	USA	Duan et al., 2017	A17_D_USA	SRR3571128
+Malus domestica	Rome Beauty Law	USA	Duan et al., 2017	A17_D_USA	SRR3571129
+Malus domestica	Wijcik McIntosh	Canada	Duan et al., 2017	A18_D_Canada	SRR3571130
+Malus domestica	Wijcik McIntosh	Canada	Duan et al., 2017	A18_D_Canada	SRR3571131
+Malus domestica	Wijcik McIntosh	Canada	Duan et al., 2017	A18_D_Canada	SRR3571132
+Malus domestica	Wijcik McIntosh	Canada	Duan et al., 2017	A18_D_Canada	SRR3571133
+Malus domestica	Yellow Transparent	Russia	Duan et al., 2017	A19_D_Russia	SRR3571134
+Malus domestica	Yellow Transparent	Russia	Duan et al., 2017	A19_D_Russia	SRR3571136
+Malus domestica	Pixie	United Kingdom	Duan et al., 2017	A20_D_UK	SRR3571138
+Malus domestica	Pixie	United Kingdom	Duan et al., 2017	A20_D_UK	SRR3571139
+Malus domestica	Honeycrisp	USA	Duan et al., 2017	A21_D_USA	SRR3571141
+Malus domestica	Honeycrisp	USA	Duan et al., 2017	A21_D_USA	SRR3571142
+Malus domestica	Greensleeves	United Kingdom	Duan et al., 2017	A22_D_UK	SRR3571143
+Malus domestica	P.22	Poland	Duan et al., 2017	R1_D_Poland	SRR3571263
+Malus domestica	P.22	Poland	Duan et al., 2017	R1_D_Poland	SRR3571264
+Malus domestica	J-TE-G	uncalculated	Duan et al., 2017	R2_D_CzeCh	SRR3571266
+Malus domestica	M.9 (Troch Strain)	United Kingdom	Duan et al., 2017	R3_D_UK	SRR3571267
+Malus domestica	Budagovsky 54-118	Canada	Duan et al., 2017	R5_D_Canada	SRR3571269
+Malus domestica	G210	USA	Duan et al., 2017	R8_D_USA	SRR3571273
+Malus domestica	Golden Delicious	USA	Duan et al., 2017	A00_D_USA	SRR3571276
+Malus domestica	G41	USA	Duan et al., 2017	R12_D_USA	SRR3571279
+Malus domestica	Calville Blanc	France	Duan et al., 2017	A03_D_France	SRR3571081
+Malus domestica	Calville Blanc	France	Duan et al., 2017	A03_D_France	SRR3571082
+Malus domestica	Calville Blanc	France	Duan et al., 2017	A03_D_France	SRR3571083
+Malus domestica	Chisel Jersey	United Kingdom	Duan et al., 2017	A04_D_UK	SRR3571084
+Malus domestica	Delicious	USA	Duan et al., 2017	A06_D_USA	SRR3571090
+Malus domestica	Esopus Spitzenburg	USA	Duan et al., 2017	A07_D_USA	SRR3571093
+Malus domestica	Esopus Spitzenburg	USA	Duan et al., 2017	A07_D_USA	SRR3571094
+Malus domestica	Fuji Red Sport Type 2	Japan	Duan et al., 2017	A08_D_Japan	SRR3571095
+Malus domestica	Gala	New Zealand	Duan et al., 2017	A09_D_NewZealand	SRR3571101
+Malus domestica	Granny Smith	Australia	Duan et al., 2017	A10_D_Australia	SRR3571102
+Malus domestica	Jonathan	USA	Duan et al., 2017	A11_D_USA	SRR3571107
+Malus domestica	Jonathan	USA	Duan et al., 2017	A11_D_USA	SRR3571108
+Malus domestica	Jonathan	USA	Duan et al., 2017	A11_D_USA	SRR3571109
+Malus domestica	Lady	France	Duan et al., 2017	A12_D_France	SRR3571111
+Malus domestica	Liberty	USA	Duan et al., 2017	A13_D_USA	SRR3571115
+Malus domestica	Northern Spy	USA	Duan et al., 2017	A14_D_USA	SRR3571116
+Malus domestica	Northern Spy	USA	Duan et al., 2017	A14_D_USA	SRR3571118
+Malus domestica	Rome Beauty Law	USA	Duan et al., 2017	A17_D_USA	SRR3571127
+Malus domestica	Yellow Transparent	Russia	Duan et al., 2017	A19_D_Russia	SRR3571135
+Malus domestica	Pixie	United Kingdom	Duan et al., 2017	A20_D_UK	SRR3571137
+Malus domestica	Honeycrisp	USA	Duan et al., 2017	A21_D_USA	SRR3571140
+Malus domestica	Usterapfel	Germany	Duan et al., 2017	A23_D_Germany	SRR3571144
+Malus domestica	P.22	Poland	Duan et al., 2017	R1_D_Poland	SRR3571262
+Malus domestica	P.22	Poland	Duan et al., 2017	R1_D_Poland	SRR3571265
+Malus domestica	M.26	United Kingdom	Duan et al., 2017	R4_D_UK	SRR3571268
+Malus domestica	Budagovski No 9	Canada	Duan et al., 2017	R6_D_Canada	SRR3571270
+Malus domestica	M.7	United Kingdom	Duan et al., 2017	R7_D_UK	SRR3571271
+Malus domestica	G210	USA	Duan et al., 2017	R8_D_USA	SRR3571272
+Malus domestica	G210	USA	Duan et al., 2017	R8_D_USA	SRR3571274
+Malus domestica	G210	USA	Duan et al., 2017	R8_D_USA	SRR3571275
+Malus domestica	MM.106	USA	Duan et al., 2017	R10_D_USA	SRR3571277
+Malus domestica	G16	USA	Duan et al., 2017	R11_D_USA	SRR3571278

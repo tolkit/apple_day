@@ -17,4 +17,5 @@ These are downloading now.
 ## References
 
 <a id="1">[1]</a> Sun et al., (2020) Phased diploid genome assemblies and pan-genomes provide insights into the genetic history of apple domestication. *Nature genetics* <b>52</b>(12), 1423-1432.
+
 <a id="2">[2]</a> Duan et al., (2017) Genome re-sequencing reveals the history of apple and supports a two-stage model for fruit enlargement. *Nature Communications* <b>8</b>(1), 1-11.
