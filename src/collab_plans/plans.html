@@ -38,7 +38,8 @@
             margin-top: 10px;
         }
 
-        ul {
+        ul,
+        ol {
             margin-bottom: 10px;
             margin-top: 10px;
         }
@@ -77,12 +78,9 @@
 
     <div>
         <p>We have sequence data for <span id="stat1"></span> species (<i><span id="stat2"></span></i>) across <span
-                id="stat3"></span> cultivars . Below shows the total
-            sequencing effort. Hi-C, PacBio HiFi, and 10X data
-            have
-            been
-            generated for the five reference genomes, whilst the resequencing consists of NovaSeq 150bp PE reads. <span
-                id="stat4"></span> individuals of <i>Malus sylvestris</i> have been sequenced on illumina.</p>
+                id="stat3"></span> cultivars. Below shows the total sequencing effort. Hi-C, PacBio HiFi, and 10X data
+            have been generated for the five reference genomes, whilst the resequencing consists of NovaSeq 150bp PE
+            reads. <span id="stat4"></span> individuals of <i>Malus sylvestris</i> have been sequenced on illumina.</p>
     </div>
 
     <div id="plot1"></div>
@@ -106,7 +104,7 @@
         <p>I have also made efforts to download a bunch of other data from two separate studies (Sun <i>et al</i>.,
             2020;
             Duan
-            <i>et al</i>., 2017). A tabular format of this data can be found <a
+            <i>et al</i>., 2017). A tabular format of the cultivars I've downloaded the data for can be found <a
                 href="https://github.com/tolkit/apple_day/blob/main/data/sra_metadata/sra_metadata.tsv">here</a>.
         </p>
     </div>
@@ -126,18 +124,41 @@
     <h3>Whole genome analysis</h3>
 
     <div>
-        <p>A good idea to start off, might be to run some simple stats across the five genomes. How big are they? Do
-            they
-            show
-            patterns of GC content or information content across the chromosomes? How does repeat content vary across
-            the
-            chromosomes? These stats can then be eyeballed between the genomes, and generates some nice graphs really
-            quickly.
-        </p>
+        <ol>
+            <li>
+                A good idea to start off, might be to run some simple stats across the five genomes.
+                <ul>
+                    <li>
+                        How big are they?
+                    </li>
+                    <li>
+                        Do
+                        they
+                        show
+                        patterns of GC content or information content across the chromosomes?
+                    </li>
+                    <li>
+                        How does repeat
+                        content vary
+                        across
+                        the
+                        chromosomes?
+                    </li>
+                    <li>
+                        These stats can then be eyeballed between the genomes, and generates some nice
+                        graphs
+                        really
+                        quickly.
+                    </li>
+                </ul>
+            </li>
 
-        <p>We could map the HiFi reads of the cultivars to the wild apple reference genome to see where the major
-            structural
-            differences lie between domesticated and wild apples.</p>
+            <li>
+                We could map the HiFi reads of the cultivars to the wild apple reference genome to see where the major
+                structural
+                differences lie between domesticated and wild apples.
+            </li>
+        </ol>
 
         <p>Later on it might be nice to see where the haplotypic differences lie in each of the whole apple genomes. I'm
             thinking <i>deepvariant</i>. Or later on we can characterise the repeatome.
@@ -147,22 +168,46 @@
     <h3>Cultivar resequencing analyses</h3>
 
     <div>
+        <ol>
+            <li>For apple day, something readily achievable and quick to do would be to map the Newton's apple reads to
+                the
+                Newton's
+                apple reference genome.
+                <ul>
+                    <li>
+                        Are they the same thing?
+                    </li>
+                    <li>
+                        How many differences are there?
+                    </li>
+                    <li>
+                        Where are these differences?
+                    </li>
+                    <li>
+                        Also, seeing as Newton's apple is a triploid, what is this third copy?
+                    </li>
+                </ul>
+            </li>
 
-        <p>For apple day, something readily achievable and quick to do would be to map the Newton's apple reads to the
-            Newton's
-            apple reference genome. Are they the same thing? How many differences are there? Where are these
-            differences?
-            Also,
-            seeing as Newton's apple is a triploid, what is this third copy?</p>
-
-        <p>In the slightly longer term it would be good to characterise the diversity of these apples. This would mean
-            mapping
-            all the cultivars to one of the references (<i>which one?</i>). The resulting VCF can be wrangled in all
-            sorts
-            of
-            ways to visualise the differences. A straightforward analysis would be along the lines of a PCA, or building
-            a
-            neighbour joining tree. Do we see clusters? Why might there be clusters?</p>
+            <li>It would be good to characterise the diversity of these apples. This would mean
+                mapping
+                all the cultivars to one of the references (<i>which one?</i>). The resulting VCF can be wrangled in all
+                sorts
+                of
+                ways to visualise the differences. A straightforward analysis would be along the lines of a PCA, or
+                building
+                a
+                neighbour joining tree.
+                <ul>
+                    <li>
+                        Do we see clusters?
+                    </li>
+                    <li>
+                        Why might there be clusters?
+                    </li>
+                </ul>
+            </li>
+        </ol>
 
     </div>
 
