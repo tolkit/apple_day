@@ -7,6 +7,6 @@ The assemblies are being made (thanks grittola!).
 ### Aims
 
 - [x] Scrape data from tolqc
-- [ ] Make simple charts to convey sequencing effort & data we have 
+- [x] Make simple charts to convey sequencing effort & data we have 
 - [ ] Meet with collaborators to discuss analyses further
 - [ ] Organise analyses
