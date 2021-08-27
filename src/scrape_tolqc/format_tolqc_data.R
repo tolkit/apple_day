@@ -77,6 +77,8 @@ all_merged_meta <- all_merged[apple_metadata1, on = .(specimen)]
 all_merged_assembly_meta <- all_merged_assembly[
     apple_metadata1,
     on = .(specimen)
+][
+    asm != ""
 ]
 
 ## WRTIE FILES

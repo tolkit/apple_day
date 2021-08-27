@@ -48,6 +48,14 @@
             font-weight: bold;
             color: #a1d99b;
         }
+
+        select {
+            text-align-last: right;
+            padding-right: 29px;
+            direction: rtl;
+            display: block;
+            margin: 0 auto;
+        }
     </style>
 </head>
 
@@ -108,6 +116,61 @@
                 href="https://github.com/tolkit/apple_day/blob/main/data/sra_metadata/sra_metadata.tsv">here</a>.
         </p>
     </div>
+
+    <h2>Assembly overview</h2>
+
+    <div>
+        <p>Some preliminary asssemblies have been made. I'll show a few stats from these assemblies. Use the dropdown to
+            go
+            through each of the five samples.</p>
+        <p>First up is the BUSCO score, which is a measure of completeness of a genome.</p>
+    </div>
+
+    <select id="busco_plot">
+        <option value="drMalSylv7">drMalSylv7</option>
+        <option value="drMalDome58">drMalDome58</option>
+        <option value="drMalDome11">drMalDome11</option>
+        <option value="drMalDome5">drMalDome5</option>
+        <option value="drMalDome10">drMalDome10</option>
+    </select>
+
+    <div id="plot4"></div>
+
+    <div>
+        <p>Next up is number of contigs.</p>
+    </div>
+
+    <select id="contig_plot">
+        <option value="drMalSylv7">drMalSylv7</option>
+        <option value="drMalDome58">drMalDome58</option>
+        <option value="drMalDome11">drMalDome11</option>
+        <option value="drMalDome5">drMalDome5</option>
+        <option value="drMalDome10">drMalDome10</option>
+    </select>
+
+    <div id="plot5"></div>
+
+    <div>
+        <p>
+            These contigs will be scaffolded to hopefully produce the 16 (diploid) apple chromosomes.
+        </p>
+    </div>
+
+    <div>
+        <p>
+            And lastly, contig N50.
+        </p>
+    </div>
+
+    <select id="n50_plot">
+        <option value="drMalSylv7">drMalSylv7</option>
+        <option value="drMalDome58">drMalDome58</option>
+        <option value="drMalDome11">drMalDome11</option>
+        <option value="drMalDome5">drMalDome5</option>
+        <option value="drMalDome10">drMalDome10</option>
+    </select>
+
+    <div id="plot6"></div>
 
     <h2>Analysis plans</h2>
 
@@ -572,6 +635,349 @@
         document.getElementById("stat3").innerHTML = malus_cultivars.length
         document.getElementById("stat2").innerHTML = malus_species
         document.getElementById("stat1").innerHTML = number_of_species
+
+        // next set here
+        // all_apples_merged_asm.json
+        const asm = [{ specimen: "drMalSylv7", asm: "hifiasm", ncontig50: 8146353, contigs: 668, length: 684950473, BUSCO: "C:98.6%[S:59.3%,D:39.3%],F:0.6%,M:0.8%,n:2326", species: "Malus sylvestris", cultivar: "Wild", origin: "Markus?", ssid: "" }, { specimen: "drMalSylv7", asm: "hifiasm.purging", ncontig50: 8372347, contigs: 162, length: 643066904, BUSCO: "C:98.4%[S:59.6%,D:38.8%],F:0.6%,M:1.0%,n:2326", species: "Malus sylvestris", cultivar: "Wild", origin: "Markus?", ssid: "" }, { specimen: "drMalSylv7", asm: "hicanu", ncontig50: 1256421, contigs: 3862, length: 1251693797, BUSCO: "C:98.7%[S:28.2%,D:70.5%],F:0.5%,M:0.8%,n:2326", species: "Malus sylvestris", cultivar: "Wild", origin: "Markus?", ssid: "" }, { specimen: "drMalSylv7", asm: "hicanu.purging", ncontig50: 2434740, contigs: 543, length: 636296213, BUSCO: "C:98.0%[S:59.4%,D:38.6%],F:0.7%,M:1.3%,n:2326", species: "Malus sylvestris", cultivar: "Wild", origin: "Markus?", ssid: "" }, { specimen: "drMalDome58", asm: "hicanu.purging", ncontig50: 1954443, contigs: 879, length: 654094937, BUSCO: "C:97.4%[S:56.9%,D:40.5%],F:0.9%,M:1.7%,n:2326", species: "Malus domestica", cultivar: "Newtons", origin: "Woolsthorpe Manor", ssid: "" }, { specimen: "drMalDome58", asm: "hicanu", ncontig50: 650558, contigs: 5992, length: 1634451429, BUSCO: "C:98.9%[S:16.9%,D:82.0%],F:0.5%,M:0.6%,n:2326", species: "Malus domestica", cultivar: "Newtons", origin: "Woolsthorpe Manor", ssid: "" }, { specimen: "drMalDome58", asm: "hifiasm", ncontig50: 2559476, contigs: 1550, length: 1116818396, BUSCO: "C:98.7%[S:30.7%,D:68.0%],F:0.6%,M:0.7%,n:2326", species: "Malus domestica", cultivar: "Newtons", origin: "Woolsthorpe Manor", ssid: "" }, { specimen: "drMalDome58", asm: "hifiasm.purging", ncontig50: 6117356, contigs: 306, length: 640846730, BUSCO: "C:98.0%[S:58.0%,D:40.0%],F:0.8%,M:1.2%,n:2326", species: "Malus domestica", cultivar: "Newtons", origin: "Woolsthorpe Manor", ssid: "" }, { specimen: "drMalDome11", asm: "hifiasm", ncontig50: 37700991, contigs: 233, length: 676132429, BUSCO: "C:98.5%[S:59.8%,D:38.7%],F:0.5%,M:1.0%,n:2326", species: "Malus domestica", cultivar: "Bardsey Island Apple", origin: "Wisley", gbp: 0.81, ssid: "" }, { specimen: "drMalDome11", asm: "hifiasm.purging", ncontig50: 37700991, contigs: 41, length: 648466869, BUSCO: "C:98.4%[S:59.9%,D:38.5%],F:0.6%,M:1.0%,n:2326", species: "Malus domestica", cultivar: "Bardsey Island Apple", origin: "Wisley", gbp: 0.81, ssid: "" }, { specimen: "drMalDome11", asm: "hicanu", ncontig50: 16110080, contigs: 1174, length: 1285740503, BUSCO: "C:98.8%[S:20.0%,D:78.8%],F:0.5%,M:0.7%,n:2326", species: "Malus domestica", cultivar: "Bardsey Island Apple", origin: "Wisley", gbp: 0.81, ssid: "" }, { specimen: "drMalDome11", asm: "hicanu.purging", ncontig50: 30329279, contigs: 71, length: 642961596, BUSCO: "C:98.1%[S:59.4%,D:38.7%],F:0.6%,M:1.3%,n:2326", species: "Malus domestica", cultivar: "Bardsey Island Apple", origin: "Wisley", gbp: 0.81, ssid: "" }, { specimen: "drMalDome5", asm: "hicanu", ncontig50: 4359834, contigs: 2064, length: 1265480718, BUSCO: "C:98.8%[S:21.5%,D:77.3%],F:0.6%,M:0.6%,n:2326", species: "Malus domestica", cultivar: "Costard", origin: "Kew", gbp: 0.83, ssid: "" }, { specimen: "drMalDome5", asm: "hicanu.purging", ncontig50: 6256646, contigs: 244, length: 638040265, BUSCO: "C:97.6%[S:57.7%,D:39.9%],F:0.7%,M:1.7%,n:2326", species: "Malus domestica", cultivar: "Costard", origin: "Kew", gbp: 0.83, ssid: "" }, { specimen: "drMalDome5", asm: "hifiasm", ncontig50: 29384144, contigs: 457, length: 677821462, BUSCO: "C:98.6%[S:58.9%,D:39.7%],F:0.6%,M:0.8%,n:2326", species: "Malus domestica", cultivar: "Costard", origin: "Kew", gbp: 0.83, ssid: "" }, { specimen: "drMalDome5", asm: "hifiasm.purging", ncontig50: 31493897, contigs: 67, length: 635207189, BUSCO: "C:98.1%[S:59.1%,D:39.0%],F:0.6%,M:1.3%,n:2326", species: "Malus domestica", cultivar: "Costard", origin: "Kew", gbp: 0.83, ssid: "" }, { specimen: "drMalDome10", asm: "hicanu.purging", ncontig50: 13642266, contigs: 104, length: 651053183, BUSCO: "C:97.9%[S:59.1%,D:38.8%],F:0.7%,M:1.4%,n:2326", species: "Malus domestica", cultivar: "Brown Snout", origin: "Wisley", gbp: 0.82, ssid: "" }, { specimen: "drMalDome10", asm: "hicanu", ncontig50: 8672517, contigs: 1391, length: 1275388553, BUSCO: "C:98.9%[S:21.9%,D:77.0%],F:0.5%,M:0.6%,n:2326", species: "Malus domestica", cultivar: "Brown Snout", origin: "Wisley", gbp: 0.82, ssid: "" }, { specimen: "drMalDome10", asm: "hifiasm", ncontig50: 32837329, contigs: 290, length: 672320394, BUSCO: "C:98.5%[S:59.5%,D:39.0%],F:0.5%,M:1.0%,n:2326", species: "Malus domestica", cultivar: "Brown Snout", origin: "Wisley", gbp: 0.82, ssid: "" }, { specimen: "drMalDome10", asm: "hifiasm.purging", ncontig50: 32837329, contigs: 53, length: 651867713, BUSCO: "C:98.3%[S:59.5%,D:38.8%],F:0.5%,M:1.2%,n:2326", species: "Malus domestica", cultivar: "Brown Snout", origin: "Wisley", gbp: 0.82, ssid: "" }]
+
+        function parseBusco(d) {
+            let spl_arr = d.split(/\[|\]|,/).filter((d) => d !== "");
+
+            let obj = {};
+
+            for (const e of spl_arr) {
+                let test = e.charAt(0);
+                switch (test) {
+                    case "C":
+                        obj["Complete"] = e.split(":")[1];
+                        break;
+                    case "S":
+                        obj["Single copy"] = e.split(":")[1];
+                        break;
+                    case "D":
+                        obj["Duplicated"] = e.split(":")[1];
+                        break;
+                    case "F":
+                        obj["Fragmented"] = e.split(":")[1];
+                        break;
+                    case "M":
+                        obj["Missing"] = e.split(":")[1];
+                        break;
+                    case "n":
+                        obj["Number"] = e.split(":")[1];
+                        break;
+                    default:
+                        console.log("Nothing");
+                }
+            }
+            return obj;
+        }
+
+        const plot4_data = asm.map(function (d) {
+            let buscos = parseBusco(d.BUSCO);
+            return {
+                specimen: d.specimen,
+                asm: d.asm,
+                complete: +buscos.Complete.replace("%", ""),
+                "single copy": +buscos["Single copy"].replace("%", ""),
+                duplicated: +buscos.Duplicated.replace("%", ""),
+                fragmented: +buscos.Fragmented.replace("%", ""),
+                missing: +buscos.Missing.replace("%", ""),
+                number: +buscos.Number
+            };
+        });
+
+        const series = d3
+            .stack()
+            .keys(new Set(plot4_data.map((d) => d.specimen)))(plot4_data)
+            .map((d) => (d.forEach((v) => (v.key = d.key)), d))
+
+        const keys = Object.keys(plot4_data[0])
+            .slice(2)
+            .filter((d) => d !== "number")
+
+
+        function plot4() {
+            let S = document.getElementById("busco_plot");
+            let SPECIMEN = S.value;
+
+            d3.select("#plot4").selectAll("*").remove();
+            const svg = d3
+                .select("#plot4")
+                .append("svg")
+                .attr("height", height)
+                .attr("width", width + 50);
+
+            // axes et al
+            const color = d3
+                .scaleOrdinal()
+                .range(["#edf8e9", "#bae4b3", "#74c476", "#31a354", "#006d2c"].reverse())
+            const x0 = d3
+                .scaleBand()
+                .domain(plot4_data.map((d) => d["asm"]))
+                .rangeRound([margin.left, width - margin.right])
+                .paddingInner(0.1)
+            const x1 = d3.scaleBand().domain(keys).rangeRound([0, x0.bandwidth()]).padding(0.05)
+            const xAxis = (g) =>
+                g
+                    .attr("transform", `translate(0,${height - margin.bottom})`)
+                    .call(d3.axisBottom(x0).tickSizeOuter(0))
+                    .call((g) => g.select(".domain").remove())
+            const y = d3
+                .scaleLinear()
+                .domain([0, d3.max(plot4_data, (d) => d3.max(keys, (key) => d[key]))])
+                .nice()
+                .rangeRound([height - margin.bottom, margin.top])
+
+            const yAxis = (g) =>
+                g
+                    .attr("transform", `translate(${margin.left},0)`)
+                    .call(d3.axisLeft(y).ticks(null, "s"))
+                    .call((g) => g.select(".domain").remove())
+                    .call((g) =>
+                        g
+                            .select(".tick:last-of-type text")
+                            .clone()
+                            .attr("x", 3)
+                            .attr("y", -10)
+                            .attr("text-anchor", "start")
+                            .attr("font-weight", "bold")
+                            .text(SPECIMEN)
+                    )
+            const legend = (svg) => {
+                const g = svg
+                    .attr("transform", `translate(${width + 20},0)`)
+                    .attr("text-anchor", "end")
+                    .attr("font-family", "sans-serif")
+                    .attr("font-size", 10)
+                    .selectAll("g")
+                    .data(color.domain().slice())
+                    .join("g")
+                    .attr("transform", (d, i) => `translate(0,${i * 20})`);
+
+                g.append("rect")
+                    .attr("x", -19)
+                    .attr("width", 19)
+                    .attr("height", 19)
+                    .attr("fill", color);
+
+                g.append("text")
+                    .attr("x", -24)
+                    .attr("y", 9.5)
+                    .attr("dy", "0.35em")
+                    .text((d) => d);
+            }
+
+            svg
+                .append("g")
+                .selectAll("g")
+                .data(plot4_data.filter((d) => d.specimen === SPECIMEN))
+                .join("g")
+                .attr("transform", (d) => `translate(${x0(d["asm"])},0)`)
+                .selectAll("rect")
+                .data((d) => keys.map((key) => ({ key, value: d[key] })))
+                .join("rect")
+                .attr("x", (d) => x1(d.key))
+                .attr("y", (d) => y(d.value))
+                .attr("width", x1.bandwidth())
+                .attr("height", (d) => y(0) - y(d.value))
+                .attr("fill", (d) => color(d.key))
+                .append("title")
+                .text(d => d.value + "%")
+
+            svg.append("g").call(xAxis);
+
+            svg.append("g").call(yAxis);
+
+            svg.append("g").call(legend);
+        }
+
+        const plot5_data = asm.map(function (d) {
+            return {
+                specimen: d.specimen,
+                asm: d.asm,
+                contigs: d.contigs
+            };
+        })
+
+        function plot5() {
+            let S = document.getElementById("contig_plot");
+            let SPECIMEN = S.value;
+
+            d3.select("#plot5").selectAll("*").remove();
+            const svg = d3
+                .select("#plot5")
+                .append("svg")
+                .attr("height", height)
+                .attr("width", width);
+
+            const data = plot5_data.filter((d) => d.specimen === SPECIMEN);
+
+            const xplot1 = d3
+                .scaleBand()
+                .domain(["hifiasm", "hifiasm.purging", "hicanu", "hicanu.purging"])
+                .range([margin.left, width - margin.right])
+                .padding(0.1);
+
+            const xAxisplot1 = (g) =>
+                g
+                    .attr("transform", `translate(0,${height - margin.bottom})`)
+                    .call(
+                        d3
+                            .axisBottom(xplot1)
+                            .tickFormat((i) => i)
+                            .tickSizeOuter(0)
+                    )
+                    .call((g) =>
+                        g
+                            .append("text")
+                            .attr("x", width / 1.5)
+                            .attr("y", 35)
+                            .attr("fill", "currentColor")
+                            .attr("font-weight", "bold")
+                            .attr("text-anchor", "end")
+                            .text("Sequence data type")
+                    );
+
+            const yplot1 = d3
+                .scaleLinear()
+                .domain([0, d3.max(data, (d) => d.contigs)])
+                .nice()
+                .range([height - margin.bottom, margin.top]);
+
+            const yAxisplot1 = (g) =>
+                g
+                    .attr("transform", `translate(${margin.left},0)`)
+                    .call(d3.axisLeft(yplot1).ticks(null, data.format))
+                    .call((g) => g.select(".domain").remove())
+                    .call((g) =>
+                        g
+                            .select(".tick:last-of-type text")
+                            .clone()
+                            .attr("x", 4)
+                            .attr("text-anchor", "start")
+                            .attr("font-weight", "bold")
+                            .text("Count")
+                    );
+
+            svg
+                .append("g")
+                .attr("fill", "#a1d99b")
+                .selectAll("rect")
+                .data(data)
+                .join("rect")
+                .attr("x", (d) => xplot1(d.asm))
+                .attr("y", (d) => yplot1(d.contigs))
+                .attr("height", (d) => yplot1(0) - yplot1(d.contigs))
+                .attr("width", xplot1.bandwidth())
+                .append("title")
+                .text((d) => d.contigs + " contigs");
+
+            svg.append("g").call(xAxisplot1);
+
+            svg.append("g").call(yAxisplot1);
+
+        }
+
+        const plot6_data = asm.map(function (d) {
+            return {
+                specimen: d.specimen,
+                asm: d.asm,
+                ncontig50: d.ncontig50
+            };
+        })
+
+        function plot6() {
+
+            let S = document.getElementById("n50_plot");
+            let SPECIMEN = S.value;
+
+            d3.select("#plot6").selectAll("*").remove();
+            const svg = d3
+                .select("#plot6")
+                .append("svg")
+                .attr("height", height)
+                .attr("width", width);
+
+            const data = plot6_data.filter((d) => d.specimen === SPECIMEN);
+
+            const xplot1 = d3
+                .scaleBand()
+                .domain(["hifiasm", "hifiasm.purging", "hicanu", "hicanu.purging"])
+                .range([margin.left, width - margin.right])
+                .padding(0.1);
+
+            const xAxisplot1 = (g) =>
+                g
+                    .attr("transform", `translate(0,${height - margin.bottom})`)
+                    .call(
+                        d3
+                            .axisBottom(xplot1)
+                            .tickFormat((i) => i)
+                            .tickSizeOuter(0)
+                    )
+                    .call((g) =>
+                        g
+                            .append("text")
+                            .attr("x", width / 1.5)
+                            .attr("y", 35)
+                            .attr("fill", "currentColor")
+                            .attr("font-weight", "bold")
+                            .attr("text-anchor", "end")
+                            .text("Sequence data type")
+                    );
+
+            const yplot1 = d3
+                .scaleLinear()
+                .domain([0, d3.max(data, (d) => d.ncontig50)])
+                .nice()
+                .range([height - margin.bottom, margin.top]);
+
+            const yAxisplot1 = (g) =>
+                g
+                    .attr("transform", `translate(${margin.left},0)`)
+                    .call(d3.axisLeft(yplot1).tickFormat((d) => d / 1000000 + " Mb"))
+                    .call((g) => g.select(".domain").remove())
+                    .call((g) =>
+                        g
+                            .select(".tick:last-of-type text")
+                            .clone()
+                            .attr("x", 4)
+                            .attr("text-anchor", "start")
+                            .attr("font-weight", "bold")
+                            .text("Count")
+                    );
+
+            svg
+                .append("g")
+                .attr("fill", "#a1d99b")
+                .selectAll("rect")
+                .data(data)
+                .join("rect")
+                .attr("x", (d, i) => xplot1(d.asm))
+                .attr("y", (d) => yplot1(d.ncontig50))
+                .attr("height", (d) => yplot1(0) - yplot1(d.ncontig50))
+                .attr("width", xplot1.bandwidth())
+                .append("title")
+                .text((d) => "Contig N50 = " + (Math.round(d.ncontig50 / 1000000 * 100) / 100) + " Mb");
+
+            svg.append("g").call(xAxisplot1);
+
+            svg.append("g").call(yAxisplot1);
+
+
+        }
+
+        plot4()
+        // and listen for change
+        document.getElementById("busco_plot").onchange = plot4;
+
+        plot5()
+        // and listen for change
+        document.getElementById("contig_plot").onchange = plot5;
+
+        plot6()
+        document.getElementById("n50_plot").onchange = plot6;
 
     </script>
 </body>
