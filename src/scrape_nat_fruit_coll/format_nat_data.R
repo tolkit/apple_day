@@ -20,57 +20,60 @@ splitNat <- lapply(nat, function(x) as.character(x$V1))
 
 get_index <- function(regex = "", test) {
   index <- ifelse(
-    grep(regex, test) == 0, 
-    NULL, 
+    grep(regex, test) == 0,
+    NULL,
     grep(regex, test) + 1 # or its the next index
   )
   return(index)
 }
 
 # parsing will require a bit of thought
-splitNatDat <- lapply(splitNat, function(test){
+splitNatDat <- lapply(splitNat, function(test) {
   # get indexes
   description <- get_index("^Malus domestica Borkh\\.", test)
-  #synonyms
+  # synonyms
   synonyms <- get_index("^Synonyms:", test)
-  #availability
+  # availability
   availability <- get_index("^Availability", test)
-  #shape
+  # shape
   shape <- get_index("^Shape", test)
-  #size
+  # size
   size <- get_index("^Size", test)
-  #height
+  # height
   height <- get_index("^Height", test)
-  #width
+  # width
   width <- get_index("^Width", test)
-  #ribbing
+  # ribbing
   ribbing <- get_index("^Ribbing", test)
-  #ground colour
+  # ground colour
   ground_colour <- get_index("^Ground Colour", test)
-  #over colour
+  # over colour
   over_colour <- get_index("^Over Colour$", test)
-  #over colour (pattern)
+  # over colour (pattern)
   over_colour_p <- get_index("^Over Colour \\(Pattern\\)", test)
-  #crunch
+  # crunch
   crunch <- get_index("^Crunch", test)
-  #flesh colour
+  # flesh colour
   flesh_colour <- get_index("^Flesh Colour", test)
-  #accession name
+  # accession name
   accession_name <- get_index("^Accession name", test)
-  #flowering time
+  # flowering time
   flowering <- get_index("^Flowering time", test)
-  if(!is.logical(flowering)) {
-    flowering <- c(flowering, flowering +1, flowering +2)
+  if (!is.logical(flowering)) {
+    flowering <- c(flowering, flowering + 1, flowering + 2)
   }
-  #picking time
+  # picking time
   picking <- get_index("^Picking time", test)
   # more
   russet <- get_index("^Russet$", test)
   crown <- get_index("^Crown$", test)
   coarseness <- get_index("^Coarseness$", test)
-  
+  # parentage
+  parentage <- get_index("^Parentage:$", test)
+
   data.table(
     Accession_Name = test[accession_name],
+    Parentage = test[parentage],
     Description = test[description],
     Synonyms = test[synonyms],
     Availability = test[availability],
@@ -79,8 +82,8 @@ splitNatDat <- lapply(splitNat, function(test){
     Height = gsub("[[:space:]]mm[[:space:]][[:digit:]]|mm[[:space:]][[:digit:]]", "", test[height]),
     Width = gsub("[[:space:]]mm[[:space:]][[:digit:]]|mm[[:space:]][[:digit:]]", "", test[width]),
     Ribbing = gsub("[[:space:]][[:digit:]]", "", test[ribbing]),
-    Ground_Colour= gsub("[[:space:]][[:digit:]]", "", test[ground_colour]),
-    Over_Colour= gsub("[[:space:]][[:digit:]]", "", test[over_colour]),
+    Ground_Colour = gsub("[[:space:]][[:digit:]]", "", test[ground_colour]),
+    Over_Colour = gsub("[[:space:]][[:digit:]]", "", test[over_colour]),
     Over_Colour_P = gsub("[[:space:]][[:digit:]]", "", test[over_colour_p]),
     Crunch = gsub("[[:space:]][[:digit:]]", "", test[crunch]),
     Flesh_Colour = gsub("[[:space:]][[:digit:]]", "", test[flesh_colour]),
@@ -90,7 +93,6 @@ splitNatDat <- lapply(splitNat, function(test){
     Crown = gsub("[[:space:]][[:digit:]]", "", test[crown]),
     Coarseness = gsub("[[:space:]][[:digit:]]", "", test[coarseness])
   )
-  
 })
 
 # all data
