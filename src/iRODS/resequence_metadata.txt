@@ -1,0 +1,6784 @@
+AVUs defined for dataObj /seq/illumina/runs/39/39617/plex1/39617#1.cram:
+attribute: type
+value: cram
+units: 
+----
+attribute: component
+value: {"id_run":39617,"position":4,"tag_index":1}
+units: 
+----
+attribute: sample_public_name
+value: drMalDome4
+units: 
+----
+attribute: study_accession_number
+value: ERP130052
+units: 
+----
+attribute: study_id
+value: 6552
+units: 
+----
+attribute: tag_index
+value: 1
+units: 
+----
+attribute: alignment
+value: 0
+units: 
+----
+attribute: is_paired_read
+value: 1
+units: 
+----
+attribute: component
+value: {"id_run":39617,"position":2,"tag_index":1}
+units: 
+----
+attribute: sample_donor_id
+value: AppleDay10498791
+units: 
+----
+attribute: manual_qc
+value: 1
+units: 
+----
+attribute: library_type
+value: Standard
+units: 
+----
+attribute: md5
+value: d0f113f2b2e1f977f82e3058b107010d
+units: 
+----
+attribute: component
+value: {"id_run":39617,"position":1,"tag_index":1}
+units: 
+----
+attribute: id_product
+value: a18c45f7a3e9062eed39d32b6f73e9715e5690441e7a4079faedd349408db979
+units: 
+----
+attribute: seqchksum
+value: 59eb3fdb=385e0d8d=622ee59f=002ed02e=2a67a938=21a969c4=0a03fe19=1068b0ff
+units: 
+----
+attribute: total_reads
+value: 282580942
+units: 
+----
+attribute: sample_accession_number
+value: SAMEA8717340
+units: 
+----
+attribute: component
+value: {"id_run":39617,"position":3,"tag_index":1}
+units: 
+----
+attribute: library_id
+value: 28909999
+units: 
+----
+attribute: sample_supplier_name
+value: FB09216165
+units: 
+----
+attribute: study
+value: DTOL_Apple Day
+units: 
+----
+attribute: dcterms:creator
+value: http://www.sanger.ac.uk
+units: 
+----
+attribute: sample_common_name
+value: Malus domestica
+units: 
+----
+attribute: composition
+value: {"components":[{"id_run":39617,"position":1,"tag_index":1},{"id_run":39617,"position":2,"tag_index":1},{"id_run":39617,"position":3,"tag_index":1},{"id_run":39617,"position":4,"tag_index":1}]}
+units: 
+----
+attribute: id_run
+value: 39617
+units: 
+----
+attribute: sample_id
+value: 5992667
+units: 
+----
+attribute: study_title
+value: DToL Apple Resequencing
+units: 
+----
+attribute: target
+value: 1
+units: 
+----
+attribute: dcterms:created
+value: 2021-07-25T01:25:04
+units: 
+----
+attribute: dcterms:publisher
+value: ldap://ldap.internal.sanger.ac.uk/ou=people,dc=sanger,dc=ac,dc=uk?title?sub?(uid=gspipe)
+units: 
+----
+attribute: sample
+value: AppleDay10498791
+units: 
+AVUs defined for dataObj /seq/illumina/runs/39/39617/plex10/39617#10.cram:
+attribute: type
+value: cram
+units: 
+----
+attribute: study_accession_number
+value: ERP130052
+units: 
+----
+attribute: study_id
+value: 6552
+units: 
+----
+attribute: component
+value: {"id_run":39617,"position":3,"tag_index":10}
+units: 
+----
+attribute: library_id
+value: 28910063
+units: 
+----
+attribute: sample_donor_id
+value: AppleDay10498800
+units: 
+----
+attribute: alignment
+value: 0
+units: 
+----
+attribute: is_paired_read
+value: 1
+units: 
+----
+attribute: total_reads
+value: 706469912
+units: 
+----
+attribute: sample_id
+value: 5992676
+units: 
+----
+attribute: sample_supplier_name
+value: FB07439877
+units: 
+----
+attribute: manual_qc
+value: 1
+units: 
+----
+attribute: library_type
+value: Standard
+units: 
+----
+attribute: component
+value: {"id_run":39617,"position":4,"tag_index":10}
+units: 
+----
+attribute: seqchksum
+value: 5825d3e3=749fbf28=52eb378f=10c92d76=7552498c=38a635c4=054ee41e=3190a74c
+units: 
+----
+attribute: study
+value: DTOL_Apple Day
+units: 
+----
+attribute: dcterms:created
+value: 2021-07-25T01:28:03
+units: 
+----
+attribute: id_product
+value: 7dec8ab0ea41645d6682087f55fc08fec0b64852a9316144d254a7bd4cecdeb9
+units: 
+----
+attribute: dcterms:creator
+value: http://www.sanger.ac.uk
+units: 
+----
+attribute: sample_common_name
+value: Malus domestica
+units: 
+----
+attribute: id_run
+value: 39617
+units: 
+----
+attribute: study_title
+value: DToL Apple Resequencing
+units: 
+----
+attribute: component
+value: {"id_run":39617,"position":2,"tag_index":10}
+units: 
+----
+attribute: sample_public_name
+value: drMalDome9
+units: 
+----
+attribute: tag_index
+value: 10
+units: 
+----
+attribute: target
+value: 1
+units: 
+----
+attribute: md5
+value: 693a913f5e06cb4cab13c280f507af3b
+units: 
+----
+attribute: composition
+value: {"components":[{"id_run":39617,"position":1,"tag_index":10},{"id_run":39617,"position":2,"tag_index":10},{"id_run":39617,"position":3,"tag_index":10},{"id_run":39617,"position":4,"tag_index":10}]}
+units: 
+----
+attribute: dcterms:publisher
+value: ldap://ldap.internal.sanger.ac.uk/ou=people,dc=sanger,dc=ac,dc=uk?title?sub?(uid=gspipe)
+units: 
+----
+attribute: sample_accession_number
+value: n/a
+units: 
+----
+attribute: component
+value: {"id_run":39617,"position":1,"tag_index":10}
+units: 
+----
+attribute: sample
+value: AppleDay10498800
+units: 
+AVUs defined for dataObj /seq/illumina/runs/39/39617/plex11/39617#11.cram:
+attribute: type
+value: cram
+units: 
+----
+attribute: study_accession_number
+value: ERP130052
+units: 
+----
+attribute: study_id
+value: 6552
+units: 
+----
+attribute: composition
+value: {"components":[{"id_run":39617,"position":1,"tag_index":11},{"id_run":39617,"position":2,"tag_index":11},{"id_run":39617,"position":3,"tag_index":11},{"id_run":39617,"position":4,"tag_index":11}]}
+units: 
+----
+attribute: alignment
+value: 0
+units: 
+----
+attribute: is_paired_read
+value: 1
+units: 
+----
+attribute: component
+value: {"id_run":39617,"position":4,"tag_index":11}
+units: 
+----
+attribute: component
+value: {"id_run":39617,"position":1,"tag_index":11}
+units: 
+----
+attribute: component
+value: {"id_run":39617,"position":3,"tag_index":11}
+units: 
+----
+attribute: sample_donor_id
+value: AppleDay10498801
+units: 
+----
+attribute: manual_qc
+value: 1
+units: 
+----
+attribute: library_type
+value: Standard
+units: 
+----
+attribute: component
+value: {"id_run":39617,"position":2,"tag_index":11}
+units: 
+----
+attribute: total_reads
+value: 355029678
+units: 
+----
+attribute: sample_id
+value: 5992677
+units: 
+----
+attribute: tag_index
+value: 11
+units: 
+----
+attribute: study
+value: DTOL_Apple Day
+units: 
+----
+attribute: library_id
+value: 28910110
+units: 
+----
+attribute: dcterms:creator
+value: http://www.sanger.ac.uk
+units: 
+----
+attribute: sample_common_name
+value: Malus domestica
+units: 
+----
+attribute: id_run
+value: 39617
+units: 
+----
+attribute: study_title
+value: DToL Apple Resequencing
+units: 
+----
+attribute: md5
+value: 340bc812c170d89243e366c9c156ccae
+units: 
+----
+attribute: seqchksum
+value: 08f51700=37477225=4e9bc9be=7c545dd9=233e902e=3678a5a1=483bd8a8=1bc91ad8
+units: 
+----
+attribute: target
+value: 1
+units: 
+----
+attribute: id_product
+value: 799ea96cef999217de0f7b41242aea18f5ce0b646b26224a76257cf1495e6ace
+units: 
+----
+attribute: sample
+value: AppleDay10498801
+units: 
+----
+attribute: dcterms:publisher
+value: ldap://ldap.internal.sanger.ac.uk/ou=people,dc=sanger,dc=ac,dc=uk?title?sub?(uid=gspipe)
+units: 
+----
+attribute: dcterms:created
+value: 2021-07-25T01:28:45
+units: 
+----
+attribute: sample_accession_number
+value: n/a
+units: 
+----
+attribute: sample_public_name
+value: drMalDome8
+units: 
+----
+attribute: sample_supplier_name
+value: FB07440007
+units: 
+AVUs defined for dataObj /seq/illumina/runs/39/39617/plex12/39617#12.cram:
+attribute: type
+value: cram
+units: 
+----
+attribute: study_accession_number
+value: ERP130052
+units: 
+----
+attribute: study_id
+value: 6552
+units: 
+----
+attribute: total_reads
+value: 344733314
+units: 
+----
+attribute: alignment
+value: 0
+units: 
+----
+attribute: is_paired_read
+value: 1
+units: 
+----
+attribute: component
+value: {"id_run":39617,"position":1,"tag_index":12}
+units: 
+----
+attribute: library_id
+value: 28910150
+units: 
+----
+attribute: tag_index
+value: 12
+units: 
+----
+attribute: seqchksum
+value: 410fb0e7=5b9dc861=309bf087=151100b3=30951bc7=7904524a=6fcf73af=7a2b8c7f
+units: 
+----
+attribute: sample_id
+value: 5992678
+units: 
+----
+attribute: manual_qc
+value: 1
+units: 
+----
+attribute: library_type
+value: Standard
+units: 
+----
+attribute: study
+value: DTOL_Apple Day
+units: 
+----
+attribute: md5
+value: 0a849bb862e07cee2455a3671ca6084e
+units: 
+----
+attribute: component
+value: {"id_run":39617,"position":3,"tag_index":12}
+units: 
+----
+attribute: sample_public_name
+value: drMalDome7
+units: 
+----
+attribute: dcterms:creator
+value: http://www.sanger.ac.uk
+units: 
+----
+attribute: sample_common_name
+value: Malus domestica
+units: 
+----
+attribute: id_run
+value: 39617
+units: 
+----
+attribute: study_title
+value: DToL Apple Resequencing
+units: 
+----
+attribute: dcterms:created
+value: 2021-07-25T01:29:18
+units: 
+----
+attribute: id_product
+value: 2bb3fb55d5f7059e6682425f908e094fdf4fb5517d35b015f0036a7a839a5517
+units: 
+----
+attribute: sample_donor_id
+value: AppleDay10498802
+units: 
+----
+attribute: target
+value: 1
+units: 
+----
+attribute: component
+value: {"id_run":39617,"position":2,"tag_index":12}
+units: 
+----
+attribute: component
+value: {"id_run":39617,"position":4,"tag_index":12}
+units: 
+----
+attribute: composition
+value: {"components":[{"id_run":39617,"position":1,"tag_index":12},{"id_run":39617,"position":2,"tag_index":12},{"id_run":39617,"position":3,"tag_index":12},{"id_run":39617,"position":4,"tag_index":12}]}
+units: 
+----
+attribute: sample
+value: AppleDay10498802
+units: 
+----
+attribute: sample_supplier_name
+value: FB07439890
+units: 
+----
+attribute: dcterms:publisher
+value: ldap://ldap.internal.sanger.ac.uk/ou=people,dc=sanger,dc=ac,dc=uk?title?sub?(uid=gspipe)
+units: 
+----
+attribute: sample_accession_number
+value: n/a
+units: 
+AVUs defined for dataObj /seq/illumina/runs/39/39617/plex13/39617#13.cram:
+attribute: type
+value: cram
+units: 
+----
+attribute: study_accession_number
+value: ERP130052
+units: 
+----
+attribute: study_id
+value: 6552
+units: 
+----
+attribute: md5
+value: 0004e0c69480d56d1fc37510246327f6
+units: 
+----
+attribute: component
+value: {"id_run":39617,"position":1,"tag_index":13}
+units: 
+----
+attribute: component
+value: {"id_run":39617,"position":3,"tag_index":13}
+units: 
+----
+attribute: total_reads
+value: 735109278
+units: 
+----
+attribute: alignment
+value: 0
+units: 
+----
+attribute: is_paired_read
+value: 1
+units: 
+----
+attribute: sample
+value: AppleDay10498803
+units: 
+----
+attribute: tag_index
+value: 13
+units: 
+----
+attribute: composition
+value: {"components":[{"id_run":39617,"position":1,"tag_index":13},{"id_run":39617,"position":2,"tag_index":13},{"id_run":39617,"position":3,"tag_index":13},{"id_run":39617,"position":4,"tag_index":13}]}
+units: 
+----
+attribute: id_product
+value: 7ef2b6dcfdc78c9750e655ce6d4954577cca2b874217dcb610fe66b9a961a105
+units: 
+----
+attribute: manual_qc
+value: 1
+units: 
+----
+attribute: library_type
+value: Standard
+units: 
+----
+attribute: study
+value: DTOL_Apple Day
+units: 
+----
+attribute: dcterms:created
+value: 2021-07-25T01:29:27
+units: 
+----
+attribute: library_id
+value: 28910194
+units: 
+----
+attribute: sample_id
+value: 5992679
+units: 
+----
+attribute: sample_public_name
+value: drMalDome6
+units: 
+----
+attribute: dcterms:creator
+value: http://www.sanger.ac.uk
+units: 
+----
+attribute: sample_common_name
+value: Malus domestica
+units: 
+----
+attribute: id_run
+value: 39617
+units: 
+----
+attribute: study_title
+value: DToL Apple Resequencing
+units: 
+----
+attribute: component
+value: {"id_run":39617,"position":4,"tag_index":13}
+units: 
+----
+attribute: sample_donor_id
+value: AppleDay10498803
+units: 
+----
+attribute: target
+value: 1
+units: 
+----
+attribute: component
+value: {"id_run":39617,"position":2,"tag_index":13}
+units: 
+----
+attribute: sample_supplier_name
+value: FB07439980
+units: 
+----
+attribute: dcterms:publisher
+value: ldap://ldap.internal.sanger.ac.uk/ou=people,dc=sanger,dc=ac,dc=uk?title?sub?(uid=gspipe)
+units: 
+----
+attribute: sample_accession_number
+value: n/a
+units: 
+----
+attribute: seqchksum
+value: 5cbfa752=65b25297=7fd5c308=6b68954e=13c9757f=301ebc14=087391cd=56025723
+units: 
+AVUs defined for dataObj /seq/illumina/runs/39/39617/plex14/39617#14.cram:
+attribute: type
+value: cram
+units: 
+----
+attribute: study_accession_number
+value: ERP130052
+units: 
+----
+attribute: study_id
+value: 6552
+units: 
+----
+attribute: component
+value: {"id_run":39617,"position":3,"tag_index":14}
+units: 
+----
+attribute: alignment
+value: 0
+units: 
+----
+attribute: is_paired_read
+value: 1
+units: 
+----
+attribute: seqchksum
+value: 694553ea=63b418f0=6aaa49d5=3a9a1792=42c54633=0695347d=10921e88=431fc501
+units: 
+----
+attribute: sample_donor_id
+value: AppleDay10498804
+units: 
+----
+attribute: dcterms:created
+value: 2021-07-25T01:29:58
+units: 
+----
+attribute: component
+value: {"id_run":39617,"position":1,"tag_index":14}
+units: 
+----
+attribute: library_id
+value: 28910239
+units: 
+----
+attribute: manual_qc
+value: 1
+units: 
+----
+attribute: library_type
+value: Standard
+units: 
+----
+attribute: composition
+value: {"components":[{"id_run":39617,"position":1,"tag_index":14},{"id_run":39617,"position":2,"tag_index":14},{"id_run":39617,"position":3,"tag_index":14},{"id_run":39617,"position":4,"tag_index":14}]}
+units: 
+----
+attribute: study
+value: DTOL_Apple Day
+units: 
+----
+attribute: dcterms:creator
+value: http://www.sanger.ac.uk
+units: 
+----
+attribute: sample_common_name
+value: Malus domestica
+units: 
+----
+attribute: id_run
+value: 39617
+units: 
+----
+attribute: study_title
+value: DToL Apple Resequencing
+units: 
+----
+attribute: component
+value: {"id_run":39617,"position":4,"tag_index":14}
+units: 
+----
+attribute: tag_index
+value: 14
+units: 
+----
+attribute: target
+value: 1
+units: 
+----
+attribute: component
+value: {"id_run":39617,"position":2,"tag_index":14}
+units: 
+----
+attribute: total_reads
+value: 373966572
+units: 
+----
+attribute: sample_supplier_name
+value: FB09215168
+units: 
+----
+attribute: dcterms:publisher
+value: ldap://ldap.internal.sanger.ac.uk/ou=people,dc=sanger,dc=ac,dc=uk?title?sub?(uid=gspipe)
+units: 
+----
+attribute: md5
+value: a5d9d0e7df9c86350216a0520f5fc6b2
+units: 
+----
+attribute: id_product
+value: c8c1bd796bb3b8dfe52d4377345aae4f2f332343ff3dd175e9338e8169c2ef1e
+units: 
+----
+attribute: sample
+value: AppleDay10498804
+units: 
+----
+attribute: sample_accession_number
+value: SAMEA9239837
+units: 
+----
+attribute: sample_id
+value: 5992680
+units: 
+----
+attribute: sample_public_name
+value: drMalDome45
+units: 
+AVUs defined for dataObj /seq/illumina/runs/39/39617/plex15/39617#15.cram:
+attribute: type
+value: cram
+units: 
+----
+attribute: study_accession_number
+value: ERP130052
+units: 
+----
+attribute: study_id
+value: 6552
+units: 
+----
+attribute: dcterms:created
+value: 2021-07-25T01:30:11
+units: 
+----
+attribute: component
+value: {"id_run":39617,"position":3,"tag_index":15}
+units: 
+----
+attribute: sample_accession_number
+value: SAMEA9239832
+units: 
+----
+attribute: tag_index
+value: 15
+units: 
+----
+attribute: alignment
+value: 0
+units: 
+----
+attribute: is_paired_read
+value: 1
+units: 
+----
+attribute: manual_qc
+value: 1
+units: 
+----
+attribute: library_type
+value: Standard
+units: 
+----
+attribute: composition
+value: {"components":[{"id_run":39617,"position":1,"tag_index":15},{"id_run":39617,"position":2,"tag_index":15},{"id_run":39617,"position":3,"tag_index":15},{"id_run":39617,"position":4,"tag_index":15}]}
+units: 
+----
+attribute: library_id
+value: 28910283
+units: 
+----
+attribute: sample_id
+value: 5992681
+units: 
+----
+attribute: study
+value: DTOL_Apple Day
+units: 
+----
+attribute: component
+value: {"id_run":39617,"position":4,"tag_index":15}
+units: 
+----
+attribute: dcterms:creator
+value: http://www.sanger.ac.uk
+units: 
+----
+attribute: sample_common_name
+value: Malus domestica
+units: 
+----
+attribute: id_run
+value: 39617
+units: 
+----
+attribute: study_title
+value: DToL Apple Resequencing
+units: 
+----
+attribute: component
+value: {"id_run":39617,"position":2,"tag_index":15}
+units: 
+----
+attribute: id_product
+value: d83768ad20ea858a469eaeba78ded86389a0b333bc742c01f18762d0f26897ae
+units: 
+----
+attribute: total_reads
+value: 337877566
+units: 
+----
+attribute: sample_supplier_name
+value: FB09215162
+units: 
+----
+attribute: target
+value: 1
+units: 
+----
+attribute: seqchksum
+value: 357b86af=7580da70=6e156dd7=5fba8fc6=6d7a035d=78d03ac2=14fbf29b=40db6533
+units: 
+----
+attribute: sample
+value: AppleDay10498805
+units: 
+----
+attribute: sample_donor_id
+value: AppleDay10498805
+units: 
+----
+attribute: dcterms:publisher
+value: ldap://ldap.internal.sanger.ac.uk/ou=people,dc=sanger,dc=ac,dc=uk?title?sub?(uid=gspipe)
+units: 
+----
+attribute: md5
+value: 9620d71fba6c0f27d1306a7034ad48f6
+units: 
+----
+attribute: component
+value: {"id_run":39617,"position":1,"tag_index":15}
+units: 
+----
+attribute: sample_public_name
+value: drMalDome44
+units: 
+AVUs defined for dataObj /seq/illumina/runs/39/39617/plex16/39617#16.cram:
+attribute: type
+value: cram
+units: 
+----
+attribute: study_accession_number
+value: ERP130052
+units: 
+----
+attribute: study_id
+value: 6552
+units: 
+----
+attribute: component
+value: {"id_run":39617,"position":1,"tag_index":16}
+units: 
+----
+attribute: tag_index
+value: 16
+units: 
+----
+attribute: alignment
+value: 0
+units: 
+----
+attribute: is_paired_read
+value: 1
+units: 
+----
+attribute: md5
+value: 92bb1e23ac03b2fe50319714f2ec4839
+units: 
+----
+attribute: component
+value: {"id_run":39617,"position":4,"tag_index":16}
+units: 
+----
+attribute: seqchksum
+value: 6a9f4ee1=281525f1=088e7c26=1251bd08=48876903=500210e1=229b694b=5e8c7861
+units: 
+----
+attribute: sample_donor_id
+value: AppleDay10498806
+units: 
+----
+attribute: manual_qc
+value: 1
+units: 
+----
+attribute: library_type
+value: Standard
+units: 
+----
+attribute: component
+value: {"id_run":39617,"position":2,"tag_index":16}
+units: 
+----
+attribute: study
+value: DTOL_Apple Day
+units: 
+----
+attribute: library_id
+value: 28910318
+units: 
+----
+attribute: sample
+value: AppleDay10498806
+units: 
+----
+attribute: sample_accession_number
+value: SAMEA9239831
+units: 
+----
+attribute: sample_public_name
+value: drMalDome43
+units: 
+----
+attribute: dcterms:creator
+value: http://www.sanger.ac.uk
+units: 
+----
+attribute: sample_common_name
+value: Malus domestica
+units: 
+----
+attribute: id_run
+value: 39617
+units: 
+----
+attribute: study_title
+value: DToL Apple Resequencing
+units: 
+----
+attribute: dcterms:created
+value: 2021-07-25T01:31:34
+units: 
+----
+attribute: composition
+value: {"components":[{"id_run":39617,"position":1,"tag_index":16},{"id_run":39617,"position":2,"tag_index":16},{"id_run":39617,"position":3,"tag_index":16},{"id_run":39617,"position":4,"tag_index":16}]}
+units: 
+----
+attribute: sample_id
+value: 5992682
+units: 
+----
+attribute: sample_supplier_name
+value: FB09215161
+units: 
+----
+attribute: target
+value: 1
+units: 
+----
+attribute: component
+value: {"id_run":39617,"position":3,"tag_index":16}
+units: 
+----
+attribute: id_product
+value: 227bc1e7061a3b7707c83f6a289ca14e501be796f7ab935a1ec6a4061432a78c
+units: 
+----
+attribute: total_reads
+value: 398632954
+units: 
+----
+attribute: dcterms:publisher
+value: ldap://ldap.internal.sanger.ac.uk/ou=people,dc=sanger,dc=ac,dc=uk?title?sub?(uid=gspipe)
+units: 
+AVUs defined for dataObj /seq/illumina/runs/39/39617/plex17/39617#17.cram:
+attribute: type
+value: cram
+units: 
+----
+attribute: study_accession_number
+value: ERP130052
+units: 
+----
+attribute: study_id
+value: 6552
+units: 
+----
+attribute: component
+value: {"id_run":39617,"position":1,"tag_index":17}
+units: 
+----
+attribute: sample_public_name
+value: drMalDome36
+units: 
+----
+attribute: alignment
+value: 0
+units: 
+----
+attribute: is_paired_read
+value: 1
+units: 
+----
+attribute: total_reads
+value: 364761410
+units: 
+----
+attribute: library_id
+value: 28910005
+units: 
+----
+attribute: sample_donor_id
+value: AppleDay10498807
+units: 
+----
+attribute: manual_qc
+value: 1
+units: 
+----
+attribute: library_type
+value: Standard
+units: 
+----
+attribute: tag_index
+value: 17
+units: 
+----
+attribute: study
+value: DTOL_Apple Day
+units: 
+----
+attribute: dcterms:created
+value: 2021-07-25T01:31:43
+units: 
+----
+attribute: md5
+value: 17d0718ff7251cd0a787d67fb27a78bf
+units: 
+----
+attribute: component
+value: {"id_run":39617,"position":2,"tag_index":17}
+units: 
+----
+attribute: component
+value: {"id_run":39617,"position":3,"tag_index":17}
+units: 
+----
+attribute: seqchksum
+value: 349b9003=03816ecd=07e7f896=01143e71=436b021c=0998b9cd=422a9e8c=00b5ee97
+units: 
+----
+attribute: dcterms:creator
+value: http://www.sanger.ac.uk
+units: 
+----
+attribute: sample_common_name
+value: Malus domestica
+units: 
+----
+attribute: id_run
+value: 39617
+units: 
+----
+attribute: study_title
+value: DToL Apple Resequencing
+units: 
+----
+attribute: component
+value: {"id_run":39617,"position":4,"tag_index":17}
+units: 
+----
+attribute: sample_accession_number
+value: SAMEA9239826
+units: 
+----
+attribute: target
+value: 1
+units: 
+----
+attribute: dcterms:publisher
+value: ldap://ldap.internal.sanger.ac.uk/ou=people,dc=sanger,dc=ac,dc=uk?title?sub?(uid=gspipe)
+units: 
+----
+attribute: composition
+value: {"components":[{"id_run":39617,"position":1,"tag_index":17},{"id_run":39617,"position":2,"tag_index":17},{"id_run":39617,"position":3,"tag_index":17},{"id_run":39617,"position":4,"tag_index":17}]}
+units: 
+----
+attribute: id_product
+value: d07049d12ba5b6296c6cfc3bbf85ff181f56cc94aa9f03ded1e7222c9eaa9971
+units: 
+----
+attribute: sample
+value: AppleDay10498807
+units: 
+----
+attribute: sample_id
+value: 5992683
+units: 
+----
+attribute: sample_supplier_name
+value: FB09215156
+units: 
+AVUs defined for dataObj /seq/illumina/runs/39/39617/plex18/39617#18.cram:
+attribute: tag_index
+value: 18
+units: 
+----
+attribute: type
+value: cram
+units: 
+----
+attribute: study_accession_number
+value: ERP130052
+units: 
+----
+attribute: study_id
+value: 6552
+units: 
+----
+attribute: md5
+value: ae694d915651181115f5e95427295896
+units: 
+----
+attribute: component
+value: {"id_run":39617,"position":3,"tag_index":18}
+units: 
+----
+attribute: alignment
+value: 0
+units: 
+----
+attribute: is_paired_read
+value: 1
+units: 
+----
+attribute: composition
+value: {"components":[{"id_run":39617,"position":1,"tag_index":18},{"id_run":39617,"position":2,"tag_index":18},{"id_run":39617,"position":3,"tag_index":18},{"id_run":39617,"position":4,"tag_index":18}]}
+units: 
+----
+attribute: total_reads
+value: 309663004
+units: 
+----
+attribute: sample_accession_number
+value: SAMEA9239825
+units: 
+----
+attribute: sample_donor_id
+value: AppleDay10498808
+units: 
+----
+attribute: manual_qc
+value: 1
+units: 
+----
+attribute: library_type
+value: Standard
+units: 
+----
+attribute: dcterms:created
+value: 2021-07-25T01:32:41
+units: 
+----
+attribute: id_product
+value: 8e0baaf8f173aae440a2752fe165addc3cff648e1eca973155a39b1aa5c1798e
+units: 
+----
+attribute: study
+value: DTOL_Apple Day
+units: 
+----
+attribute: sample_public_name
+value: drMalDome42
+units: 
+----
+attribute: dcterms:creator
+value: http://www.sanger.ac.uk
+units: 
+----
+attribute: sample_common_name
+value: Malus domestica
+units: 
+----
+attribute: id_run
+value: 39617
+units: 
+----
+attribute: study_title
+value: DToL Apple Resequencing
+units: 
+----
+attribute: component
+value: {"id_run":39617,"position":1,"tag_index":18}
+units: 
+----
+attribute: component
+value: {"id_run":39617,"position":2,"tag_index":18}
+units: 
+----
+attribute: component
+value: {"id_run":39617,"position":4,"tag_index":18}
+units: 
+----
+attribute: seqchksum
+value: 1bb48403=79c072f3=35b414ea=29ca148e=6954b752=48787fb7=0a2ed75e=4714b8ea
+units: 
+----
+attribute: sample_id
+value: 5992684
+units: 
+----
+attribute: sample_supplier_name
+value: FB09215197
+units: 
+----
+attribute: target
+value: 1
+units: 
+----
+attribute: library_id
+value: 28910067
+units: 
+----
+attribute: dcterms:publisher
+value: ldap://ldap.internal.sanger.ac.uk/ou=people,dc=sanger,dc=ac,dc=uk?title?sub?(uid=gspipe)
+units: 
+----
+attribute: sample
+value: AppleDay10498808
+units: 
+AVUs defined for dataObj /seq/illumina/runs/39/39617/plex19/39617#19.cram:
+attribute: type
+value: cram
+units: 
+----
+attribute: study_accession_number
+value: ERP130052
+units: 
+----
+attribute: study_id
+value: 6552
+units: 
+----
+attribute: component
+value: {"id_run":39617,"position":3,"tag_index":19}
+units: 
+----
+attribute: total_reads
+value: 324118338
+units: 
+----
+attribute: sample_id
+value: 5992685
+units: 
+----
+attribute: alignment
+value: 0
+units: 
+----
+attribute: is_paired_read
+value: 1
+units: 
+----
+attribute: sample_donor_id
+value: AppleDay10498809
+units: 
+----
+attribute: component
+value: {"id_run":39617,"position":1,"tag_index":19}
+units: 
+----
+attribute: tag_index
+value: 19
+units: 
+----
+attribute: manual_qc
+value: 1
+units: 
+----
+attribute: library_type
+value: Standard
+units: 
+----
+attribute: md5
+value: 604ebc6ea06f12fc49cb33a2a1d70ecc
+units: 
+----
+attribute: seqchksum
+value: 6089e850=37b7a7c7=1a6ad4fe=76464bc4=27ac91f2=58718bb9=0d4b638b=6bb39055
+units: 
+----
+attribute: study
+value: DTOL_Apple Day
+units: 
+----
+attribute: composition
+value: {"components":[{"id_run":39617,"position":1,"tag_index":19},{"id_run":39617,"position":2,"tag_index":19},{"id_run":39617,"position":3,"tag_index":19},{"id_run":39617,"position":4,"tag_index":19}]}
+units: 
+----
+attribute: sample
+value: AppleDay10498809
+units: 
+----
+attribute: dcterms:creator
+value: http://www.sanger.ac.uk
+units: 
+----
+attribute: sample_common_name
+value: Malus domestica
+units: 
+----
+attribute: id_run
+value: 39617
+units: 
+----
+attribute: study_title
+value: DToL Apple Resequencing
+units: 
+----
+attribute: dcterms:created
+value: 2021-07-25T01:32:51
+units: 
+----
+attribute: component
+value: {"id_run":39617,"position":2,"tag_index":19}
+units: 
+----
+attribute: sample_accession_number
+value: SAMEA9239820
+units: 
+----
+attribute: target
+value: 1
+units: 
+----
+attribute: component
+value: {"id_run":39617,"position":4,"tag_index":19}
+units: 
+----
+attribute: dcterms:publisher
+value: ldap://ldap.internal.sanger.ac.uk/ou=people,dc=sanger,dc=ac,dc=uk?title?sub?(uid=gspipe)
+units: 
+----
+attribute: id_product
+value: 2bbe8a056260bf70cc3b0277c3104924274447678d79f0d22ea84b0ab4add8f9
+units: 
+----
+attribute: library_id
+value: 28910114
+units: 
+----
+attribute: sample_public_name
+value: drMalDome41
+units: 
+----
+attribute: sample_supplier_name
+value: FB09215192
+units: 
+AVUs defined for dataObj /seq/illumina/runs/39/39617/plex2/39617#2.cram:
+attribute: type
+value: cram
+units: 
+----
+attribute: study_accession_number
+value: ERP130052
+units: 
+----
+attribute: study_id
+value: 6552
+units: 
+----
+attribute: alignment
+value: 0
+units: 
+----
+attribute: is_paired_read
+value: 1
+units: 
+----
+attribute: component
+value: {"id_run":39617,"position":3,"tag_index":2}
+units: 
+----
+attribute: md5
+value: 0f4776023c72e99e42f3d9a8a309ab1a
+units: 
+----
+attribute: composition
+value: {"components":[{"id_run":39617,"position":1,"tag_index":2},{"id_run":39617,"position":2,"tag_index":2},{"id_run":39617,"position":3,"tag_index":2},{"id_run":39617,"position":4,"tag_index":2}]}
+units: 
+----
+attribute: seqchksum
+value: 268f9b05=46c4de74=58553297=6281384b=2286d6b1=55f05839=7928913c=428d9576
+units: 
+----
+attribute: total_reads
+value: 658012532
+units: 
+----
+attribute: manual_qc
+value: 1
+units: 
+----
+attribute: library_type
+value: Standard
+units: 
+----
+attribute: sample_supplier_name
+value: FB09216157
+units: 
+----
+attribute: study
+value: DTOL_Apple Day
+units: 
+----
+attribute: library_id
+value: 28910059
+units: 
+----
+attribute: sample_public_name
+value: drMalDome3
+units: 
+----
+attribute: dcterms:creator
+value: http://www.sanger.ac.uk
+units: 
+----
+attribute: sample_common_name
+value: Malus domestica
+units: 
+----
+attribute: id_run
+value: 39617
+units: 
+----
+attribute: study_title
+value: DToL Apple Resequencing
+units: 
+----
+attribute: component
+value: {"id_run":39617,"position":4,"tag_index":2}
+units: 
+----
+attribute: target
+value: 1
+units: 
+----
+attribute: dcterms:created
+value: 2021-07-25T01:25:04
+units: 
+----
+attribute: component
+value: {"id_run":39617,"position":1,"tag_index":2}
+units: 
+----
+attribute: sample
+value: AppleDay10498792
+units: 
+----
+attribute: sample_accession_number
+value: SAMEA8717336
+units: 
+----
+attribute: sample_donor_id
+value: AppleDay10498792
+units: 
+----
+attribute: sample_id
+value: 5992668
+units: 
+----
+attribute: tag_index
+value: 2
+units: 
+----
+attribute: dcterms:publisher
+value: ldap://ldap.internal.sanger.ac.uk/ou=people,dc=sanger,dc=ac,dc=uk?title?sub?(uid=gspipe)
+units: 
+----
+attribute: component
+value: {"id_run":39617,"position":2,"tag_index":2}
+units: 
+----
+attribute: id_product
+value: 9026b60e242d1b88963fc08bfe4c9c6739b87d8ae8a667af806b127e9d12719a
+units: 
+AVUs defined for dataObj /seq/illumina/runs/39/39617/plex20/39617#20.cram:
+attribute: type
+value: cram
+units: 
+----
+attribute: study_accession_number
+value: ERP130052
+units: 
+----
+attribute: study_id
+value: 6552
+units: 
+----
+attribute: dcterms:created
+value: 2021-07-25T01:33:06
+units: 
+----
+attribute: component
+value: {"id_run":39617,"position":4,"tag_index":20}
+units: 
+----
+attribute: seqchksum
+value: 2084b4db=1e225a05=40a6768a=59b50331=62f6eefd=2d96bb7f=0d5a0145=544b015d
+units: 
+----
+attribute: library_id
+value: 28910152
+units: 
+----
+attribute: alignment
+value: 0
+units: 
+----
+attribute: is_paired_read
+value: 1
+units: 
+----
+attribute: component
+value: {"id_run":39617,"position":2,"tag_index":20}
+units: 
+----
+attribute: sample_id
+value: 5992686
+units: 
+----
+attribute: sample_public_name
+value: drMalDome40
+units: 
+----
+attribute: md5
+value: 508918caf3d6285050049e4dafb05674
+units: 
+----
+attribute: sample_supplier_name
+value: FB09215187
+units: 
+----
+attribute: manual_qc
+value: 1
+units: 
+----
+attribute: library_type
+value: Standard
+units: 
+----
+attribute: sample_donor_id
+value: AppleDay10498810
+units: 
+----
+attribute: tag_index
+value: 20
+units: 
+----
+attribute: study
+value: DTOL_Apple Day
+units: 
+----
+attribute: component
+value: {"id_run":39617,"position":1,"tag_index":20}
+units: 
+----
+attribute: total_reads
+value: 360352818
+units: 
+----
+attribute: sample
+value: AppleDay10498810
+units: 
+----
+attribute: dcterms:creator
+value: http://www.sanger.ac.uk
+units: 
+----
+attribute: sample_common_name
+value: Malus domestica
+units: 
+----
+attribute: id_run
+value: 39617
+units: 
+----
+attribute: study_title
+value: DToL Apple Resequencing
+units: 
+----
+attribute: id_product
+value: 05098c03c9ca88f43c2661edd698dff9e7836182c707cd1400e40872e0a674d6
+units: 
+----
+attribute: sample_accession_number
+value: SAMEA9239815
+units: 
+----
+attribute: target
+value: 1
+units: 
+----
+attribute: dcterms:publisher
+value: ldap://ldap.internal.sanger.ac.uk/ou=people,dc=sanger,dc=ac,dc=uk?title?sub?(uid=gspipe)
+units: 
+----
+attribute: component
+value: {"id_run":39617,"position":3,"tag_index":20}
+units: 
+----
+attribute: composition
+value: {"components":[{"id_run":39617,"position":1,"tag_index":20},{"id_run":39617,"position":2,"tag_index":20},{"id_run":39617,"position":3,"tag_index":20},{"id_run":39617,"position":4,"tag_index":20}]}
+units: 
+AVUs defined for dataObj /seq/illumina/runs/39/39617/plex21/39617#21.cram:
+attribute: type
+value: cram
+units: 
+----
+attribute: study_accession_number
+value: ERP130052
+units: 
+----
+attribute: study_id
+value: 6552
+units: 
+----
+attribute: component
+value: {"id_run":39617,"position":1,"tag_index":21}
+units: 
+----
+attribute: tag_index
+value: 21
+units: 
+----
+attribute: alignment
+value: 0
+units: 
+----
+attribute: is_paired_read
+value: 1
+units: 
+----
+attribute: dcterms:created
+value: 2021-07-25T01:34:13
+units: 
+----
+attribute: sample
+value: AppleDay10498811
+units: 
+----
+attribute: component
+value: {"id_run":39617,"position":3,"tag_index":21}
+units: 
+----
+attribute: total_reads
+value: 293489372
+units: 
+----
+attribute: library_id
+value: 28910198
+units: 
+----
+attribute: sample_supplier_name
+value: FB09215185
+units: 
+----
+attribute: manual_qc
+value: 1
+units: 
+----
+attribute: library_type
+value: Standard
+units: 
+----
+attribute: seqchksum
+value: 6333cd49=2a3e631d=4af39a66=681d1117=646426e2=4da94205=6e13e6d8=35a3db76
+units: 
+----
+attribute: sample_donor_id
+value: AppleDay10498811
+units: 
+----
+attribute: study
+value: DTOL_Apple Day
+units: 
+----
+attribute: sample_public_name
+value: drMalDome39
+units: 
+----
+attribute: dcterms:creator
+value: http://www.sanger.ac.uk
+units: 
+----
+attribute: sample_common_name
+value: Malus domestica
+units: 
+----
+attribute: id_run
+value: 39617
+units: 
+----
+attribute: study_title
+value: DToL Apple Resequencing
+units: 
+----
+attribute: target
+value: 1
+units: 
+----
+attribute: component
+value: {"id_run":39617,"position":4,"tag_index":21}
+units: 
+----
+attribute: composition
+value: {"components":[{"id_run":39617,"position":1,"tag_index":21},{"id_run":39617,"position":2,"tag_index":21},{"id_run":39617,"position":3,"tag_index":21},{"id_run":39617,"position":4,"tag_index":21}]}
+units: 
+----
+attribute: sample_id
+value: 5992687
+units: 
+----
+attribute: dcterms:publisher
+value: ldap://ldap.internal.sanger.ac.uk/ou=people,dc=sanger,dc=ac,dc=uk?title?sub?(uid=gspipe)
+units: 
+----
+attribute: md5
+value: 8a9cd7064753a86f2c2a534907360671
+units: 
+----
+attribute: component
+value: {"id_run":39617,"position":2,"tag_index":21}
+units: 
+----
+attribute: id_product
+value: 71b2640c506f072f957221e212e25e36701327c23206a4223a63f2f9a0a188cf
+units: 
+----
+attribute: sample_accession_number
+value: SAMEA9239813
+units: 
+AVUs defined for dataObj /seq/illumina/runs/39/39617/plex22/39617#22.cram:
+attribute: type
+value: cram
+units: 
+----
+attribute: study_accession_number
+value: ERP130052
+units: 
+----
+attribute: study_id
+value: 6552
+units: 
+----
+attribute: alignment
+value: 0
+units: 
+----
+attribute: is_paired_read
+value: 1
+units: 
+----
+attribute: total_reads
+value: 340298944
+units: 
+----
+attribute: sample_id
+value: 5992688
+units: 
+----
+attribute: dcterms:created
+value: 2021-07-25T01:34:24
+units: 
+----
+attribute: composition
+value: {"components":[{"id_run":39617,"position":1,"tag_index":22},{"id_run":39617,"position":2,"tag_index":22},{"id_run":39617,"position":3,"tag_index":22},{"id_run":39617,"position":4,"tag_index":22}]}
+units: 
+----
+attribute: sample_donor_id
+value: AppleDay10498812
+units: 
+----
+attribute: manual_qc
+value: 1
+units: 
+----
+attribute: library_type
+value: Standard
+units: 
+----
+attribute: component
+value: {"id_run":39617,"position":3,"tag_index":22}
+units: 
+----
+attribute: sample
+value: AppleDay10498812
+units: 
+----
+attribute: study
+value: DTOL_Apple Day
+units: 
+----
+attribute: component
+value: {"id_run":39617,"position":4,"tag_index":22}
+units: 
+----
+attribute: seqchksum
+value: 41f21ee8=68fe3ed6=0212c863=452252ff=4553c03e=450113fd=6ed8f7e0=62703386
+units: 
+----
+attribute: library_id
+value: 28910243
+units: 
+----
+attribute: dcterms:creator
+value: http://www.sanger.ac.uk
+units: 
+----
+attribute: sample_common_name
+value: Malus domestica
+units: 
+----
+attribute: id_run
+value: 39617
+units: 
+----
+attribute: study_title
+value: DToL Apple Resequencing
+units: 
+----
+attribute: md5
+value: 62535631535b8bb2c01c4cfa5ebb2fc0
+units: 
+----
+attribute: component
+value: {"id_run":39617,"position":2,"tag_index":22}
+units: 
+----
+attribute: id_product
+value: 22ad1573479f9c999fb0a0485224ef488720fea2de34bb43a20af7295fa172d9
+units: 
+----
+attribute: target
+value: 1
+units: 
+----
+attribute: component
+value: {"id_run":39617,"position":1,"tag_index":22}
+units: 
+----
+attribute: sample_accession_number
+value: SAMEA9239808
+units: 
+----
+attribute: sample_public_name
+value: drMalDome38
+units: 
+----
+attribute: sample_supplier_name
+value: FB09215180
+units: 
+----
+attribute: tag_index
+value: 22
+units: 
+----
+attribute: dcterms:publisher
+value: ldap://ldap.internal.sanger.ac.uk/ou=people,dc=sanger,dc=ac,dc=uk?title?sub?(uid=gspipe)
+units: 
+AVUs defined for dataObj /seq/illumina/runs/39/39617/plex23/39617#23.cram:
+attribute: tag_index
+value: 23
+units: 
+----
+attribute: type
+value: cram
+units: 
+----
+attribute: study_accession_number
+value: ERP130052
+units: 
+----
+attribute: study_id
+value: 6552
+units: 
+----
+attribute: total_reads
+value: 386468950
+units: 
+----
+attribute: sample_id
+value: 5992689
+units: 
+----
+attribute: alignment
+value: 0
+units: 
+----
+attribute: is_paired_read
+value: 1
+units: 
+----
+attribute: manual_qc
+value: 1
+units: 
+----
+attribute: library_type
+value: Standard
+units: 
+----
+attribute: md5
+value: 7007e9b8ca8deb148b62aef0af5940f5
+units: 
+----
+attribute: sample_donor_id
+value: AppleDay10498813
+units: 
+----
+attribute: study
+value: DTOL_Apple Day
+units: 
+----
+attribute: component
+value: {"id_run":39617,"position":3,"tag_index":23}
+units: 
+----
+attribute: id_product
+value: b84ae8579cfa7300d6094545fa6137d07b9305092ee18c3b55427764cbaad5af
+units: 
+----
+attribute: seqchksum
+value: 515af0c5=5de2bfa2=37c507cb=28e757a3=38ea27f5=21680df5=7bd2111e=1c393fa6
+units: 
+----
+attribute: library_id
+value: 28910287
+units: 
+----
+attribute: dcterms:creator
+value: http://www.sanger.ac.uk
+units: 
+----
+attribute: sample_common_name
+value: Malus domestica
+units: 
+----
+attribute: id_run
+value: 39617
+units: 
+----
+attribute: study_title
+value: DToL Apple Resequencing
+units: 
+----
+attribute: sample
+value: AppleDay10498813
+units: 
+----
+attribute: sample_accession_number
+value: SAMEA9239802
+units: 
+----
+attribute: sample_supplier_name
+value: FB09215174
+units: 
+----
+attribute: target
+value: 1
+units: 
+----
+attribute: composition
+value: {"components":[{"id_run":39617,"position":1,"tag_index":23},{"id_run":39617,"position":2,"tag_index":23},{"id_run":39617,"position":3,"tag_index":23},{"id_run":39617,"position":4,"tag_index":23}]}
+units: 
+----
+attribute: sample_public_name
+value: drMalDome37
+units: 
+----
+attribute: dcterms:publisher
+value: ldap://ldap.internal.sanger.ac.uk/ou=people,dc=sanger,dc=ac,dc=uk?title?sub?(uid=gspipe)
+units: 
+----
+attribute: dcterms:created
+value: 2021-07-25T01:34:31
+units: 
+----
+attribute: component
+value: {"id_run":39617,"position":1,"tag_index":23}
+units: 
+----
+attribute: component
+value: {"id_run":39617,"position":2,"tag_index":23}
+units: 
+----
+attribute: component
+value: {"id_run":39617,"position":4,"tag_index":23}
+units: 
+AVUs defined for dataObj /seq/illumina/runs/39/39617/plex24/39617#24.cram:
+attribute: type
+value: cram
+units: 
+----
+attribute: study_accession_number
+value: ERP130052
+units: 
+----
+attribute: study_id
+value: 6552
+units: 
+----
+attribute: composition
+value: {"components":[{"id_run":39617,"position":1,"tag_index":24},{"id_run":39617,"position":2,"tag_index":24},{"id_run":39617,"position":3,"tag_index":24},{"id_run":39617,"position":4,"tag_index":24}]}
+units: 
+----
+attribute: id_product
+value: 8b64868f1689a3b4ea180610f0a2c1e34828cacb3db79677904fc26be48f1d34
+units: 
+----
+attribute: sample
+value: AppleDay10498814
+units: 
+----
+attribute: alignment
+value: 0
+units: 
+----
+attribute: is_paired_read
+value: 1
+units: 
+----
+attribute: seqchksum
+value: 0e12cd3b=039fc3e4=59f1992a=6f67a42c=2098c1f1=0add1fb0=3e1183ed=74978c36
+units: 
+----
+attribute: md5
+value: 03507d6954e33242df04f14a526be64c
+units: 
+----
+attribute: manual_qc
+value: 1
+units: 
+----
+attribute: library_type
+value: Standard
+units: 
+----
+attribute: library_id
+value: 28910322
+units: 
+----
+attribute: sample_public_name
+value: drMalDome35
+units: 
+----
+attribute: study
+value: DTOL_Apple Day
+units: 
+----
+attribute: total_reads
+value: 370390358
+units: 
+----
+attribute: sample_accession_number
+value: SAMEA9239796
+units: 
+----
+attribute: tag_index
+value: 24
+units: 
+----
+attribute: dcterms:creator
+value: http://www.sanger.ac.uk
+units: 
+----
+attribute: sample_common_name
+value: Malus domestica
+units: 
+----
+attribute: id_run
+value: 39617
+units: 
+----
+attribute: study_title
+value: DToL Apple Resequencing
+units: 
+----
+attribute: component
+value: {"id_run":39617,"position":3,"tag_index":24}
+units: 
+----
+attribute: sample_id
+value: 5992690
+units: 
+----
+attribute: target
+value: 1
+units: 
+----
+attribute: component
+value: {"id_run":39617,"position":1,"tag_index":24}
+units: 
+----
+attribute: component
+value: {"id_run":39617,"position":4,"tag_index":24}
+units: 
+----
+attribute: sample_donor_id
+value: AppleDay10498814
+units: 
+----
+attribute: dcterms:publisher
+value: ldap://ldap.internal.sanger.ac.uk/ou=people,dc=sanger,dc=ac,dc=uk?title?sub?(uid=gspipe)
+units: 
+----
+attribute: dcterms:created
+value: 2021-07-25T01:34:59
+units: 
+----
+attribute: component
+value: {"id_run":39617,"position":2,"tag_index":24}
+units: 
+----
+attribute: sample_supplier_name
+value: FB09215150
+units: 
+AVUs defined for dataObj /seq/illumina/runs/39/39617/plex25/39617#25.cram:
+attribute: type
+value: cram
+units: 
+----
+attribute: study_accession_number
+value: ERP130052
+units: 
+----
+attribute: study_id
+value: 6552
+units: 
+----
+attribute: dcterms:created
+value: 2021-07-25T01:35:00
+units: 
+----
+attribute: md5
+value: efcb4854c29ea6be6c43568071fae5db
+units: 
+----
+attribute: component
+value: {"id_run":39617,"position":2,"tag_index":25}
+units: 
+----
+attribute: alignment
+value: 0
+units: 
+----
+attribute: is_paired_read
+value: 1
+units: 
+----
+attribute: component
+value: {"id_run":39617,"position":1,"tag_index":25}
+units: 
+----
+attribute: seqchksum
+value: 44f6f63d=0ca8ed4d=272f7c62=5990b46c=5d830576=7f935eac=4ea1c726=6489da67
+units: 
+----
+attribute: tag_index
+value: 25
+units: 
+----
+attribute: manual_qc
+value: 1
+units: 
+----
+attribute: library_type
+value: Standard
+units: 
+----
+attribute: sample_id
+value: 5992691
+units: 
+----
+attribute: sample_public_name
+value: drMalDome34
+units: 
+----
+attribute: study
+value: DTOL_Apple Day
+units: 
+----
+attribute: component
+value: {"id_run":39617,"position":3,"tag_index":25}
+units: 
+----
+attribute: component
+value: {"id_run":39617,"position":4,"tag_index":25}
+units: 
+----
+attribute: id_product
+value: 14e67dfa61967221c8f05c7fc96a000e45516d6faefc2d56545f7729ec8d8e5f
+units: 
+----
+attribute: sample_accession_number
+value: SAMEA9239795
+units: 
+----
+attribute: dcterms:creator
+value: http://www.sanger.ac.uk
+units: 
+----
+attribute: sample_common_name
+value: Malus domestica
+units: 
+----
+attribute: id_run
+value: 39617
+units: 
+----
+attribute: study_title
+value: DToL Apple Resequencing
+units: 
+----
+attribute: composition
+value: {"components":[{"id_run":39617,"position":1,"tag_index":25},{"id_run":39617,"position":2,"tag_index":25},{"id_run":39617,"position":3,"tag_index":25},{"id_run":39617,"position":4,"tag_index":25}]}
+units: 
+----
+attribute: target
+value: 1
+units: 
+----
+attribute: total_reads
+value: 307497140
+units: 
+----
+attribute: sample
+value: AppleDay10498815
+units: 
+----
+attribute: sample_supplier_name
+value: FB09216132
+units: 
+----
+attribute: dcterms:publisher
+value: ldap://ldap.internal.sanger.ac.uk/ou=people,dc=sanger,dc=ac,dc=uk?title?sub?(uid=gspipe)
+units: 
+----
+attribute: library_id
+value: 28910008
+units: 
+----
+attribute: sample_donor_id
+value: AppleDay10498815
+units: 
+AVUs defined for dataObj /seq/illumina/runs/39/39617/plex26/39617#26.cram:
+attribute: type
+value: cram
+units: 
+----
+attribute: study_accession_number
+value: ERP130052
+units: 
+----
+attribute: study_id
+value: 6552
+units: 
+----
+attribute: dcterms:created
+value: 2021-07-25T01:35:28
+units: 
+----
+attribute: sample_supplier_name
+value: FB09216125
+units: 
+----
+attribute: alignment
+value: 0
+units: 
+----
+attribute: is_paired_read
+value: 1
+units: 
+----
+attribute: md5
+value: f4f875f105430e8813f6f65b342701f9
+units: 
+----
+attribute: total_reads
+value: 355228600
+units: 
+----
+attribute: seqchksum
+value: 7798adef=1c529d7d=6aad94eb=07278420=6841fd0c=7f8b2485=33c2bb97=2792a354
+units: 
+----
+attribute: manual_qc
+value: 1
+units: 
+----
+attribute: library_type
+value: Standard
+units: 
+----
+attribute: id_product
+value: 90df8915175744916cc9070fb5cc8a3674ea2935cc330a907e92e293e1e4cb17
+units: 
+----
+attribute: study
+value: DTOL_Apple Day
+units: 
+----
+attribute: component
+value: {"id_run":39617,"position":2,"tag_index":26}
+units: 
+----
+attribute: component
+value: {"id_run":39617,"position":4,"tag_index":26}
+units: 
+----
+attribute: composition
+value: {"components":[{"id_run":39617,"position":1,"tag_index":26},{"id_run":39617,"position":2,"tag_index":26},{"id_run":39617,"position":3,"tag_index":26},{"id_run":39617,"position":4,"tag_index":26}]}
+units: 
+----
+attribute: library_id
+value: 28910071
+units: 
+----
+attribute: sample_id
+value: 5992692
+units: 
+----
+attribute: dcterms:creator
+value: http://www.sanger.ac.uk
+units: 
+----
+attribute: sample_common_name
+value: Malus domestica
+units: 
+----
+attribute: id_run
+value: 39617
+units: 
+----
+attribute: study_title
+value: DToL Apple Resequencing
+units: 
+----
+attribute: component
+value: {"id_run":39617,"position":1,"tag_index":26}
+units: 
+----
+attribute: component
+value: {"id_run":39617,"position":3,"tag_index":26}
+units: 
+----
+attribute: sample_accession_number
+value: SAMEA9239788
+units: 
+----
+attribute: target
+value: 1
+units: 
+----
+attribute: sample
+value: AppleDay10498816
+units: 
+----
+attribute: tag_index
+value: 26
+units: 
+----
+attribute: dcterms:publisher
+value: ldap://ldap.internal.sanger.ac.uk/ou=people,dc=sanger,dc=ac,dc=uk?title?sub?(uid=gspipe)
+units: 
+----
+attribute: sample_donor_id
+value: AppleDay10498816
+units: 
+----
+attribute: sample_public_name
+value: drMalDome33
+units: 
+AVUs defined for dataObj /seq/illumina/runs/39/39617/plex27/39617#27.cram:
+attribute: type
+value: cram
+units: 
+----
+attribute: study_accession_number
+value: ERP130052
+units: 
+----
+attribute: study_id
+value: 6552
+units: 
+----
+attribute: library_id
+value: 28910117
+units: 
+----
+attribute: sample_id
+value: 5992693
+units: 
+----
+attribute: alignment
+value: 0
+units: 
+----
+attribute: is_paired_read
+value: 1
+units: 
+----
+attribute: id_product
+value: d9b3e309e50caaba50ba64909feee4db93f3bdc16b3b251393779e9f1520e914
+units: 
+----
+attribute: component
+value: {"id_run":39617,"position":1,"tag_index":27}
+units: 
+----
+attribute: sample_accession_number
+value: SAMEA9239783
+units: 
+----
+attribute: manual_qc
+value: 1
+units: 
+----
+attribute: library_type
+value: Standard
+units: 
+----
+attribute: tag_index
+value: 27
+units: 
+----
+attribute: study
+value: DTOL_Apple Day
+units: 
+----
+attribute: composition
+value: {"components":[{"id_run":39617,"position":1,"tag_index":27},{"id_run":39617,"position":2,"tag_index":27},{"id_run":39617,"position":3,"tag_index":27},{"id_run":39617,"position":4,"tag_index":27}]}
+units: 
+----
+attribute: dcterms:creator
+value: http://www.sanger.ac.uk
+units: 
+----
+attribute: sample_common_name
+value: Malus domestica
+units: 
+----
+attribute: id_run
+value: 39617
+units: 
+----
+attribute: study_title
+value: DToL Apple Resequencing
+units: 
+----
+attribute: component
+value: {"id_run":39617,"position":2,"tag_index":27}
+units: 
+----
+attribute: target
+value: 1
+units: 
+----
+attribute: md5
+value: 4c5835b6f7229cbc1971c8aa2487809f
+units: 
+----
+attribute: component
+value: {"id_run":39617,"position":4,"tag_index":27}
+units: 
+----
+attribute: sample
+value: AppleDay10498817
+units: 
+----
+attribute: sample_donor_id
+value: AppleDay10498817
+units: 
+----
+attribute: sample_supplier_name
+value: FB09216120
+units: 
+----
+attribute: dcterms:publisher
+value: ldap://ldap.internal.sanger.ac.uk/ou=people,dc=sanger,dc=ac,dc=uk?title?sub?(uid=gspipe)
+units: 
+----
+attribute: dcterms:created
+value: 2021-07-25T01:36:09
+units: 
+----
+attribute: component
+value: {"id_run":39617,"position":3,"tag_index":27}
+units: 
+----
+attribute: seqchksum
+value: 309b9a84=5263617a=0563cd8f=62b5e6f8=579f2425=20da94d3=2f0eac1b=11cd401a
+units: 
+----
+attribute: total_reads
+value: 362637356
+units: 
+----
+attribute: sample_public_name
+value: drMalDome32
+units: 
+AVUs defined for dataObj /seq/illumina/runs/39/39617/plex28/39617#28.cram:
+attribute: type
+value: cram
+units: 
+----
+attribute: study_accession_number
+value: ERP130052
+units: 
+----
+attribute: study_id
+value: 6552
+units: 
+----
+attribute: md5
+value: f10d445b654ded1486f9738d991fd014
+units: 
+----
+attribute: alignment
+value: 0
+units: 
+----
+attribute: is_paired_read
+value: 1
+units: 
+----
+attribute: component
+value: {"id_run":39617,"position":4,"tag_index":28}
+units: 
+----
+attribute: seqchksum
+value: 4d2a4727=6f36e218=06c8cc6b=7ac0c125=4a6db99a=0aefc939=5053f489=40f6d4f9
+units: 
+----
+attribute: total_reads
+value: 307804518
+units: 
+----
+attribute: sample
+value: AppleDay10498818
+units: 
+----
+attribute: sample_public_name
+value: drMalDome31
+units: 
+----
+attribute: tag_index
+value: 28
+units: 
+----
+attribute: component
+value: {"id_run":39617,"position":3,"tag_index":28}
+units: 
+----
+attribute: manual_qc
+value: 1
+units: 
+----
+attribute: library_type
+value: Standard
+units: 
+----
+attribute: study
+value: DTOL_Apple Day
+units: 
+----
+attribute: sample_accession_number
+value: SAMEA9239777
+units: 
+----
+attribute: dcterms:creator
+value: http://www.sanger.ac.uk
+units: 
+----
+attribute: sample_common_name
+value: Malus domestica
+units: 
+----
+attribute: id_run
+value: 39617
+units: 
+----
+attribute: study_title
+value: DToL Apple Resequencing
+units: 
+----
+attribute: component
+value: {"id_run":39617,"position":1,"tag_index":28}
+units: 
+----
+attribute: composition
+value: {"components":[{"id_run":39617,"position":1,"tag_index":28},{"id_run":39617,"position":2,"tag_index":28},{"id_run":39617,"position":3,"tag_index":28},{"id_run":39617,"position":4,"tag_index":28}]}
+units: 
+----
+attribute: id_product
+value: fb46016cc83fa438ee0a224a0418dbc6471b9a0e377d36f98c61d43421481883
+units: 
+----
+attribute: target
+value: 1
+units: 
+----
+attribute: component
+value: {"id_run":39617,"position":2,"tag_index":28}
+units: 
+----
+attribute: library_id
+value: 28910156
+units: 
+----
+attribute: sample_donor_id
+value: AppleDay10498818
+units: 
+----
+attribute: sample_id
+value: 5992694
+units: 
+----
+attribute: dcterms:publisher
+value: ldap://ldap.internal.sanger.ac.uk/ou=people,dc=sanger,dc=ac,dc=uk?title?sub?(uid=gspipe)
+units: 
+----
+attribute: dcterms:created
+value: 2021-07-25T01:36:33
+units: 
+----
+attribute: sample_supplier_name
+value: FB09215994
+units: 
+AVUs defined for dataObj /seq/illumina/runs/39/39617/plex29/39617#29.cram:
+attribute: type
+value: cram
+units: 
+----
+attribute: study_accession_number
+value: ERP130052
+units: 
+----
+attribute: study_id
+value: 6552
+units: 
+----
+attribute: component
+value: {"id_run":39617,"position":3,"tag_index":29}
+units: 
+----
+attribute: alignment
+value: 0
+units: 
+----
+attribute: is_paired_read
+value: 1
+units: 
+----
+attribute: composition
+value: {"components":[{"id_run":39617,"position":1,"tag_index":29},{"id_run":39617,"position":2,"tag_index":29},{"id_run":39617,"position":3,"tag_index":29},{"id_run":39617,"position":4,"tag_index":29}]}
+units: 
+----
+attribute: total_reads
+value: 341346702
+units: 
+----
+attribute: component
+value: {"id_run":39617,"position":4,"tag_index":29}
+units: 
+----
+attribute: sample_public_name
+value: drMalDome30
+units: 
+----
+attribute: tag_index
+value: 29
+units: 
+----
+attribute: manual_qc
+value: 1
+units: 
+----
+attribute: library_type
+value: Standard
+units: 
+----
+attribute: md5
+value: c19c71eb364f4f398e1e7b7471bffa5d
+units: 
+----
+attribute: sample_supplier_name
+value: FB09215988
+units: 
+----
+attribute: study
+value: DTOL_Apple Day
+units: 
+----
+attribute: id_product
+value: ee3a9f135a3c88d1181f49cbca2c145744ff9d61393d40c5f63e0bcab021a880
+units: 
+----
+attribute: seqchksum
+value: 34983256=4681dacc=0cfc3c3d=4ce09784=1ae58119=4fc737fb=0d35a305=4f45b82e
+units: 
+----
+attribute: sample_accession_number
+value: SAMEA9239771
+units: 
+----
+attribute: sample_donor_id
+value: AppleDay10498819
+units: 
+----
+attribute: dcterms:creator
+value: http://www.sanger.ac.uk
+units: 
+----
+attribute: sample_common_name
+value: Malus domestica
+units: 
+----
+attribute: id_run
+value: 39617
+units: 
+----
+attribute: study_title
+value: DToL Apple Resequencing
+units: 
+----
+attribute: dcterms:created
+value: 2021-07-25T01:36:52
+units: 
+----
+attribute: component
+value: {"id_run":39617,"position":1,"tag_index":29}
+units: 
+----
+attribute: library_id
+value: 28910202
+units: 
+----
+attribute: sample_id
+value: 5992695
+units: 
+----
+attribute: target
+value: 1
+units: 
+----
+attribute: dcterms:publisher
+value: ldap://ldap.internal.sanger.ac.uk/ou=people,dc=sanger,dc=ac,dc=uk?title?sub?(uid=gspipe)
+units: 
+----
+attribute: component
+value: {"id_run":39617,"position":2,"tag_index":29}
+units: 
+----
+attribute: sample
+value: AppleDay10498819
+units: 
+AVUs defined for dataObj /seq/illumina/runs/39/39617/plex3/39617#3.cram:
+attribute: type
+value: cram
+units: 
+----
+attribute: dcterms:created
+value: 2021-07-25T01:25:05
+units: 
+----
+attribute: component
+value: {"id_run":39617,"position":1,"tag_index":3}
+units: 
+----
+attribute: study_accession_number
+value: ERP130052
+units: 
+----
+attribute: study_id
+value: 6552
+units: 
+----
+attribute: sample_donor_id
+value: AppleDay10498793
+units: 
+----
+attribute: alignment
+value: 0
+units: 
+----
+attribute: is_paired_read
+value: 1
+units: 
+----
+attribute: component
+value: {"id_run":39617,"position":4,"tag_index":3}
+units: 
+----
+attribute: seqchksum
+value: 07a69eee=5b53940b=0cffd31e=44fbf27c=2cef39a1=1f1dd20f=514362b6=26aca363
+units: 
+----
+attribute: total_reads
+value: 315384032
+units: 
+----
+attribute: id_product
+value: 9e854f9ae5e88a13651028df9372162e411db1ce5cccf823629413c681c20dc9
+units: 
+----
+attribute: sample
+value: AppleDay10498793
+units: 
+----
+attribute: manual_qc
+value: 1
+units: 
+----
+attribute: library_type
+value: Standard
+units: 
+----
+attribute: sample_accession_number
+value: SAMEA8717333
+units: 
+----
+attribute: sample_id
+value: 5992669
+units: 
+----
+attribute: sample_public_name
+value: drMalDome2
+units: 
+----
+attribute: component
+value: {"id_run":39617,"position":3,"tag_index":3}
+units: 
+----
+attribute: study
+value: DTOL_Apple Day
+units: 
+----
+attribute: dcterms:creator
+value: http://www.sanger.ac.uk
+units: 
+----
+attribute: sample_common_name
+value: Malus domestica
+units: 
+----
+attribute: id_run
+value: 39617
+units: 
+----
+attribute: study_title
+value: DToL Apple Resequencing
+units: 
+----
+attribute: tag_index
+value: 3
+units: 
+----
+attribute: target
+value: 1
+units: 
+----
+attribute: md5
+value: 61ba1cef8aee545a6573cfab0af8a02d
+units: 
+----
+attribute: composition
+value: {"components":[{"id_run":39617,"position":1,"tag_index":3},{"id_run":39617,"position":2,"tag_index":3},{"id_run":39617,"position":3,"tag_index":3},{"id_run":39617,"position":4,"tag_index":3}]}
+units: 
+----
+attribute: library_id
+value: 28910106
+units: 
+----
+attribute: sample_supplier_name
+value: FB09216186
+units: 
+----
+attribute: dcterms:publisher
+value: ldap://ldap.internal.sanger.ac.uk/ou=people,dc=sanger,dc=ac,dc=uk?title?sub?(uid=gspipe)
+units: 
+----
+attribute: component
+value: {"id_run":39617,"position":2,"tag_index":3}
+units: 
+AVUs defined for dataObj /seq/illumina/runs/39/39617/plex30/39617#30.cram:
+attribute: type
+value: cram
+units: 
+----
+attribute: study_accession_number
+value: ERP130052
+units: 
+----
+attribute: study_id
+value: 6552
+units: 
+----
+attribute: alignment
+value: 0
+units: 
+----
+attribute: is_paired_read
+value: 1
+units: 
+----
+attribute: composition
+value: {"components":[{"id_run":39617,"position":1,"tag_index":30},{"id_run":39617,"position":2,"tag_index":30},{"id_run":39617,"position":3,"tag_index":30},{"id_run":39617,"position":4,"tag_index":30}]}
+units: 
+----
+attribute: sample_accession_number
+value: SAMEA9239765
+units: 
+----
+attribute: total_reads
+value: 360990588
+units: 
+----
+attribute: sample
+value: AppleDay10498820
+units: 
+----
+attribute: sample_donor_id
+value: AppleDay10498820
+units: 
+----
+attribute: manual_qc
+value: 1
+units: 
+----
+attribute: library_type
+value: Standard
+units: 
+----
+attribute: dcterms:created
+value: 2021-07-25T01:37:01
+units: 
+----
+attribute: tag_index
+value: 30
+units: 
+----
+attribute: study
+value: DTOL_Apple Day
+units: 
+----
+attribute: dcterms:creator
+value: http://www.sanger.ac.uk
+units: 
+----
+attribute: sample_common_name
+value: Malus domestica
+units: 
+----
+attribute: id_run
+value: 39617
+units: 
+----
+attribute: study_title
+value: DToL Apple Resequencing
+units: 
+----
+attribute: component
+value: {"id_run":39617,"position":2,"tag_index":30}
+units: 
+----
+attribute: id_product
+value: 8e4c73719599f9e10a185bbab236ac93a0edd0fe23331dd013565abf3e54a9d3
+units: 
+----
+attribute: sample_public_name
+value: drMalDome29
+units: 
+----
+attribute: sample_supplier_name
+value: FB09215982
+units: 
+----
+attribute: target
+value: 1
+units: 
+----
+attribute: md5
+value: 5b870e1b1f064fb0afaf301877958bed
+units: 
+----
+attribute: component
+value: {"id_run":39617,"position":3,"tag_index":30}
+units: 
+----
+attribute: seqchksum
+value: 58764325=29ebc73c=3b44688c=0f2d553d=6cb72798=6072567a=0ce4d275=3f23496b
+units: 
+----
+attribute: dcterms:publisher
+value: ldap://ldap.internal.sanger.ac.uk/ou=people,dc=sanger,dc=ac,dc=uk?title?sub?(uid=gspipe)
+units: 
+----
+attribute: component
+value: {"id_run":39617,"position":1,"tag_index":30}
+units: 
+----
+attribute: component
+value: {"id_run":39617,"position":4,"tag_index":30}
+units: 
+----
+attribute: library_id
+value: 28910247
+units: 
+----
+attribute: sample_id
+value: 5992696
+units: 
+AVUs defined for dataObj /seq/illumina/runs/39/39617/plex31/39617#31.cram:
+attribute: type
+value: cram
+units: 
+----
+attribute: study_accession_number
+value: ERP130052
+units: 
+----
+attribute: study_id
+value: 6552
+units: 
+----
+attribute: dcterms:created
+value: 2021-07-25T01:37:26
+units: 
+----
+attribute: component
+value: {"id_run":39617,"position":4,"tag_index":31}
+units: 
+----
+attribute: composition
+value: {"components":[{"id_run":39617,"position":1,"tag_index":31},{"id_run":39617,"position":2,"tag_index":31},{"id_run":39617,"position":3,"tag_index":31},{"id_run":39617,"position":4,"tag_index":31}]}
+units: 
+----
+attribute: alignment
+value: 0
+units: 
+----
+attribute: is_paired_read
+value: 1
+units: 
+----
+attribute: md5
+value: 51327bda92757664648e23ca1bcbc9d2
+units: 
+----
+attribute: seqchksum
+value: 6539a34f=26182016=3726e4af=7c5d4420=7f1f7c0c=01a3edbf=0817f07f=141a2255
+units: 
+----
+attribute: component
+value: {"id_run":39617,"position":1,"tag_index":31}
+units: 
+----
+attribute: component
+value: {"id_run":39617,"position":3,"tag_index":31}
+units: 
+----
+attribute: total_reads
+value: 360465082
+units: 
+----
+attribute: library_id
+value: 28910291
+units: 
+----
+attribute: sample
+value: AppleDay10498821
+units: 
+----
+attribute: sample_donor_id
+value: AppleDay10498821
+units: 
+----
+attribute: manual_qc
+value: 1
+units: 
+----
+attribute: library_type
+value: Standard
+units: 
+----
+attribute: sample_supplier_name
+value: FB09215975
+units: 
+----
+attribute: study
+value: DTOL_Apple Day
+units: 
+----
+attribute: component
+value: {"id_run":39617,"position":2,"tag_index":31}
+units: 
+----
+attribute: sample_id
+value: 5992697
+units: 
+----
+attribute: tag_index
+value: 31
+units: 
+----
+attribute: dcterms:creator
+value: http://www.sanger.ac.uk
+units: 
+----
+attribute: sample_common_name
+value: Malus domestica
+units: 
+----
+attribute: id_run
+value: 39617
+units: 
+----
+attribute: study_title
+value: DToL Apple Resequencing
+units: 
+----
+attribute: id_product
+value: 56b9e6f65b38cf3722d8619b94997db9caf2d5390da9424e734cef75e37db756
+units: 
+----
+attribute: target
+value: 1
+units: 
+----
+attribute: sample_public_name
+value: drMalDome28
+units: 
+----
+attribute: dcterms:publisher
+value: ldap://ldap.internal.sanger.ac.uk/ou=people,dc=sanger,dc=ac,dc=uk?title?sub?(uid=gspipe)
+units: 
+----
+attribute: sample_accession_number
+value: SAMEA9239758
+units: 
+AVUs defined for dataObj /seq/illumina/runs/39/39617/plex32/39617#32.cram:
+attribute: type
+value: cram
+units: 
+----
+attribute: study_accession_number
+value: ERP130052
+units: 
+----
+attribute: study_id
+value: 6552
+units: 
+----
+attribute: id_product
+value: 4a3b1f39ae20659e80bbe831cbb2aedcc0f929e7511e29ea5717579dc7e8efd2
+units: 
+----
+attribute: total_reads
+value: 373557728
+units: 
+----
+attribute: alignment
+value: 0
+units: 
+----
+attribute: is_paired_read
+value: 1
+units: 
+----
+attribute: md5
+value: e3f8292afc80c4d5377fcc5e9cac7504
+units: 
+----
+attribute: component
+value: {"id_run":39617,"position":3,"tag_index":32}
+units: 
+----
+attribute: component
+value: {"id_run":39617,"position":4,"tag_index":32}
+units: 
+----
+attribute: component
+value: {"id_run":39617,"position":1,"tag_index":32}
+units: 
+----
+attribute: seqchksum
+value: 608fdc1d=1a81b59c=11671499=233ce9a9=3a612346=4adaea8f=4718c4e4=5a95e418
+units: 
+----
+attribute: manual_qc
+value: 1
+units: 
+----
+attribute: library_type
+value: Standard
+units: 
+----
+attribute: component
+value: {"id_run":39617,"position":2,"tag_index":32}
+units: 
+----
+attribute: composition
+value: {"components":[{"id_run":39617,"position":1,"tag_index":32},{"id_run":39617,"position":2,"tag_index":32},{"id_run":39617,"position":3,"tag_index":32},{"id_run":39617,"position":4,"tag_index":32}]}
+units: 
+----
+attribute: sample_id
+value: 5992698
+units: 
+----
+attribute: study
+value: DTOL_Apple Day
+units: 
+----
+attribute: sample
+value: AppleDay10498822
+units: 
+----
+attribute: sample_donor_id
+value: AppleDay10498822
+units: 
+----
+attribute: tag_index
+value: 32
+units: 
+----
+attribute: dcterms:creator
+value: http://www.sanger.ac.uk
+units: 
+----
+attribute: sample_common_name
+value: Malus domestica
+units: 
+----
+attribute: id_run
+value: 39617
+units: 
+----
+attribute: study_title
+value: DToL Apple Resequencing
+units: 
+----
+attribute: sample_accession_number
+value: SAMEA9239753
+units: 
+----
+attribute: sample_supplier_name
+value: FB09216018
+units: 
+----
+attribute: target
+value: 1
+units: 
+----
+attribute: dcterms:created
+value: 2021-07-25T01:37:41
+units: 
+----
+attribute: sample_public_name
+value: drMalDome27
+units: 
+----
+attribute: dcterms:publisher
+value: ldap://ldap.internal.sanger.ac.uk/ou=people,dc=sanger,dc=ac,dc=uk?title?sub?(uid=gspipe)
+units: 
+----
+attribute: library_id
+value: 28910326
+units: 
+AVUs defined for dataObj /seq/illumina/runs/39/39617/plex33/39617#33.cram:
+attribute: tag_index
+value: 33
+units: 
+----
+attribute: type
+value: cram
+units: 
+----
+attribute: study_accession_number
+value: ERP130052
+units: 
+----
+attribute: study_id
+value: 6552
+units: 
+----
+attribute: dcterms:created
+value: 2021-07-25T01:38:35
+units: 
+----
+attribute: library_id
+value: 28910029
+units: 
+----
+attribute: sample_donor_id
+value: AppleDay10498823
+units: 
+----
+attribute: sample_id
+value: 5992699
+units: 
+----
+attribute: alignment
+value: 0
+units: 
+----
+attribute: is_paired_read
+value: 1
+units: 
+----
+attribute: composition
+value: {"components":[{"id_run":39617,"position":1,"tag_index":33},{"id_run":39617,"position":2,"tag_index":33},{"id_run":39617,"position":3,"tag_index":33},{"id_run":39617,"position":4,"tag_index":33}]}
+units: 
+----
+attribute: sample_public_name
+value: drMalDome26
+units: 
+----
+attribute: manual_qc
+value: 1
+units: 
+----
+attribute: library_type
+value: Standard
+units: 
+----
+attribute: component
+value: {"id_run":39617,"position":3,"tag_index":33}
+units: 
+----
+attribute: component
+value: {"id_run":39617,"position":4,"tag_index":33}
+units: 
+----
+attribute: sample
+value: AppleDay10498823
+units: 
+----
+attribute: study
+value: DTOL_Apple Day
+units: 
+----
+attribute: component
+value: {"id_run":39617,"position":2,"tag_index":33}
+units: 
+----
+attribute: sample_supplier_name
+value: FB09216010
+units: 
+----
+attribute: dcterms:creator
+value: http://www.sanger.ac.uk
+units: 
+----
+attribute: sample_common_name
+value: Malus domestica
+units: 
+----
+attribute: id_run
+value: 39617
+units: 
+----
+attribute: study_title
+value: DToL Apple Resequencing
+units: 
+----
+attribute: component
+value: {"id_run":39617,"position":1,"tag_index":33}
+units: 
+----
+attribute: seqchksum
+value: 08c5fb8e=07e3042b=1f6e6f80=5d258e26=48dc1260=14bb4d2a=6a847a7b=2ce20122
+units: 
+----
+attribute: total_reads
+value: 367448480
+units: 
+----
+attribute: sample_accession_number
+value: SAMEA9239745
+units: 
+----
+attribute: target
+value: 1
+units: 
+----
+attribute: id_product
+value: cfbf1c19b1fff11e94eaa865ba48e6489350460cb7f7ea018592a7546b95f8ac
+units: 
+----
+attribute: dcterms:publisher
+value: ldap://ldap.internal.sanger.ac.uk/ou=people,dc=sanger,dc=ac,dc=uk?title?sub?(uid=gspipe)
+units: 
+----
+attribute: md5
+value: 1873a29fc6e42d797adf9bd181d9a2d0
+units: 
+AVUs defined for dataObj /seq/illumina/runs/39/39617/plex34/39617#34.cram:
+attribute: type
+value: cram
+units: 
+----
+attribute: study_accession_number
+value: ERP130052
+units: 
+----
+attribute: study_id
+value: 6552
+units: 
+----
+attribute: alignment
+value: 0
+units: 
+----
+attribute: is_paired_read
+value: 1
+units: 
+----
+attribute: library_id
+value: 28910075
+units: 
+----
+attribute: sample_donor_id
+value: AppleDay10498824
+units: 
+----
+attribute: component
+value: {"id_run":39617,"position":3,"tag_index":34}
+units: 
+----
+attribute: manual_qc
+value: 1
+units: 
+----
+attribute: library_type
+value: Standard
+units: 
+----
+attribute: dcterms:created
+value: 2021-07-25T01:38:52
+units: 
+----
+attribute: seqchksum
+value: 61e15425=226a0d23=103b51c2=2af48c8d=35f7034e=046a8e4a=4bcf34da=2d1f04fc
+units: 
+----
+attribute: sample_id
+value: 5992700
+units: 
+----
+attribute: tag_index
+value: 34
+units: 
+----
+attribute: study
+value: DTOL_Apple Day
+units: 
+----
+attribute: md5
+value: 636af9d289720da7e413dea3e5d78f07
+units: 
+----
+attribute: total_reads
+value: 270989046
+units: 
+----
+attribute: sample_supplier_name
+value: FB09216004
+units: 
+----
+attribute: dcterms:creator
+value: http://www.sanger.ac.uk
+units: 
+----
+attribute: sample_common_name
+value: Malus domestica
+units: 
+----
+attribute: id_run
+value: 39617
+units: 
+----
+attribute: study_title
+value: DToL Apple Resequencing
+units: 
+----
+attribute: component
+value: {"id_run":39617,"position":1,"tag_index":34}
+units: 
+----
+attribute: sample_public_name
+value: drMalDome25
+units: 
+----
+attribute: target
+value: 1
+units: 
+----
+attribute: component
+value: {"id_run":39617,"position":4,"tag_index":34}
+units: 
+----
+attribute: sample
+value: AppleDay10498824
+units: 
+----
+attribute: sample_accession_number
+value: SAMEA9239739
+units: 
+----
+attribute: dcterms:publisher
+value: ldap://ldap.internal.sanger.ac.uk/ou=people,dc=sanger,dc=ac,dc=uk?title?sub?(uid=gspipe)
+units: 
+----
+attribute: component
+value: {"id_run":39617,"position":2,"tag_index":34}
+units: 
+----
+attribute: composition
+value: {"components":[{"id_run":39617,"position":1,"tag_index":34},{"id_run":39617,"position":2,"tag_index":34},{"id_run":39617,"position":3,"tag_index":34},{"id_run":39617,"position":4,"tag_index":34}]}
+units: 
+----
+attribute: id_product
+value: fece2d6fa2d856fec7481e5d6c9edf0ec834bfd9767c9790ca8be09936ebd91e
+units: 
+AVUs defined for dataObj /seq/illumina/runs/39/39617/plex35/39617#35.cram:
+attribute: type
+value: cram
+units: 
+----
+attribute: study_accession_number
+value: ERP130052
+units: 
+----
+attribute: study_id
+value: 6552
+units: 
+----
+attribute: component
+value: {"id_run":39617,"position":2,"tag_index":35}
+units: 
+----
+attribute: total_reads
+value: 303545206
+units: 
+----
+attribute: sample_public_name
+value: drMalDome24
+units: 
+----
+attribute: alignment
+value: 0
+units: 
+----
+attribute: is_paired_read
+value: 1
+units: 
+----
+attribute: composition
+value: {"components":[{"id_run":39617,"position":1,"tag_index":35},{"id_run":39617,"position":2,"tag_index":35},{"id_run":39617,"position":3,"tag_index":35},{"id_run":39617,"position":4,"tag_index":35}]}
+units: 
+----
+attribute: sample_donor_id
+value: AppleDay10498825
+units: 
+----
+attribute: sample_id
+value: 5992701
+units: 
+----
+attribute: component
+value: {"id_run":39617,"position":4,"tag_index":35}
+units: 
+----
+attribute: seqchksum
+value: 7997833f=0056e34a=39a3adc5=1e281c52=0ed29725=4a5d38cd=7e0160c1=1064f618
+units: 
+----
+attribute: sample_accession_number
+value: SAMEA9239732
+units: 
+----
+attribute: tag_index
+value: 35
+units: 
+----
+attribute: manual_qc
+value: 1
+units: 
+----
+attribute: library_type
+value: Standard
+units: 
+----
+attribute: library_id
+value: 28910120
+units: 
+----
+attribute: sample_supplier_name
+value: FB09215997
+units: 
+----
+attribute: study
+value: DTOL_Apple Day
+units: 
+----
+attribute: md5
+value: 78c8f8b2949c7c8f5844d7f79e7e0ce8
+units: 
+----
+attribute: component
+value: {"id_run":39617,"position":1,"tag_index":35}
+units: 
+----
+attribute: dcterms:creator
+value: http://www.sanger.ac.uk
+units: 
+----
+attribute: sample_common_name
+value: Malus domestica
+units: 
+----
+attribute: id_run
+value: 39617
+units: 
+----
+attribute: study_title
+value: DToL Apple Resequencing
+units: 
+----
+attribute: dcterms:created
+value: 2021-07-25T01:39:32
+units: 
+----
+attribute: target
+value: 1
+units: 
+----
+attribute: sample
+value: AppleDay10498825
+units: 
+----
+attribute: dcterms:publisher
+value: ldap://ldap.internal.sanger.ac.uk/ou=people,dc=sanger,dc=ac,dc=uk?title?sub?(uid=gspipe)
+units: 
+----
+attribute: component
+value: {"id_run":39617,"position":3,"tag_index":35}
+units: 
+----
+attribute: id_product
+value: a3c158ad4877516e38954123a2bc47eadf6a0c27c4b92c2cdff592bad380d841
+units: 
+AVUs defined for dataObj /seq/illumina/runs/39/39617/plex36/39617#36.cram:
+attribute: type
+value: cram
+units: 
+----
+attribute: study_accession_number
+value: ERP130052
+units: 
+----
+attribute: study_id
+value: 6552
+units: 
+----
+attribute: sample_supplier_name
+value: FB06834738
+units: 
+----
+attribute: alignment
+value: 0
+units: 
+----
+attribute: is_paired_read
+value: 1
+units: 
+----
+attribute: component
+value: {"id_run":39617,"position":3,"tag_index":36}
+units: 
+----
+attribute: composition
+value: {"components":[{"id_run":39617,"position":1,"tag_index":36},{"id_run":39617,"position":2,"tag_index":36},{"id_run":39617,"position":3,"tag_index":36},{"id_run":39617,"position":4,"tag_index":36}]}
+units: 
+----
+attribute: id_product
+value: f886cb9125e881ee9c603c5f71d0925555adf4248db919a61d7556f6128d30de
+units: 
+----
+attribute: sample_id
+value: 5992702
+units: 
+----
+attribute: sample_accession_number
+value: SAMEA9239720
+units: 
+----
+attribute: manual_qc
+value: 1
+units: 
+----
+attribute: library_type
+value: Standard
+units: 
+----
+attribute: total_reads
+value: 284724092
+units: 
+----
+attribute: library_id
+value: 28910160
+units: 
+----
+attribute: sample_donor_id
+value: AppleDay10498826
+units: 
+----
+attribute: study
+value: DTOL_Apple Day
+units: 
+----
+attribute: sample
+value: AppleDay10498826
+units: 
+----
+attribute: tag_index
+value: 36
+units: 
+----
+attribute: dcterms:creator
+value: http://www.sanger.ac.uk
+units: 
+----
+attribute: sample_common_name
+value: Malus domestica
+units: 
+----
+attribute: id_run
+value: 39617
+units: 
+----
+attribute: study_title
+value: DToL Apple Resequencing
+units: 
+----
+attribute: dcterms:created
+value: 2021-07-25T01:39:32
+units: 
+----
+attribute: md5
+value: 5727adfe15c34aa8e81ad259d456595c
+units: 
+----
+attribute: component
+value: {"id_run":39617,"position":4,"tag_index":36}
+units: 
+----
+attribute: target
+value: 1
+units: 
+----
+attribute: component
+value: {"id_run":39617,"position":1,"tag_index":36}
+units: 
+----
+attribute: component
+value: {"id_run":39617,"position":2,"tag_index":36}
+units: 
+----
+attribute: seqchksum
+value: 63226cd7=7b17308f=40a372df=01ed4fd5=6203ad16=3118dbb9=396d309e=3e83a830
+units: 
+----
+attribute: dcterms:publisher
+value: ldap://ldap.internal.sanger.ac.uk/ou=people,dc=sanger,dc=ac,dc=uk?title?sub?(uid=gspipe)
+units: 
+----
+attribute: sample_public_name
+value: drMalDome22
+units: 
+AVUs defined for dataObj /seq/illumina/runs/39/39617/plex37/39617#37.cram:
+attribute: type
+value: cram
+units: 
+----
+attribute: study_accession_number
+value: ERP130052
+units: 
+----
+attribute: study_id
+value: 6552
+units: 
+----
+attribute: component
+value: {"id_run":39617,"position":1,"tag_index":37}
+units: 
+----
+attribute: sample_accession_number
+value: SAMEA9239711
+units: 
+----
+attribute: sample_donor_id
+value: AppleDay10498827
+units: 
+----
+attribute: alignment
+value: 0
+units: 
+----
+attribute: is_paired_read
+value: 1
+units: 
+----
+attribute: component
+value: {"id_run":39617,"position":2,"tag_index":37}
+units: 
+----
+attribute: library_id
+value: 28910206
+units: 
+----
+attribute: sample_public_name
+value: drMalDome21
+units: 
+----
+attribute: component
+value: {"id_run":39617,"position":4,"tag_index":37}
+units: 
+----
+attribute: id_product
+value: e20fa1816e16412b6aad386787dd0864a243cb5fedda6b0b3247b90327d2bbc1
+units: 
+----
+attribute: total_reads
+value: 359475080
+units: 
+----
+attribute: manual_qc
+value: 1
+units: 
+----
+attribute: library_type
+value: Standard
+units: 
+----
+attribute: sample_id
+value: 5992703
+units: 
+----
+attribute: study
+value: DTOL_Apple Day
+units: 
+----
+attribute: sample_supplier_name
+value: FB06834729
+units: 
+----
+attribute: dcterms:creator
+value: http://www.sanger.ac.uk
+units: 
+----
+attribute: sample_common_name
+value: Malus domestica
+units: 
+----
+attribute: id_run
+value: 39617
+units: 
+----
+attribute: study_title
+value: DToL Apple Resequencing
+units: 
+----
+attribute: dcterms:created
+value: 2021-07-25T01:39:44
+units: 
+----
+attribute: md5
+value: 1fcce10da1a0e0cebdb7e0ec4b25b4de
+units: 
+----
+attribute: sample
+value: AppleDay10498827
+units: 
+----
+attribute: target
+value: 1
+units: 
+----
+attribute: component
+value: {"id_run":39617,"position":3,"tag_index":37}
+units: 
+----
+attribute: composition
+value: {"components":[{"id_run":39617,"position":1,"tag_index":37},{"id_run":39617,"position":2,"tag_index":37},{"id_run":39617,"position":3,"tag_index":37},{"id_run":39617,"position":4,"tag_index":37}]}
+units: 
+----
+attribute: seqchksum
+value: 0cb37960=17ec35c1=17c70c45=27510a1a=60cec9f5=2743f1e4=1f888dbc=1b1aab08
+units: 
+----
+attribute: tag_index
+value: 37
+units: 
+----
+attribute: dcterms:publisher
+value: ldap://ldap.internal.sanger.ac.uk/ou=people,dc=sanger,dc=ac,dc=uk?title?sub?(uid=gspipe)
+units: 
+AVUs defined for dataObj /seq/illumina/runs/39/39617/plex38/39617#38.cram:
+attribute: type
+value: cram
+units: 
+----
+attribute: study_accession_number
+value: ERP130052
+units: 
+----
+attribute: study_id
+value: 6552
+units: 
+----
+attribute: md5
+value: 6d645055dc056e4037a8ea6d314f542b
+units: 
+----
+attribute: component
+value: {"id_run":39617,"position":3,"tag_index":38}
+units: 
+----
+attribute: id_product
+value: 7bb732d7d50cbca6eed3c089bd2bb7d31ef797ddae4cf46dd781ddfad9229147
+units: 
+----
+attribute: library_id
+value: 28910251
+units: 
+----
+attribute: sample
+value: AppleDay10498828
+units: 
+----
+attribute: sample_donor_id
+value: AppleDay10498828
+units: 
+----
+attribute: sample_supplier_name
+value: FB09215035
+units: 
+----
+attribute: alignment
+value: 0
+units: 
+----
+attribute: is_paired_read
+value: 1
+units: 
+----
+attribute: total_reads
+value: 358490242
+units: 
+----
+attribute: sample_accession_number
+value: SAMEA9239702
+units: 
+----
+attribute: manual_qc
+value: 1
+units: 
+----
+attribute: library_type
+value: Standard
+units: 
+----
+attribute: study
+value: DTOL_Apple Day
+units: 
+----
+attribute: component
+value: {"id_run":39617,"position":2,"tag_index":38}
+units: 
+----
+attribute: seqchksum
+value: 0b549f8c=36623370=63512c78=577a93e9=600ed7de=578f1545=00022b9b=59b0646b
+units: 
+----
+attribute: dcterms:creator
+value: http://www.sanger.ac.uk
+units: 
+----
+attribute: sample_common_name
+value: Malus domestica
+units: 
+----
+attribute: id_run
+value: 39617
+units: 
+----
+attribute: study_title
+value: DToL Apple Resequencing
+units: 
+----
+attribute: component
+value: {"id_run":39617,"position":1,"tag_index":38}
+units: 
+----
+attribute: sample_id
+value: 5992704
+units: 
+----
+attribute: tag_index
+value: 38
+units: 
+----
+attribute: target
+value: 1
+units: 
+----
+attribute: dcterms:created
+value: 2021-07-25T01:39:57
+units: 
+----
+attribute: component
+value: {"id_run":39617,"position":4,"tag_index":38}
+units: 
+----
+attribute: dcterms:publisher
+value: ldap://ldap.internal.sanger.ac.uk/ou=people,dc=sanger,dc=ac,dc=uk?title?sub?(uid=gspipe)
+units: 
+----
+attribute: composition
+value: {"components":[{"id_run":39617,"position":1,"tag_index":38},{"id_run":39617,"position":2,"tag_index":38},{"id_run":39617,"position":3,"tag_index":38},{"id_run":39617,"position":4,"tag_index":38}]}
+units: 
+----
+attribute: sample_public_name
+value: drMalDome20
+units: 
+AVUs defined for dataObj /seq/illumina/runs/39/39617/plex39/39617#39.cram:
+attribute: type
+value: cram
+units: 
+----
+attribute: study_accession_number
+value: ERP130052
+units: 
+----
+attribute: study_id
+value: 6552
+units: 
+----
+attribute: dcterms:created
+value: 2021-07-25T01:40:40
+units: 
+----
+attribute: sample
+value: AppleDay10498829
+units: 
+----
+attribute: sample_accession_number
+value: SAMEA9239701
+units: 
+----
+attribute: alignment
+value: 0
+units: 
+----
+attribute: is_paired_read
+value: 1
+units: 
+----
+attribute: md5
+value: f69e950ba337202728e228cbbf3a1be4
+units: 
+----
+attribute: component
+value: {"id_run":39617,"position":2,"tag_index":39}
+units: 
+----
+attribute: component
+value: {"id_run":39617,"position":1,"tag_index":39}
+units: 
+----
+attribute: manual_qc
+value: 1
+units: 
+----
+attribute: library_type
+value: Standard
+units: 
+----
+attribute: component
+value: {"id_run":39617,"position":4,"tag_index":39}
+units: 
+----
+attribute: id_product
+value: 2b7234173be5de2824f33861c44053e3e3466eda08511f58e4c6b7880585684c
+units: 
+----
+attribute: sample_supplier_name
+value: FB09215034
+units: 
+----
+attribute: study
+value: DTOL_Apple Day
+units: 
+----
+attribute: sample_public_name
+value: drMalDome19
+units: 
+----
+attribute: dcterms:creator
+value: http://www.sanger.ac.uk
+units: 
+----
+attribute: sample_common_name
+value: Malus domestica
+units: 
+----
+attribute: id_run
+value: 39617
+units: 
+----
+attribute: study_title
+value: DToL Apple Resequencing
+units: 
+----
+attribute: component
+value: {"id_run":39617,"position":3,"tag_index":39}
+units: 
+----
+attribute: total_reads
+value: 370775636
+units: 
+----
+attribute: sample_donor_id
+value: AppleDay10498829
+units: 
+----
+attribute: sample_id
+value: 5992705
+units: 
+----
+attribute: target
+value: 1
+units: 
+----
+attribute: seqchksum
+value: 16c2f358=358f7184=72f88a72=2abbb15a=77b8ff47=5d2d0ab1=7a1638a3=52dd19af
+units: 
+----
+attribute: library_id
+value: 28910295
+units: 
+----
+attribute: tag_index
+value: 39
+units: 
+----
+attribute: dcterms:publisher
+value: ldap://ldap.internal.sanger.ac.uk/ou=people,dc=sanger,dc=ac,dc=uk?title?sub?(uid=gspipe)
+units: 
+----
+attribute: composition
+value: {"components":[{"id_run":39617,"position":1,"tag_index":39},{"id_run":39617,"position":2,"tag_index":39},{"id_run":39617,"position":3,"tag_index":39},{"id_run":39617,"position":4,"tag_index":39}]}
+units: 
+AVUs defined for dataObj /seq/illumina/runs/39/39617/plex4/39617#4.cram:
+attribute: type
+value: cram
+units: 
+----
+attribute: study_accession_number
+value: ERP130052
+units: 
+----
+attribute: study_id
+value: 6552
+units: 
+----
+attribute: component
+value: {"id_run":39617,"position":1,"tag_index":4}
+units: 
+----
+attribute: component
+value: {"id_run":39617,"position":2,"tag_index":4}
+units: 
+----
+attribute: composition
+value: {"components":[{"id_run":39617,"position":1,"tag_index":4},{"id_run":39617,"position":2,"tag_index":4},{"id_run":39617,"position":3,"tag_index":4},{"id_run":39617,"position":4,"tag_index":4}]}
+units: 
+----
+attribute: sample_public_name
+value: drMalDome1
+units: 
+----
+attribute: tag_index
+value: 4
+units: 
+----
+attribute: alignment
+value: 0
+units: 
+----
+attribute: is_paired_read
+value: 1
+units: 
+----
+attribute: md5
+value: f7be72cc503cfe1a373da6b5e69680db
+units: 
+----
+attribute: component
+value: {"id_run":39617,"position":3,"tag_index":4}
+units: 
+----
+attribute: sample
+value: AppleDay10498794
+units: 
+----
+attribute: sample_donor_id
+value: AppleDay10498794
+units: 
+----
+attribute: manual_qc
+value: 1
+units: 
+----
+attribute: library_type
+value: Standard
+units: 
+----
+attribute: study
+value: DTOL_Apple Day
+units: 
+----
+attribute: dcterms:created
+value: 2021-07-25T01:25:06
+units: 
+----
+attribute: dcterms:creator
+value: http://www.sanger.ac.uk
+units: 
+----
+attribute: sample_common_name
+value: Malus domestica
+units: 
+----
+attribute: id_run
+value: 39617
+units: 
+----
+attribute: study_title
+value: DToL Apple Resequencing
+units: 
+----
+attribute: component
+value: {"id_run":39617,"position":4,"tag_index":4}
+units: 
+----
+attribute: library_id
+value: 28910146
+units: 
+----
+attribute: sample_accession_number
+value: SAMEA8717327
+units: 
+----
+attribute: target
+value: 1
+units: 
+----
+attribute: id_product
+value: 790294d4f8f98e58a4c7fea85dac51d9282737c4bef0bdbc769c3f1ba9ca9e1c
+units: 
+----
+attribute: sample_id
+value: 5992670
+units: 
+----
+attribute: dcterms:publisher
+value: ldap://ldap.internal.sanger.ac.uk/ou=people,dc=sanger,dc=ac,dc=uk?title?sub?(uid=gspipe)
+units: 
+----
+attribute: seqchksum
+value: 3aa9501b=64164ece=32507a01=45208bff=090827e1=027f198d=23fe55eb=30eae8b0
+units: 
+----
+attribute: total_reads
+value: 593741066
+units: 
+----
+attribute: sample_supplier_name
+value: FB09216176
+units: 
+AVUs defined for dataObj /seq/illumina/runs/39/39617/plex40/39617#40.cram:
+attribute: type
+value: cram
+units: 
+----
+attribute: study_accession_number
+value: ERP130052
+units: 
+----
+attribute: study_id
+value: 6552
+units: 
+----
+attribute: library_id
+value: 28910329
+units: 
+----
+attribute: sample_supplier_name
+value: FB09215030
+units: 
+----
+attribute: tag_index
+value: 40
+units: 
+----
+attribute: alignment
+value: 0
+units: 
+----
+attribute: is_paired_read
+value: 1
+units: 
+----
+attribute: dcterms:created
+value: 2021-07-25T01:54:47
+units: 
+----
+attribute: md5
+value: cce511728993aa5d5c2c79116f5e9a3f
+units: 
+----
+attribute: seqchksum
+value: 1fdf9a35=39d7f526=1d62333b=1683cce2=005f07dc=2a96f4d8=1edc0417=79cdb625
+units: 
+----
+attribute: component
+value: {"id_run":39617,"position":1,"tag_index":40}
+units: 
+----
+attribute: component
+value: {"id_run":39617,"position":4,"tag_index":40}
+units: 
+----
+attribute: composition
+value: {"components":[{"id_run":39617,"position":1,"tag_index":40},{"id_run":39617,"position":2,"tag_index":40},{"id_run":39617,"position":3,"tag_index":40},{"id_run":39617,"position":4,"tag_index":40}]}
+units: 
+----
+attribute: sample
+value: AppleDay10498830
+units: 
+----
+attribute: sample_common_name
+value: Malus x robusta
+units: 
+----
+attribute: sample_id
+value: 5992706
+units: 
+----
+attribute: manual_qc
+value: 1
+units: 
+----
+attribute: library_type
+value: Standard
+units: 
+----
+attribute: component
+value: {"id_run":39617,"position":3,"tag_index":40}
+units: 
+----
+attribute: study
+value: DTOL_Apple Day
+units: 
+----
+attribute: component
+value: {"id_run":39617,"position":2,"tag_index":40}
+units: 
+----
+attribute: dcterms:creator
+value: http://www.sanger.ac.uk
+units: 
+----
+attribute: id_run
+value: 39617
+units: 
+----
+attribute: study_title
+value: DToL Apple Resequencing
+units: 
+----
+attribute: id_product
+value: ab5baa8ca6cbd782f5e2baa91eeeaea7ff6f1895b8a3c2da20a87c94b8c84b0d
+units: 
+----
+attribute: total_reads
+value: 376167704
+units: 
+----
+attribute: sample_donor_id
+value: AppleDay10498830
+units: 
+----
+attribute: target
+value: 1
+units: 
+----
+attribute: sample_accession_number
+value: SAMEA9239697
+units: 
+----
+attribute: dcterms:publisher
+value: ldap://ldap.internal.sanger.ac.uk/ou=people,dc=sanger,dc=ac,dc=uk?title?sub?(uid=gspipe)
+units: 
+----
+attribute: sample_public_name
+value: drMalRobu1
+units: 
+AVUs defined for dataObj /seq/illumina/runs/39/39617/plex41/39617#41.cram:
+attribute: type
+value: cram
+units: 
+----
+attribute: study_accession_number
+value: ERP130052
+units: 
+----
+attribute: study_id
+value: 6552
+units: 
+----
+attribute: component
+value: {"id_run":39617,"position":3,"tag_index":41}
+units: 
+----
+attribute: alignment
+value: 0
+units: 
+----
+attribute: is_paired_read
+value: 1
+units: 
+----
+attribute: sample_accession_number
+value: SAMEA9239690
+units: 
+----
+attribute: sample_public_name
+value: drMalDome18
+units: 
+----
+attribute: sample_supplier_name
+value: FB09215023
+units: 
+----
+attribute: tag_index
+value: 41
+units: 
+----
+attribute: manual_qc
+value: 1
+units: 
+----
+attribute: library_type
+value: Standard
+units: 
+----
+attribute: component
+value: {"id_run":39617,"position":4,"tag_index":41}
+units: 
+----
+attribute: composition
+value: {"components":[{"id_run":39617,"position":1,"tag_index":41},{"id_run":39617,"position":2,"tag_index":41},{"id_run":39617,"position":3,"tag_index":41},{"id_run":39617,"position":4,"tag_index":41}]}
+units: 
+----
+attribute: sample_id
+value: 5992707
+units: 
+----
+attribute: study
+value: DTOL_Apple Day
+units: 
+----
+attribute: total_reads
+value: 296132348
+units: 
+----
+attribute: library_id
+value: 28910033
+units: 
+----
+attribute: dcterms:creator
+value: http://www.sanger.ac.uk
+units: 
+----
+attribute: sample_common_name
+value: Malus domestica
+units: 
+----
+attribute: id_run
+value: 39617
+units: 
+----
+attribute: study_title
+value: DToL Apple Resequencing
+units: 
+----
+attribute: id_product
+value: f89d3b619edd91f9f26e6dff9e4ff952f4ec704f485d6a113a15ae3dade71512
+units: 
+----
+attribute: target
+value: 1
+units: 
+----
+attribute: dcterms:created
+value: 2021-07-25T01:54:48
+units: 
+----
+attribute: component
+value: {"id_run":39617,"position":1,"tag_index":41}
+units: 
+----
+attribute: seqchksum
+value: 1efb5289=481042c2=60a88d09=0cf2b2b8=49fba144=774af7ed=1399bd6e=06cf6eb5
+units: 
+----
+attribute: sample
+value: AppleDay10498831
+units: 
+----
+attribute: sample_donor_id
+value: AppleDay10498831
+units: 
+----
+attribute: dcterms:publisher
+value: ldap://ldap.internal.sanger.ac.uk/ou=people,dc=sanger,dc=ac,dc=uk?title?sub?(uid=gspipe)
+units: 
+----
+attribute: md5
+value: ea8213691f0130df909ad174d20e9532
+units: 
+----
+attribute: component
+value: {"id_run":39617,"position":2,"tag_index":41}
+units: 
+AVUs defined for dataObj /seq/illumina/runs/39/39617/plex42/39617#42.cram:
+attribute: type
+value: cram
+units: 
+----
+attribute: study_accession_number
+value: ERP130052
+units: 
+----
+attribute: study_id
+value: 6552
+units: 
+----
+attribute: component
+value: {"id_run":39617,"position":1,"tag_index":42}
+units: 
+----
+attribute: component
+value: {"id_run":39617,"position":3,"tag_index":42}
+units: 
+----
+attribute: sample_supplier_name
+value: FB09215022
+units: 
+----
+attribute: alignment
+value: 0
+units: 
+----
+attribute: is_paired_read
+value: 1
+units: 
+----
+attribute: id_product
+value: 5a45695451f8c47041421e3b3cd6f98e6ced140ee45b6f3815109c2454c002a6
+units: 
+----
+attribute: md5
+value: 570fa92c1c4a6c542f915431a6a64907
+units: 
+----
+attribute: manual_qc
+value: 1
+units: 
+----
+attribute: library_type
+value: Standard
+units: 
+----
+attribute: seqchksum
+value: 5ec7355d=2c161acc=779949a2=542a0f8f=639fd035=60f4803a=4e0292e5=2e22b8ec
+units: 
+----
+attribute: sample_accession_number
+value: SAMEA9239689
+units: 
+----
+attribute: study
+value: DTOL_Apple Day
+units: 
+----
+attribute: component
+value: {"id_run":39617,"position":4,"tag_index":42}
+units: 
+----
+attribute: library_id
+value: 28910079
+units: 
+----
+attribute: dcterms:creator
+value: http://www.sanger.ac.uk
+units: 
+----
+attribute: sample_common_name
+value: Malus domestica
+units: 
+----
+attribute: id_run
+value: 39617
+units: 
+----
+attribute: study_title
+value: DToL Apple Resequencing
+units: 
+----
+attribute: sample_donor_id
+value: AppleDay10498832
+units: 
+----
+attribute: sample_id
+value: 5992708
+units: 
+----
+attribute: tag_index
+value: 42
+units: 
+----
+attribute: target
+value: 1
+units: 
+----
+attribute: dcterms:created
+value: 2021-07-25T01:55:25
+units: 
+----
+attribute: composition
+value: {"components":[{"id_run":39617,"position":1,"tag_index":42},{"id_run":39617,"position":2,"tag_index":42},{"id_run":39617,"position":3,"tag_index":42},{"id_run":39617,"position":4,"tag_index":42}]}
+units: 
+----
+attribute: total_reads
+value: 345901822
+units: 
+----
+attribute: sample
+value: AppleDay10498832
+units: 
+----
+attribute: dcterms:publisher
+value: ldap://ldap.internal.sanger.ac.uk/ou=people,dc=sanger,dc=ac,dc=uk?title?sub?(uid=gspipe)
+units: 
+----
+attribute: component
+value: {"id_run":39617,"position":2,"tag_index":42}
+units: 
+----
+attribute: sample_public_name
+value: drMalDome13
+units: 
+AVUs defined for dataObj /seq/illumina/runs/39/39617/plex43/39617#43.cram:
+attribute: type
+value: cram
+units: 
+----
+attribute: study_accession_number
+value: ERP130052
+units: 
+----
+attribute: study_id
+value: 6552
+units: 
+----
+attribute: component
+value: {"id_run":39617,"position":3,"tag_index":43}
+units: 
+----
+attribute: sample_supplier_name
+value: FB09215017
+units: 
+----
+attribute: alignment
+value: 0
+units: 
+----
+attribute: is_paired_read
+value: 1
+units: 
+----
+attribute: component
+value: {"id_run":39617,"position":1,"tag_index":43}
+units: 
+----
+attribute: composition
+value: {"components":[{"id_run":39617,"position":1,"tag_index":43},{"id_run":39617,"position":2,"tag_index":43},{"id_run":39617,"position":3,"tag_index":43},{"id_run":39617,"position":4,"tag_index":43}]}
+units: 
+----
+attribute: total_reads
+value: 749717664
+units: 
+----
+attribute: tag_index
+value: 43
+units: 
+----
+attribute: manual_qc
+value: 1
+units: 
+----
+attribute: library_type
+value: Standard
+units: 
+----
+attribute: library_id
+value: 28910123
+units: 
+----
+attribute: study
+value: DTOL_Apple Day
+units: 
+----
+attribute: sample_accession_number
+value: SAMEA9239684
+units: 
+----
+attribute: sample_id
+value: 5992709
+units: 
+----
+attribute: dcterms:creator
+value: http://www.sanger.ac.uk
+units: 
+----
+attribute: sample_common_name
+value: Malus domestica
+units: 
+----
+attribute: id_run
+value: 39617
+units: 
+----
+attribute: study_title
+value: DToL Apple Resequencing
+units: 
+----
+attribute: md5
+value: c5bdb6293fba32cd6681d15d5602ea13
+units: 
+----
+attribute: component
+value: {"id_run":39617,"position":4,"tag_index":43}
+units: 
+----
+attribute: id_product
+value: 47e1fe9f1141bfccc54e8f04259806a241d90e2fc6fdb6b53763ea9207bedb1a
+units: 
+----
+attribute: sample
+value: AppleDay10498833
+units: 
+----
+attribute: target
+value: 1
+units: 
+----
+attribute: dcterms:created
+value: 2021-07-25T01:55:25
+units: 
+----
+attribute: component
+value: {"id_run":39617,"position":2,"tag_index":43}
+units: 
+----
+attribute: sample_donor_id
+value: AppleDay10498833
+units: 
+----
+attribute: dcterms:publisher
+value: ldap://ldap.internal.sanger.ac.uk/ou=people,dc=sanger,dc=ac,dc=uk?title?sub?(uid=gspipe)
+units: 
+----
+attribute: seqchksum
+value: 08846650=3c554e98=3d61f704=2dc4f435=3f92a296=7469f1df=436f47b5=70f60c00
+units: 
+----
+attribute: sample_public_name
+value: drMalDome17
+units: 
+AVUs defined for dataObj /seq/illumina/runs/39/39617/plex44/39617#44.cram:
+attribute: type
+value: cram
+units: 
+----
+attribute: study_accession_number
+value: ERP130052
+units: 
+----
+attribute: study_id
+value: 6552
+units: 
+----
+attribute: component
+value: {"id_run":39617,"position":2,"tag_index":44}
+units: 
+----
+attribute: alignment
+value: 0
+units: 
+----
+attribute: is_paired_read
+value: 1
+units: 
+----
+attribute: id_product
+value: 4b867d350a771950edcdf0d91e4e43004c9db1502f7d7b65711025bf76b228f8
+units: 
+----
+attribute: library_id
+value: 28910164
+units: 
+----
+attribute: component
+value: {"id_run":39617,"position":1,"tag_index":44}
+units: 
+----
+attribute: component
+value: {"id_run":39617,"position":3,"tag_index":44}
+units: 
+----
+attribute: total_reads
+value: 369286956
+units: 
+----
+attribute: sample_supplier_name
+value: FB09215015
+units: 
+----
+attribute: manual_qc
+value: 1
+units: 
+----
+attribute: library_type
+value: Standard
+units: 
+----
+attribute: dcterms:created
+value: 2021-07-25T01:55:29
+units: 
+----
+attribute: sample
+value: AppleDay10498834
+units: 
+----
+attribute: sample_public_name
+value: drMalDome12
+units: 
+----
+attribute: tag_index
+value: 44
+units: 
+----
+attribute: study
+value: DTOL_Apple Day
+units: 
+----
+attribute: dcterms:creator
+value: http://www.sanger.ac.uk
+units: 
+----
+attribute: sample_common_name
+value: Malus domestica
+units: 
+----
+attribute: id_run
+value: 39617
+units: 
+----
+attribute: study_title
+value: DToL Apple Resequencing
+units: 
+----
+attribute: md5
+value: 9e2597cfebecad402332aa0b5374b1f8
+units: 
+----
+attribute: component
+value: {"id_run":39617,"position":4,"tag_index":44}
+units: 
+----
+attribute: seqchksum
+value: 1af6a290=09eda06a=5785cfd5=3b662b84=36e9f57d=3b00895e=00807cdb=647b3170
+units: 
+----
+attribute: sample_accession_number
+value: SAMEA9239682
+units: 
+----
+attribute: sample_donor_id
+value: AppleDay10498834
+units: 
+----
+attribute: target
+value: 1
+units: 
+----
+attribute: composition
+value: {"components":[{"id_run":39617,"position":1,"tag_index":44},{"id_run":39617,"position":2,"tag_index":44},{"id_run":39617,"position":3,"tag_index":44},{"id_run":39617,"position":4,"tag_index":44}]}
+units: 
+----
+attribute: dcterms:publisher
+value: ldap://ldap.internal.sanger.ac.uk/ou=people,dc=sanger,dc=ac,dc=uk?title?sub?(uid=gspipe)
+units: 
+----
+attribute: sample_id
+value: 5992710
+units: 
+AVUs defined for dataObj /seq/illumina/runs/39/39617/plex45/39617#45.cram:
+attribute: type
+value: cram
+units: 
+----
+attribute: study_accession_number
+value: ERP130052
+units: 
+----
+attribute: study_id
+value: 6552
+units: 
+----
+attribute: component
+value: {"id_run":39617,"position":4,"tag_index":45}
+units: 
+----
+attribute: sample_public_name
+value: drMalDome16
+units: 
+----
+attribute: alignment
+value: 0
+units: 
+----
+attribute: is_paired_read
+value: 1
+units: 
+----
+attribute: sample
+value: AppleDay10498835
+units: 
+----
+attribute: sample_donor_id
+value: AppleDay10498835
+units: 
+----
+attribute: sample_id
+value: 5992711
+units: 
+----
+attribute: sample_supplier_name
+value: FB09215011
+units: 
+----
+attribute: md5
+value: 9c9b33422aae7b43e92ab8277a8e75bf
+units: 
+----
+attribute: manual_qc
+value: 1
+units: 
+----
+attribute: library_type
+value: Standard
+units: 
+----
+attribute: component
+value: {"id_run":39617,"position":1,"tag_index":45}
+units: 
+----
+attribute: study
+value: DTOL_Apple Day
+units: 
+----
+attribute: dcterms:created
+value: 2021-07-25T01:56:55
+units: 
+----
+attribute: component
+value: {"id_run":39617,"position":2,"tag_index":45}
+units: 
+----
+attribute: component
+value: {"id_run":39617,"position":3,"tag_index":45}
+units: 
+----
+attribute: dcterms:creator
+value: http://www.sanger.ac.uk
+units: 
+----
+attribute: sample_common_name
+value: Malus domestica
+units: 
+----
+attribute: id_run
+value: 39617
+units: 
+----
+attribute: study_title
+value: DToL Apple Resequencing
+units: 
+----
+attribute: tag_index
+value: 45
+units: 
+----
+attribute: target
+value: 1
+units: 
+----
+attribute: id_product
+value: 2b6734bf6d7755d9dcf4a9d969db7dcfb65bbc2a51be5c36c4a064cd66fd0aab
+units: 
+----
+attribute: total_reads
+value: 365219438
+units: 
+----
+attribute: library_id
+value: 28910210
+units: 
+----
+attribute: dcterms:publisher
+value: ldap://ldap.internal.sanger.ac.uk/ou=people,dc=sanger,dc=ac,dc=uk?title?sub?(uid=gspipe)
+units: 
+----
+attribute: composition
+value: {"components":[{"id_run":39617,"position":1,"tag_index":45},{"id_run":39617,"position":2,"tag_index":45},{"id_run":39617,"position":3,"tag_index":45},{"id_run":39617,"position":4,"tag_index":45}]}
+units: 
+----
+attribute: seqchksum
+value: 057eda64=7a0cbe03=6de730aa=6b693f59=4e7fb694=71645276=7211a1f9=6e567e77
+units: 
+----
+attribute: sample_accession_number
+value: SAMEA9239678
+units: 
+AVUs defined for dataObj /seq/illumina/runs/39/39617/plex46/39617#46.cram:
+attribute: type
+value: cram
+units: 
+----
+attribute: study_accession_number
+value: ERP130052
+units: 
+----
+attribute: study_id
+value: 6552
+units: 
+----
+attribute: component
+value: {"id_run":39617,"position":1,"tag_index":46}
+units: 
+----
+attribute: component
+value: {"id_run":39617,"position":3,"tag_index":46}
+units: 
+----
+attribute: sample
+value: AppleDay10498836
+units: 
+----
+attribute: alignment
+value: 0
+units: 
+----
+attribute: is_paired_read
+value: 1
+units: 
+----
+attribute: dcterms:created
+value: 2021-07-25T01:57:36
+units: 
+----
+attribute: component
+value: {"id_run":39617,"position":2,"tag_index":46}
+units: 
+----
+attribute: sample_donor_id
+value: AppleDay10498836
+units: 
+----
+attribute: sample_supplier_name
+value: FB09215005
+units: 
+----
+attribute: tag_index
+value: 46
+units: 
+----
+attribute: manual_qc
+value: 1
+units: 
+----
+attribute: library_type
+value: Standard
+units: 
+----
+attribute: md5
+value: ff358b99d67c7fa0c3319109338ccae0
+units: 
+----
+attribute: component
+value: {"id_run":39617,"position":4,"tag_index":46}
+units: 
+----
+attribute: total_reads
+value: 783144578
+units: 
+----
+attribute: sample_id
+value: 5992712
+units: 
+----
+attribute: study
+value: DTOL_Apple Day
+units: 
+----
+attribute: sample_public_name
+value: drMalDome15
+units: 
+----
+attribute: dcterms:creator
+value: http://www.sanger.ac.uk
+units: 
+----
+attribute: sample_common_name
+value: Malus domestica
+units: 
+----
+attribute: id_run
+value: 39617
+units: 
+----
+attribute: study_title
+value: DToL Apple Resequencing
+units: 
+----
+attribute: seqchksum
+value: 5db3812e=56076a76=4679460e=63afe3b1=5a042fbe=763acff1=286497ad=4c0ee95a
+units: 
+----
+attribute: library_id
+value: 28910255
+units: 
+----
+attribute: target
+value: 1
+units: 
+----
+attribute: composition
+value: {"components":[{"id_run":39617,"position":1,"tag_index":46},{"id_run":39617,"position":2,"tag_index":46},{"id_run":39617,"position":3,"tag_index":46},{"id_run":39617,"position":4,"tag_index":46}]}
+units: 
+----
+attribute: id_product
+value: 765babb32b0c6533f1556be552271af99282eafbe1e9819469bf3d851043e860
+units: 
+----
+attribute: sample_accession_number
+value: SAMEA9239672
+units: 
+----
+attribute: dcterms:publisher
+value: ldap://ldap.internal.sanger.ac.uk/ou=people,dc=sanger,dc=ac,dc=uk?title?sub?(uid=gspipe)
+units: 
+AVUs defined for dataObj /seq/illumina/runs/39/39617/plex47/39617#47.cram:
+attribute: type
+value: cram
+units: 
+----
+attribute: study_accession_number
+value: ERP130052
+units: 
+----
+attribute: study_id
+value: 6552
+units: 
+----
+attribute: md5
+value: 22ed498a8d63f2dcef649686e324844c
+units: 
+----
+attribute: alignment
+value: 0
+units: 
+----
+attribute: is_paired_read
+value: 1
+units: 
+----
+attribute: sample_public_name
+value: drMalDome14
+units: 
+----
+attribute: tag_index
+value: 47
+units: 
+----
+attribute: sample_accession_number
+value: SAMEA9239669
+units: 
+----
+attribute: sample_donor_id
+value: AppleDay10498837
+units: 
+----
+attribute: sample_id
+value: 5992713
+units: 
+----
+attribute: manual_qc
+value: 1
+units: 
+----
+attribute: library_type
+value: Standard
+units: 
+----
+attribute: component
+value: {"id_run":39617,"position":4,"tag_index":47}
+units: 
+----
+attribute: seqchksum
+value: 32747a72=33012853=42c3ee9d=49a7b761=3fb83574=7de4ef13=565f2f40=4ff730bc
+units: 
+----
+attribute: study
+value: DTOL_Apple Day
+units: 
+----
+attribute: sample_supplier_name
+value: FB09215002
+units: 
+----
+attribute: dcterms:creator
+value: http://www.sanger.ac.uk
+units: 
+----
+attribute: sample_common_name
+value: Malus domestica
+units: 
+----
+attribute: id_run
+value: 39617
+units: 
+----
+attribute: study_title
+value: DToL Apple Resequencing
+units: 
+----
+attribute: dcterms:created
+value: 2021-07-25T01:57:45
+units: 
+----
+attribute: component
+value: {"id_run":39617,"position":3,"tag_index":47}
+units: 
+----
+attribute: target
+value: 1
+units: 
+----
+attribute: component
+value: {"id_run":39617,"position":1,"tag_index":47}
+units: 
+----
+attribute: composition
+value: {"components":[{"id_run":39617,"position":1,"tag_index":47},{"id_run":39617,"position":2,"tag_index":47},{"id_run":39617,"position":3,"tag_index":47},{"id_run":39617,"position":4,"tag_index":47}]}
+units: 
+----
+attribute: library_id
+value: 28910299
+units: 
+----
+attribute: dcterms:publisher
+value: ldap://ldap.internal.sanger.ac.uk/ou=people,dc=sanger,dc=ac,dc=uk?title?sub?(uid=gspipe)
+units: 
+----
+attribute: component
+value: {"id_run":39617,"position":2,"tag_index":47}
+units: 
+----
+attribute: id_product
+value: 99b7c8bcc52b4f32f5eaa1831bdfbd3767cf8a397cce61afcf84e5ace64d30e2
+units: 
+----
+attribute: total_reads
+value: 361949486
+units: 
+----
+attribute: sample
+value: AppleDay10498837
+units: 
+AVUs defined for dataObj /seq/illumina/runs/39/39617/plex48/39617#48.cram:
+attribute: type
+value: cram
+units: 
+----
+attribute: study_accession_number
+value: ERP130052
+units: 
+----
+attribute: study_id
+value: 6552
+units: 
+----
+attribute: id_product
+value: 9497c84da6a02a3e5d8b701882dd28ba2bb82c69b772aa9e06dc4100b2140306
+units: 
+----
+attribute: sample
+value: AppleDay10498838
+units: 
+----
+attribute: alignment
+value: 0
+units: 
+----
+attribute: is_paired_read
+value: 1
+units: 
+----
+attribute: md5
+value: 5824a90aa43aac1dc3ab994320e5f75a
+units: 
+----
+attribute: sample_supplier_name
+value: FB07439860
+units: 
+----
+attribute: composition
+value: {"components":[{"id_run":39617,"position":1,"tag_index":48},{"id_run":39617,"position":2,"tag_index":48},{"id_run":39617,"position":3,"tag_index":48},{"id_run":39617,"position":4,"tag_index":48}]}
+units: 
+----
+attribute: manual_qc
+value: 1
+units: 
+----
+attribute: library_type
+value: Standard
+units: 
+----
+attribute: dcterms:created
+value: 2021-07-25T01:57:49
+units: 
+----
+attribute: component
+value: {"id_run":39617,"position":4,"tag_index":48}
+units: 
+----
+attribute: tag_index
+value: 48
+units: 
+----
+attribute: study
+value: DTOL_Apple Day
+units: 
+----
+attribute: component
+value: {"id_run":39617,"position":2,"tag_index":48}
+units: 
+----
+attribute: component
+value: {"id_run":39617,"position":3,"tag_index":48}
+units: 
+----
+attribute: seqchksum
+value: 0e8c1264=42b6d5a7=18252885=5bb871fa=6c1326e6=51097cd9=59e8ece3=34e1b408
+units: 
+----
+attribute: sample_id
+value: 5992714
+units: 
+----
+attribute: dcterms:creator
+value: http://www.sanger.ac.uk
+units: 
+----
+attribute: sample_common_name
+value: Malus domestica
+units: 
+----
+attribute: id_run
+value: 39617
+units: 
+----
+attribute: study_title
+value: DToL Apple Resequencing
+units: 
+----
+attribute: component
+value: {"id_run":39617,"position":1,"tag_index":48}
+units: 
+----
+attribute: library_id
+value: 28910333
+units: 
+----
+attribute: target
+value: 1
+units: 
+----
+attribute: total_reads
+value: 770534086
+units: 
+----
+attribute: sample_donor_id
+value: AppleDay10498838
+units: 
+----
+attribute: dcterms:publisher
+value: ldap://ldap.internal.sanger.ac.uk/ou=people,dc=sanger,dc=ac,dc=uk?title?sub?(uid=gspipe)
+units: 
+----
+attribute: sample_accession_number
+value: SAMEA9239978
+units: 
+----
+attribute: sample_public_name
+value: drMalDome57
+units: 
+AVUs defined for dataObj /seq/illumina/runs/39/39617/plex49/39617#49.cram:
+attribute: type
+value: cram
+units: 
+----
+attribute: study_accession_number
+value: ERP130052
+units: 
+----
+attribute: study_id
+value: 6552
+units: 
+----
+attribute: component
+value: {"id_run":39617,"position":2,"tag_index":49}
+units: 
+----
+attribute: component
+value: {"id_run":39617,"position":3,"tag_index":49}
+units: 
+----
+attribute: component
+value: {"id_run":39617,"position":4,"tag_index":49}
+units: 
+----
+attribute: library_id
+value: 28910036
+units: 
+----
+attribute: sample
+value: AppleDay10498839
+units: 
+----
+attribute: sample_accession_number
+value: SAMEA9239969
+units: 
+----
+attribute: sample_supplier_name
+value: FB09215796
+units: 
+----
+attribute: alignment
+value: 0
+units: 
+----
+attribute: is_paired_read
+value: 1
+units: 
+----
+attribute: sample_donor_id
+value: AppleDay10498839
+units: 
+----
+attribute: tag_index
+value: 49
+units: 
+----
+attribute: component
+value: {"id_run":39617,"position":1,"tag_index":49}
+units: 
+----
+attribute: id_product
+value: d855f5d89bd9ba94f7cee6a6eb63dc599c46e9cde2a5f144bb3bec88ff316593
+units: 
+----
+attribute: sample_id
+value: 5992715
+units: 
+----
+attribute: manual_qc
+value: 1
+units: 
+----
+attribute: library_type
+value: Standard
+units: 
+----
+attribute: sample_common_name
+value: Malus sylvestris
+units: 
+----
+attribute: study
+value: DTOL_Apple Day
+units: 
+----
+attribute: seqchksum
+value: 5a25c654=5637653a=21ff79b5=03823698=035410e7=6029f588=5b5dbd45=421851d7
+units: 
+----
+attribute: dcterms:creator
+value: http://www.sanger.ac.uk
+units: 
+----
+attribute: id_run
+value: 39617
+units: 
+----
+attribute: study_title
+value: DToL Apple Resequencing
+units: 
+----
+attribute: md5
+value: 2393e07565fbed3e3c2b1d86210f2886
+units: 
+----
+attribute: composition
+value: {"components":[{"id_run":39617,"position":1,"tag_index":49},{"id_run":39617,"position":2,"tag_index":49},{"id_run":39617,"position":3,"tag_index":49},{"id_run":39617,"position":4,"tag_index":49}]}
+units: 
+----
+attribute: total_reads
+value: 372384366
+units: 
+----
+attribute: sample_public_name
+value: drMalSylv80
+units: 
+----
+attribute: target
+value: 1
+units: 
+----
+attribute: dcterms:publisher
+value: ldap://ldap.internal.sanger.ac.uk/ou=people,dc=sanger,dc=ac,dc=uk?title?sub?(uid=gspipe)
+units: 
+----
+attribute: dcterms:created
+value: 2021-07-25T01:59:15
+units: 
+AVUs defined for dataObj /seq/illumina/runs/39/39617/plex5/39617#5.cram:
+attribute: type
+value: cram
+units: 
+----
+attribute: study_accession_number
+value: ERP130052
+units: 
+----
+attribute: study_id
+value: 6552
+units: 
+----
+attribute: library_id
+value: 28910190
+units: 
+----
+attribute: alignment
+value: 0
+units: 
+----
+attribute: is_paired_read
+value: 1
+units: 
+----
+attribute: md5
+value: 65c9f3a24e54ab6ec3b40daf588df2b6
+units: 
+----
+attribute: component
+value: {"id_run":39617,"position":2,"tag_index":5}
+units: 
+----
+attribute: sample_id
+value: 5992671
+units: 
+----
+attribute: sample_supplier_name
+value: FB09216090
+units: 
+----
+attribute: component
+value: {"id_run":39617,"position":1,"tag_index":5}
+units: 
+----
+attribute: component
+value: {"id_run":39617,"position":4,"tag_index":5}
+units: 
+----
+attribute: id_product
+value: 479dc4cf99d79bdd28de356a88d6d9a4c971567e3fd08e85857832b5206e1073
+units: 
+----
+attribute: total_reads
+value: 384585312
+units: 
+----
+attribute: sample
+value: AppleDay10498795
+units: 
+----
+attribute: manual_qc
+value: 1
+units: 
+----
+attribute: library_type
+value: Standard
+units: 
+----
+attribute: sample_common_name
+value: Malus sylvestris
+units: 
+----
+attribute: composition
+value: {"components":[{"id_run":39617,"position":1,"tag_index":5},{"id_run":39617,"position":2,"tag_index":5},{"id_run":39617,"position":3,"tag_index":5},{"id_run":39617,"position":4,"tag_index":5}]}
+units: 
+----
+attribute: study
+value: DTOL_Apple Day
+units: 
+----
+attribute: dcterms:created
+value: 2021-07-25T01:25:06
+units: 
+----
+attribute: dcterms:creator
+value: http://www.sanger.ac.uk
+units: 
+----
+attribute: id_run
+value: 39617
+units: 
+----
+attribute: study_title
+value: DToL Apple Resequencing
+units: 
+----
+attribute: sample_accession_number
+value: SAMEA8712111
+units: 
+----
+attribute: sample_public_name
+value: drMalSylv6
+units: 
+----
+attribute: target
+value: 1
+units: 
+----
+attribute: seqchksum
+value: 7f4fbd04=0288e8ce=2e272ffd=0201bbe7=7e384fce=4343a455=3a22e03c=493465b2
+units: 
+----
+attribute: tag_index
+value: 5
+units: 
+----
+attribute: dcterms:publisher
+value: ldap://ldap.internal.sanger.ac.uk/ou=people,dc=sanger,dc=ac,dc=uk?title?sub?(uid=gspipe)
+units: 
+----
+attribute: component
+value: {"id_run":39617,"position":3,"tag_index":5}
+units: 
+----
+attribute: sample_donor_id
+value: AppleDay10498795
+units: 
+AVUs defined for dataObj /seq/illumina/runs/39/39617/plex50/39617#50.cram:
+attribute: type
+value: cram
+units: 
+----
+attribute: study_accession_number
+value: ERP130052
+units: 
+----
+attribute: study_id
+value: 6552
+units: 
+----
+attribute: component
+value: {"id_run":39617,"position":1,"tag_index":50}
+units: 
+----
+attribute: alignment
+value: 0
+units: 
+----
+attribute: is_paired_read
+value: 1
+units: 
+----
+attribute: composition
+value: {"components":[{"id_run":39617,"position":1,"tag_index":50},{"id_run":39617,"position":2,"tag_index":50},{"id_run":39617,"position":3,"tag_index":50},{"id_run":39617,"position":4,"tag_index":50}]}
+units: 
+----
+attribute: id_product
+value: f60b84f61787011bd733676344a3df75c1f830fa4d4b819cbb6a65bb8f669524
+units: 
+----
+attribute: seqchksum
+value: 2458a984=4eebcdee=3b36c6ab=15ede9e5=65c3b5e7=177b42dc=6ccc6f2b=4b00d3e6
+units: 
+----
+attribute: total_reads
+value: 329706342
+units: 
+----
+attribute: sample_id
+value: 5992716
+units: 
+----
+attribute: sample_public_name
+value: drMalSylv82
+units: 
+----
+attribute: sample_donor_id
+value: AppleDay10498840
+units: 
+----
+attribute: manual_qc
+value: 1
+units: 
+----
+attribute: library_type
+value: Standard
+units: 
+----
+attribute: sample_common_name
+value: Malus sylvestris
+units: 
+----
+attribute: md5
+value: 7a892f0277cbc2036248b8ccc88e20cc
+units: 
+----
+attribute: study
+value: DTOL_Apple Day
+units: 
+----
+attribute: dcterms:creator
+value: http://www.sanger.ac.uk
+units: 
+----
+attribute: id_run
+value: 39617
+units: 
+----
+attribute: study_title
+value: DToL Apple Resequencing
+units: 
+----
+attribute: component
+value: {"id_run":39617,"position":2,"tag_index":50}
+units: 
+----
+attribute: component
+value: {"id_run":39617,"position":3,"tag_index":50}
+units: 
+----
+attribute: component
+value: {"id_run":39617,"position":4,"tag_index":50}
+units: 
+----
+attribute: sample_accession_number
+value: SAMEA9239971
+units: 
+----
+attribute: target
+value: 1
+units: 
+----
+attribute: library_id
+value: 28910083
+units: 
+----
+attribute: sample_supplier_name
+value: FB09215798
+units: 
+----
+attribute: tag_index
+value: 50
+units: 
+----
+attribute: dcterms:publisher
+value: ldap://ldap.internal.sanger.ac.uk/ou=people,dc=sanger,dc=ac,dc=uk?title?sub?(uid=gspipe)
+units: 
+----
+attribute: dcterms:created
+value: 2021-07-25T01:59:43
+units: 
+----
+attribute: sample
+value: AppleDay10498840
+units: 
+AVUs defined for dataObj /seq/illumina/runs/39/39617/plex51/39617#51.cram:
+attribute: tag_index
+value: 51
+units: 
+----
+attribute: type
+value: cram
+units: 
+----
+attribute: study_accession_number
+value: ERP130052
+units: 
+----
+attribute: study_id
+value: 6552
+units: 
+----
+attribute: alignment
+value: 0
+units: 
+----
+attribute: is_paired_read
+value: 1
+units: 
+----
+attribute: component
+value: {"id_run":39617,"position":4,"tag_index":51}
+units: 
+----
+attribute: component
+value: {"id_run":39617,"position":2,"tag_index":51}
+units: 
+----
+attribute: sample_supplier_name
+value: FB09215799
+units: 
+----
+attribute: manual_qc
+value: 1
+units: 
+----
+attribute: library_type
+value: Standard
+units: 
+----
+attribute: sample_common_name
+value: Malus sylvestris
+units: 
+----
+attribute: sample_id
+value: 5992717
+units: 
+----
+attribute: study
+value: DTOL_Apple Day
+units: 
+----
+attribute: seqchksum
+value: 3a33955a=74c761a9=750ad430=754ebf63=0bc20d5f=22582013=5be2c607=507a6411
+units: 
+----
+attribute: total_reads
+value: 343317476
+units: 
+----
+attribute: sample
+value: AppleDay10498841
+units: 
+----
+attribute: sample_donor_id
+value: AppleDay10498841
+units: 
+----
+attribute: sample_public_name
+value: drMalSylv83
+units: 
+----
+attribute: dcterms:creator
+value: http://www.sanger.ac.uk
+units: 
+----
+attribute: id_run
+value: 39617
+units: 
+----
+attribute: study_title
+value: DToL Apple Resequencing
+units: 
+----
+attribute: composition
+value: {"components":[{"id_run":39617,"position":1,"tag_index":51},{"id_run":39617,"position":2,"tag_index":51},{"id_run":39617,"position":3,"tag_index":51},{"id_run":39617,"position":4,"tag_index":51}]}
+units: 
+----
+attribute: id_product
+value: e9ccf9e435e137325e8138dfc46db6e1185a61d7d7e1c001b7387cbd8a451fc3
+units: 
+----
+attribute: sample_accession_number
+value: SAMEA9239972
+units: 
+----
+attribute: target
+value: 1
+units: 
+----
+attribute: dcterms:created
+value: 2021-07-25T01:59:59
+units: 
+----
+attribute: md5
+value: 56ffab51406ae511e412535c5508e0fa
+units: 
+----
+attribute: component
+value: {"id_run":39617,"position":1,"tag_index":51}
+units: 
+----
+attribute: component
+value: {"id_run":39617,"position":3,"tag_index":51}
+units: 
+----
+attribute: library_id
+value: 28910125
+units: 
+----
+attribute: dcterms:publisher
+value: ldap://ldap.internal.sanger.ac.uk/ou=people,dc=sanger,dc=ac,dc=uk?title?sub?(uid=gspipe)
+units: 
+AVUs defined for dataObj /seq/illumina/runs/39/39617/plex52/39617#52.cram:
+attribute: type
+value: cram
+units: 
+----
+attribute: study_accession_number
+value: ERP130052
+units: 
+----
+attribute: study_id
+value: 6552
+units: 
+----
+attribute: total_reads
+value: 398863826
+units: 
+----
+attribute: sample_donor_id
+value: AppleDay10498842
+units: 
+----
+attribute: alignment
+value: 0
+units: 
+----
+attribute: is_paired_read
+value: 1
+units: 
+----
+attribute: id_product
+value: f3f1003c75ec6e7effd14f46c9e93f889bffd0224132e216a0f9e69db769c3ea
+units: 
+----
+attribute: sample_public_name
+value: drMalSylv84
+units: 
+----
+attribute: tag_index
+value: 52
+units: 
+----
+attribute: component
+value: {"id_run":39617,"position":1,"tag_index":52}
+units: 
+----
+attribute: seqchksum
+value: 58dc72aa=3d8d6b9e=6dd4963d=6c844271=2ff1b2ba=63f6adbf=6cd07e3f=3c480972
+units: 
+----
+attribute: library_id
+value: 28910167
+units: 
+----
+attribute: manual_qc
+value: 1
+units: 
+----
+attribute: library_type
+value: Standard
+units: 
+----
+attribute: sample_common_name
+value: Malus sylvestris
+units: 
+----
+attribute: component
+value: {"id_run":39617,"position":4,"tag_index":52}
+units: 
+----
+attribute: sample
+value: AppleDay10498842
+units: 
+----
+attribute: study
+value: DTOL_Apple Day
+units: 
+----
+attribute: md5
+value: 873f20ac830bf8504cc69440e7d491ac
+units: 
+----
+attribute: component
+value: {"id_run":39617,"position":2,"tag_index":52}
+units: 
+----
+attribute: composition
+value: {"components":[{"id_run":39617,"position":1,"tag_index":52},{"id_run":39617,"position":2,"tag_index":52},{"id_run":39617,"position":3,"tag_index":52},{"id_run":39617,"position":4,"tag_index":52}]}
+units: 
+----
+attribute: sample_supplier_name
+value: FB09215800
+units: 
+----
+attribute: dcterms:creator
+value: http://www.sanger.ac.uk
+units: 
+----
+attribute: id_run
+value: 39617
+units: 
+----
+attribute: study_title
+value: DToL Apple Resequencing
+units: 
+----
+attribute: dcterms:created
+value: 2021-07-25T02:00:37
+units: 
+----
+attribute: target
+value: 1
+units: 
+----
+attribute: sample_accession_number
+value: SAMEA9239973
+units: 
+----
+attribute: sample_id
+value: 5992718
+units: 
+----
+attribute: dcterms:publisher
+value: ldap://ldap.internal.sanger.ac.uk/ou=people,dc=sanger,dc=ac,dc=uk?title?sub?(uid=gspipe)
+units: 
+----
+attribute: component
+value: {"id_run":39617,"position":3,"tag_index":52}
+units: 
+AVUs defined for dataObj /seq/illumina/runs/39/39617/plex53/39617#53.cram:
+attribute: type
+value: cram
+units: 
+----
+attribute: study_accession_number
+value: ERP130052
+units: 
+----
+attribute: study_id
+value: 6552
+units: 
+----
+attribute: component
+value: {"id_run":39617,"position":1,"tag_index":53}
+units: 
+----
+attribute: component
+value: {"id_run":39617,"position":2,"tag_index":53}
+units: 
+----
+attribute: composition
+value: {"components":[{"id_run":39617,"position":1,"tag_index":53},{"id_run":39617,"position":2,"tag_index":53},{"id_run":39617,"position":3,"tag_index":53},{"id_run":39617,"position":4,"tag_index":53}]}
+units: 
+----
+attribute: library_id
+value: 28910214
+units: 
+----
+attribute: alignment
+value: 0
+units: 
+----
+attribute: is_paired_read
+value: 1
+units: 
+----
+attribute: component
+value: {"id_run":39617,"position":3,"tag_index":53}
+units: 
+----
+attribute: sample_donor_id
+value: AppleDay10498843
+units: 
+----
+attribute: tag_index
+value: 53
+units: 
+----
+attribute: manual_qc
+value: 1
+units: 
+----
+attribute: library_type
+value: Standard
+units: 
+----
+attribute: sample_common_name
+value: Malus sylvestris
+units: 
+----
+attribute: dcterms:created
+value: 2021-07-25T02:01:46
+units: 
+----
+attribute: component
+value: {"id_run":39617,"position":4,"tag_index":53}
+units: 
+----
+attribute: sample
+value: AppleDay10498843
+units: 
+----
+attribute: study
+value: DTOL_Apple Day
+units: 
+----
+attribute: md5
+value: a15b8007d4ac7d53597aa9ab7c1bb729
+units: 
+----
+attribute: id_product
+value: f628cf0ebc277a993d1e7dbd158c955a584ea6442107750d99958c9e67215499
+units: 
+----
+attribute: seqchksum
+value: 2f2caba1=13221402=197b0c93=1aa42584=195637e2=11eccb39=579c7606=1017f019
+units: 
+----
+attribute: dcterms:creator
+value: http://www.sanger.ac.uk
+units: 
+----
+attribute: id_run
+value: 39617
+units: 
+----
+attribute: study_title
+value: DToL Apple Resequencing
+units: 
+----
+attribute: total_reads
+value: 327033576
+units: 
+----
+attribute: sample_accession_number
+value: SAMEA9239974
+units: 
+----
+attribute: target
+value: 1
+units: 
+----
+attribute: dcterms:publisher
+value: ldap://ldap.internal.sanger.ac.uk/ou=people,dc=sanger,dc=ac,dc=uk?title?sub?(uid=gspipe)
+units: 
+----
+attribute: sample_id
+value: 5992719
+units: 
+----
+attribute: sample_public_name
+value: drMalSylv85
+units: 
+----
+attribute: sample_supplier_name
+value: FB09215801
+units: 
+AVUs defined for dataObj /seq/illumina/runs/39/39617/plex6/39617#6.cram:
+attribute: type
+value: cram
+units: 
+----
+attribute: study_accession_number
+value: ERP130052
+units: 
+----
+attribute: study_id
+value: 6552
+units: 
+----
+attribute: composition
+value: {"components":[{"id_run":39617,"position":1,"tag_index":6},{"id_run":39617,"position":2,"tag_index":6},{"id_run":39617,"position":3,"tag_index":6},{"id_run":39617,"position":4,"tag_index":6}]}
+units: 
+----
+attribute: seqchksum
+value: 355e2618=7dd357ea=74d0f0a3=2da2b5ff=6f32b427=69c062ee=282aec16=24248a87
+units: 
+----
+attribute: total_reads
+value: 317368040
+units: 
+----
+attribute: alignment
+value: 0
+units: 
+----
+attribute: is_paired_read
+value: 1
+units: 
+----
+attribute: component
+value: {"id_run":39617,"position":1,"tag_index":6}
+units: 
+----
+attribute: component
+value: {"id_run":39617,"position":3,"tag_index":6}
+units: 
+----
+attribute: library_id
+value: 28910235
+units: 
+----
+attribute: sample
+value: AppleDay10498796
+units: 
+----
+attribute: sample_accession_number
+value: SAMEA8712110
+units: 
+----
+attribute: sample_id
+value: 5992672
+units: 
+----
+attribute: sample_public_name
+value: drMalSylv5
+units: 
+----
+attribute: manual_qc
+value: 1
+units: 
+----
+attribute: library_type
+value: Standard
+units: 
+----
+attribute: sample_common_name
+value: Malus sylvestris
+units: 
+----
+attribute: study
+value: DTOL_Apple Day
+units: 
+----
+attribute: dcterms:created
+value: 2021-07-25T01:25:06
+units: 
+----
+attribute: dcterms:creator
+value: http://www.sanger.ac.uk
+units: 
+----
+attribute: id_run
+value: 39617
+units: 
+----
+attribute: study_title
+value: DToL Apple Resequencing
+units: 
+----
+attribute: md5
+value: 6b5702bc2ebffab8210a3501bef4e768
+units: 
+----
+attribute: component
+value: {"id_run":39617,"position":2,"tag_index":6}
+units: 
+----
+attribute: component
+value: {"id_run":39617,"position":4,"tag_index":6}
+units: 
+----
+attribute: target
+value: 1
+units: 
+----
+attribute: sample_donor_id
+value: AppleDay10498796
+units: 
+----
+attribute: sample_supplier_name
+value: FB09216089
+units: 
+----
+attribute: tag_index
+value: 6
+units: 
+----
+attribute: dcterms:publisher
+value: ldap://ldap.internal.sanger.ac.uk/ou=people,dc=sanger,dc=ac,dc=uk?title?sub?(uid=gspipe)
+units: 
+----
+attribute: id_product
+value: 8a653432c302959ac3fff071924ff6960a45448e017c6b370481e82e262cbab5
+units: 
+AVUs defined for dataObj /seq/illumina/runs/39/39617/plex7/39617#7.cram:
+attribute: type
+value: cram
+units: 
+----
+attribute: study_accession_number
+value: ERP130052
+units: 
+----
+attribute: study_id
+value: 6552
+units: 
+----
+attribute: md5
+value: 7f9e76757aa39ae1d0cfaac1ef9dc84e
+units: 
+----
+attribute: sample_accession_number
+value: SAMEA8712109
+units: 
+----
+attribute: sample_public_name
+value: drMalSylv4
+units: 
+----
+attribute: alignment
+value: 0
+units: 
+----
+attribute: is_paired_read
+value: 1
+units: 
+----
+attribute: component
+value: {"id_run":39617,"position":1,"tag_index":7}
+units: 
+----
+attribute: id_product
+value: a00c5a1b201faead3d3c9dbbc36285ff7549f44c75cd0407797bfadf53978867
+units: 
+----
+attribute: seqchksum
+value: 583dc515=0d50bf36=2b6a7a99=3fc1344c=3fbbf913=4e4d478b=2f8f6284=6269da38
+units: 
+----
+attribute: sample_supplier_name
+value: FB09216088
+units: 
+----
+attribute: tag_index
+value: 7
+units: 
+----
+attribute: component
+value: {"id_run":39617,"position":2,"tag_index":7}
+units: 
+----
+attribute: total_reads
+value: 332041452
+units: 
+----
+attribute: sample_id
+value: 5992673
+units: 
+----
+attribute: manual_qc
+value: 1
+units: 
+----
+attribute: library_type
+value: Standard
+units: 
+----
+attribute: sample_common_name
+value: Malus sylvestris
+units: 
+----
+attribute: study
+value: DTOL_Apple Day
+units: 
+----
+attribute: dcterms:created
+value: 2021-07-25T01:26:57
+units: 
+----
+attribute: sample_donor_id
+value: AppleDay10498797
+units: 
+----
+attribute: dcterms:creator
+value: http://www.sanger.ac.uk
+units: 
+----
+attribute: id_run
+value: 39617
+units: 
+----
+attribute: study_title
+value: DToL Apple Resequencing
+units: 
+----
+attribute: component
+value: {"id_run":39617,"position":3,"tag_index":7}
+units: 
+----
+attribute: component
+value: {"id_run":39617,"position":4,"tag_index":7}
+units: 
+----
+attribute: library_id
+value: 28910279
+units: 
+----
+attribute: target
+value: 1
+units: 
+----
+attribute: dcterms:publisher
+value: ldap://ldap.internal.sanger.ac.uk/ou=people,dc=sanger,dc=ac,dc=uk?title?sub?(uid=gspipe)
+units: 
+----
+attribute: composition
+value: {"components":[{"id_run":39617,"position":1,"tag_index":7},{"id_run":39617,"position":2,"tag_index":7},{"id_run":39617,"position":3,"tag_index":7},{"id_run":39617,"position":4,"tag_index":7}]}
+units: 
+----
+attribute: sample
+value: AppleDay10498797
+units: 
+AVUs defined for dataObj /seq/illumina/runs/39/39617/plex8/39617#8.cram:
+attribute: type
+value: cram
+units: 
+----
+attribute: study_accession_number
+value: ERP130052
+units: 
+----
+attribute: study_id
+value: 6552
+units: 
+----
+attribute: component
+value: {"id_run":39617,"position":2,"tag_index":8}
+units: 
+----
+attribute: alignment
+value: 0
+units: 
+----
+attribute: is_paired_read
+value: 1
+units: 
+----
+attribute: md5
+value: e47219fd0cc1109e508bb492f562a0ef
+units: 
+----
+attribute: seqchksum
+value: 18ba261c=0a714f09=72b94f57=61127dc2=03ca0aaf=4676236e=28ffd9bc=36fbb70b
+units: 
+----
+attribute: sample_id
+value: 5992674
+units: 
+----
+attribute: sample_public_name
+value: drMalSylv3
+units: 
+----
+attribute: manual_qc
+value: 1
+units: 
+----
+attribute: library_type
+value: Standard
+units: 
+----
+attribute: sample_common_name
+value: Malus sylvestris
+units: 
+----
+attribute: dcterms:created
+value: 2021-07-25T01:27:06
+units: 
+----
+attribute: sample_supplier_name
+value: FB09216087
+units: 
+----
+attribute: study
+value: DTOL_Apple Day
+units: 
+----
+attribute: component
+value: {"id_run":39617,"position":1,"tag_index":8}
+units: 
+----
+attribute: tag_index
+value: 8
+units: 
+----
+attribute: dcterms:creator
+value: http://www.sanger.ac.uk
+units: 
+----
+attribute: id_run
+value: 39617
+units: 
+----
+attribute: study_title
+value: DToL Apple Resequencing
+units: 
+----
+attribute: sample_accession_number
+value: SAMEA8712108
+units: 
+----
+attribute: target
+value: 1
+units: 
+----
+attribute: component
+value: {"id_run":39617,"position":4,"tag_index":8}
+units: 
+----
+attribute: composition
+value: {"components":[{"id_run":39617,"position":1,"tag_index":8},{"id_run":39617,"position":2,"tag_index":8},{"id_run":39617,"position":3,"tag_index":8},{"id_run":39617,"position":4,"tag_index":8}]}
+units: 
+----
+attribute: id_product
+value: 21ce1c21bd41a583090506d8bfa3e0deaa69097728d7b2b70edcaa4822294b05
+units: 
+----
+attribute: total_reads
+value: 350852440
+units: 
+----
+attribute: sample
+value: AppleDay10498798
+units: 
+----
+attribute: sample_donor_id
+value: AppleDay10498798
+units: 
+----
+attribute: dcterms:publisher
+value: ldap://ldap.internal.sanger.ac.uk/ou=people,dc=sanger,dc=ac,dc=uk?title?sub?(uid=gspipe)
+units: 
+----
+attribute: component
+value: {"id_run":39617,"position":3,"tag_index":8}
+units: 
+----
+attribute: library_id
+value: 28910315
+units: 
+AVUs defined for dataObj /seq/illumina/runs/39/39617/plex9/39617#9.cram:
+attribute: type
+value: cram
+units: 
+----
+attribute: study_accession_number
+value: ERP130052
+units: 
+----
+attribute: study_id
+value: 6552
+units: 
+----
+attribute: md5
+value: c4b0b97ef3e49fdcab26ccd3111bfd88
+units: 
+----
+attribute: alignment
+value: 0
+units: 
+----
+attribute: is_paired_read
+value: 1
+units: 
+----
+attribute: component
+value: {"id_run":39617,"position":3,"tag_index":9}
+units: 
+----
+attribute: library_id
+value: 28910002
+units: 
+----
+attribute: sample_donor_id
+value: AppleDay10498799
+units: 
+----
+attribute: manual_qc
+value: 1
+units: 
+----
+attribute: library_type
+value: Standard
+units: 
+----
+attribute: sample_common_name
+value: Malus sylvestris
+units: 
+----
+attribute: dcterms:created
+value: 2021-07-25T01:27:50
+units: 
+----
+attribute: component
+value: {"id_run":39617,"position":4,"tag_index":9}
+units: 
+----
+attribute: seqchksum
+value: 36e62309=4c9fd146=79732c9d=38af796c=58036ad2=28eab700=496f94fa=699a14ea
+units: 
+----
+attribute: sample
+value: AppleDay10498799
+units: 
+----
+attribute: study
+value: DTOL_Apple Day
+units: 
+----
+attribute: composition
+value: {"components":[{"id_run":39617,"position":1,"tag_index":9},{"id_run":39617,"position":2,"tag_index":9},{"id_run":39617,"position":3,"tag_index":9},{"id_run":39617,"position":4,"tag_index":9}]}
+units: 
+----
+attribute: total_reads
+value: 292002118
+units: 
+----
+attribute: sample_id
+value: 5992675
+units: 
+----
+attribute: dcterms:creator
+value: http://www.sanger.ac.uk
+units: 
+----
+attribute: id_run
+value: 39617
+units: 
+----
+attribute: study_title
+value: DToL Apple Resequencing
+units: 
+----
+attribute: id_product
+value: a60028a2ed407649fd00360d2033c1f3c1f8eaf120c3741bdf70385af5764625
+units: 
+----
+attribute: tag_index
+value: 9
+units: 
+----
+attribute: target
+value: 1
+units: 
+----
+attribute: component
+value: {"id_run":39617,"position":1,"tag_index":9}
+units: 
+----
+attribute: component
+value: {"id_run":39617,"position":2,"tag_index":9}
+units: 
+----
+attribute: sample_public_name
+value: drMalSylv1
+units: 
+----
+attribute: dcterms:publisher
+value: ldap://ldap.internal.sanger.ac.uk/ou=people,dc=sanger,dc=ac,dc=uk?title?sub?(uid=gspipe)
+units: 
+----
+attribute: sample_accession_number
+value: SAMEA8712101
+units: 
+----
+attribute: sample_supplier_name
+value: FB09216085
+units: 
