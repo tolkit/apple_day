@@ -1,3 +1,6 @@
+# Investigating fasta_windows output
+
+
 library(data.table)
 
 setwd("~/Documents/apple_day/src/analysis/fw/data/")
@@ -35,31 +38,37 @@ plot_apple_variable_windows <- function(data,
     title(main = title)
 }
 
-library(data.table)
-
-setwd("~/Documents/apple_day/src/analysis/fw/data/")
-
-for (i in list.files(".")) {
-    assign(i, fread(i))
-}
-
 par(mfrow = c(3, 2))
 plot_apple_variable_windows(
     data = drMalSylv7_windows.tsv,
-    title = "Crab-apple"
+    title = "Crab-apple",
+    roll_win = 200
 )
 plot_apple_variable_windows(
     data = drMalDome10_windows.tsv,
-    title = "Brown Snout"
+    title = "Brown Snout",
+    roll_win = 200
 )
 plot_apple_variable_windows(
     data = drMalDome11_windows.tsv,
-    title = "Bardsey Island Apple"
+    title = "Bardsey Island Apple",
+    roll_win = 200
 )
 plot_apple_variable_windows(
     data = drMalDome5_windows.tsv,
-    title = "Costard"
+    title = "Costard",
+    roll_win = 200
 )
 plot_apple_variable_windows(
     data = drMalDome58_windows.tsv,
+    title = "Flower of Kent",
+    roll_win = 200
 )
+
+# per chromosome analysis
+
+per_chrom <- function(data, variable="GC_prop") {
+    
+}
+
+drMalDome10_windows.tsv[, .(mean_GC_prop = mean(GC_prop)), by=.(ID)]

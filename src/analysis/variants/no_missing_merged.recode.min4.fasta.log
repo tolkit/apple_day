@@ -1,0 +1,87 @@
+IQ-TREE multicore version 2.1.4-beta COVID-edition for Mac OS X 64-bit built Jun 24 2021
+Developed by Bui Quang Minh, James Barbetti, Nguyen Lam Tung,
+Olga Chernomor, Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    mib115027i (AVX512, FMA3, 16 GB RAM)
+Command: iqtree -s no_missing_merged.recode.min4.fasta
+Seed:    725329 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Wed Oct  6 15:22:17 2021
+Kernel:  AVX+FMA - 1 threads (8 CPU cores detected)
+
+HINT: Use -nt option to specify number of threads because your CPU has 8 cores!
+HINT: -nt AUTO will automatically determine the best number of threads to use.
+
+Reading alignment file no_missing_merged.recode.min4.fasta ... Fasta format detected
+Alignment most likely contains protein sequences
+Alignment has 42 sequences with 341178 columns, 98589 distinct patterns
+326990 parsimony-informative, 5821 singleton sites, 8367 constant sites
+                                   Gap/Ambiguity  Composition  p-value
+   1  .bams/AppleDay10498791.sorted.bam    0.00%    failed      0.00%
+   2  .bams/AppleDay10498792.sorted.bam    0.00%    failed      0.00%
+   3  .bams/AppleDay10498793.sorted.bam    0.00%    failed      0.00%
+   4  .bams/AppleDay10498794.sorted.bam    0.00%    failed      0.00%
+   5  .bams/AppleDay10498795.sorted.bam    0.00%    failed      0.00%
+   6  .bams/AppleDay10498797.sorted.bam    0.00%    failed      0.00%
+   7  .bams/AppleDay10498798.sorted.bam    0.00%    failed      0.00%
+   8  .bams/AppleDay10498799.sorted.bam    0.00%    failed      0.00%
+   9  .bams/AppleDay10498800.sorted.bam    0.00%    failed      0.00%
+  10  .bams/AppleDay10498801.sorted.bam    0.00%    failed      0.00%
+  11  .bams/AppleDay10498802.sorted.bam    0.00%    failed      0.00%
+  12  .bams/AppleDay10498803.sorted.bam    0.00%    failed      0.00%
+  13  .bams/AppleDay10498804.sorted.bam    0.00%    failed      0.00%
+  14  .bams/AppleDay10498806.sorted.bam    0.00%    failed      0.00%
+  15  .bams/AppleDay10498807.sorted.bam    0.00%    failed      0.00%
+  16  .bams/AppleDay10498808.sorted.bam    0.00%    failed      0.00%
+  17  .bams/AppleDay10498809.sorted.bam    0.00%    failed      0.00%
+  18  .bams/AppleDay10498810.sorted.bam    0.00%    failed      0.00%
+  19  .bams/AppleDay10498811.sorted.bam    0.00%    failed      0.00%
+  20  .bams/AppleDay10498813.sorted.bam    0.00%    failed      0.00%
+  21  .bams/AppleDay10498814.sorted.bam    0.00%    failed      0.00%
+  22  .bams/AppleDay10498815.sorted.bam    0.00%    failed      0.00%
+  23  .bams/AppleDay10498817.sorted.bam    0.00%    failed      0.00%
+  24  .bams/AppleDay10498818.sorted.bam    0.00%    failed      0.00%
+  25  .bams/AppleDay10498819.sorted.bam    0.00%    failed      0.00%
+  26  .bams/AppleDay10498820.sorted.bam    0.00%    failed      0.00%
+  27  .bams/AppleDay10498821.sorted.bam    0.00%    failed      0.00%
+  28  .bams/AppleDay10498822.sorted.bam    0.00%    failed      0.00%
+  29  .bams/AppleDay10498823.sorted.bam    0.00%    failed      0.00%
+  30  .bams/AppleDay10498824.sorted.bam    0.00%    failed      0.00%
+  31  .bams/AppleDay10498826.sorted.bam    0.00%    failed      0.00%
+  32  .bams/AppleDay10498828.sorted.bam    0.00%    failed      0.00%
+  33  .bams/AppleDay10498830.sorted.bam    0.00%    failed      0.00%
+  34  .bams/AppleDay10498831.sorted.bam    0.00%    failed      2.63%
+  35  .bams/AppleDay10498832.sorted.bam    0.00%    failed      0.00%
+  36  .bams/AppleDay10498833.sorted.bam    0.00%    failed      0.00%
+  37  .bams/AppleDay10498834.sorted.bam    0.00%    failed      0.00%
+  38  .bams/AppleDay10498835.sorted.bam    0.00%    failed      0.00%
+  39  .bams/AppleDay10498837.sorted.bam    0.00%    failed      0.00%
+  40  .bams/AppleDay10498838.sorted.bam    0.00%    failed      0.00%
+  41  .bams/AppleDay10498841.sorted.bam    0.00%    failed      0.00%
+  42  .bams/AppleDay10498843.sorted.bam    0.00%    failed      0.00%
+****  TOTAL                                0.00%  42 sequences failed composition chi2 test (p-value<5%; df=9)
+NOTE: minimal branch length is reduced to 0.000000293102 for long alignment
+
+Creating fast initial parsimony tree by random order stepwise addition...
+0.875 seconds, parsimony score: 2212094 (based on 332811 sites)
+Perform fast likelihood tree search using LG+I+G model...
+Estimate model parameters (epsilon = 5.000)
+Perform nearest neighbor interchange...
+Estimate model parameters (epsilon = 1.000)
+1. Initial log-likelihood: -15833013.278
+2. Current log-likelihood: -15832980.246
+Optimal log-likelihood: -15832979.919
+Proportion of invariable sites: 0.014
+Gamma shape alpha: 3.410
+Parameters optimization took 2 rounds (52.990 sec)
+Time for fast ML tree search: 289.557 seconds
+
+NOTE: ModelFinder requires 6398 MB RAM!
+ModelFinder will test up to 702 protein models (sample size: 341178) ...
+ No. Model         -LnL         df  AIC          AICc         BIC
+  1  LG            15956604.799 81  31913371.598 31913371.637 31914241.551
+  2  LG+I          15932768.594 82  31865701.189 31865701.229 31866581.882
+  3  LG+G4         15836504.343 82  31673172.685 31673172.725 31674053.378
+  4  LG+I+G4       15832979.911 83  31666125.821 31666125.862 31667017.255
+  5  LG+R2         15848088.021 83  31696342.042 31696342.083 31697233.475
+  6  LG+R3         15832436.157 85  31665042.315 31665042.357 31665955.228
+  7  LG+R4         15827434.503 87  31655043.005 31655043.050 31655977.399

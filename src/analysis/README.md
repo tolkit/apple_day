@@ -205,3 +205,11 @@ tiplabels(text = TIPS, frame = "none", adj = -0.1)
 #### MSA's for diversity plots
 
 Can we make multiple sequence alignments from the vcf & reference fasta?
+
+#### Pi in windows across the VCF
+
+Using vcftools.
+
+```bash
+
+```
