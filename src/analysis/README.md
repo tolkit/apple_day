@@ -142,74 +142,24 @@ Then merge.
 mbMem=5000; bsub -n 20 -q normal -R"span[hosts=1] select[mem>${mbMem}] rusage[mem=${mbMem}]" -M${mbMem} -o %J.out -e %J.err "source activate /lustre/scratch123/tol/teams/blaxter/users/mb39/miniconda3/envs/apple_analyses; bcftools merge -l merge.txt --threads 20 -Oz -o merged.vcf.gz"
 ```
 
-### Analysis (local)
+### Analysis
 
-Extract the SNP matrix and sample names.
+Remove missing sites.
 
 ```bash 
 # filter out so only sites present across all mapped individuals
 mbMem=5000; bsub -n 20 -q normal -R"span[hosts=1] select[mem>${mbMem}] rusage[mem=${mbMem}]" -M${mbMem} -o %J.out -e %J.err "source activate /lustre/scratch123/tol/teams/blaxter/users/mb39/miniconda3/envs/apple_analyses; vcftools --gzvcf merged.vcf.gz --max-missing 1.0 --out no_missing_merged --recode --recode-INFO-all"
 # file is no_missing_merged.recode.vcf
-
-bcftools query no_missing_merged.recode.vcf -f '%CHROM\t%POS[\t%GT]\n' > snp_matrix.txt # 6.1Gb...
-bcftools query -l no_missing_merged.recode.vcf > sample_names.txt
 ```
 
-Can we also get the consensus sequence? May not need it.
+#### Diversity in windows
 
-Below plots a PCA and tree.
+See `/variants`.
 
-```R
-# input the SNP data and the sample names
-library(data.table)
-library(adegenet)
-library(vcfR)
-library(ggplot2)
-library(poppr)
-library(ape)
+#### Synteny between cultivars & crab apple
 
-setwd("~/Documents/apple_day/src/analysis/variants/")
-#snp_matrix   <- fread("snp_matrix.txt")
+See `/minimap2`.
 
-vcf <- read.vcfR("./no_missing_merged.recode.vcf", verbose = FALSE)
-x <- vcfR2genlight(vcf)
+#### Statistics in windows across the genomes
 
-pca <- glPca(x, nf=10)
-
-# make a new data table
-pca2 <- data.table(id = rownames(pca$scores),
-                   PC1 = pca$scores[,1],
-                   PC2 = pca$scores[,2])
-
-# sort out ID
-pca2[, id := gsub(pattern = "\\.\\./bams/", "", id)]
-pca2[, id := gsub(pattern = "\\.sorted\\.bam", "", id)]
-
-keys <- fread("../../../data/apple_metadata/apple_key.tsv")
-
-pca3 <- keys[pca2, on = .(ssid = id)]
-
-ggplot(pca3, aes(x = PC1, y = PC2)) + geom_point(aes(colour = species)) #+ geom_label(aes(label = species))
-
-tree <- poppr::aboot(x = x, sample = 300, showtree = F, cutoff = 50)
-# tip label wrangling
-tip1 <- gsub("../bams/","",tree$tip.label)
-tip2 <- gsub(".sorted.bam","",tip1)
-TIPS <- pca3[,.(ssid, cultivar)][order(tip2)]$cultivar
-
-ape::plot.phylo(tree, show.tip.label = FALSE, x.lim = 0.2)
-tiplabels(text = TIPS, frame = "none", adj = -0.1)
-
-```
-
-#### MSA's for diversity plots
-
-Can we make multiple sequence alignments from the vcf & reference fasta?
-
-#### Pi in windows across the VCF
-
-Using vcftools.
-
-```bash
-
-```
+See `/fw`.
