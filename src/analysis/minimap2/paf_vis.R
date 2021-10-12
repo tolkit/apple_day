@@ -1,7 +1,7 @@
 library(pafr)
 library(ggplot2)
 
-setwd("~/Documents/apple_day/src/analysis/nucmer/")
+setwd("~/Documents/apple_day/src/analysis/minimap2/")
 
 # ref is domestica
 ali <- read_paf("./5_syl_m_domestica_sylvestris.paf")
@@ -27,15 +27,15 @@ t_chroms <- unique(prim_alignment$tname)[
 dotplot(SUPERS2,
         label_seqs = TRUE, order_by = "provided",
         ordering = list(
-                q_chroms,
-                t_chroms
+                paste0("QSUPER_", 1),
+                paste0("TSUPER_", 1)
         )
 ) + theme_bw()
 dotplot(SUPERS2[SUPERS2$tname == "TSUPER_3", ], label_seqs = TRUE)
 
 plot_synteny(
         ali = prim_alignment2,
-        q_chrom = "QSUPER_6", t_chrom = "TSUPER_6", centre = TRUE
+        q_chrom = "QSUPER_1", t_chrom = "TSUPER_1", centre = TRUE
 )
 
-plot_coverage(prim_alignment2, fill = "tname", target = FALSE)
+plot_coverage(prim_alignment2[prim_alignment2$qname == "QSUPER_1", ], fill = "tname", target = FALSE)
