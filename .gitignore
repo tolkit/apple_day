@@ -1,4 +1,6 @@
-/outreach
+/outreach/H*
+/outreach/n*
+/outreach/T*
 /papers
 /src/analysis/variants/no_missing_merged.recode.vcf
 /src/analysis/fw/img/*.pdf

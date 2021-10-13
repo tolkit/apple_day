@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>DToL Apple Day Activity</title>
+    <script src="./DToLAppleDay.js"></script>
+    <script src="./FileSaver.js"></script>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+</head>
+
+<body>
+    <h1>Assemble your own sequence of letters</h1>
+    <p>Use this image as a template </p>
+    <div id="example"></div>
+    <button onclick="saveSVG()">Save SVG</button>
+    <script>
+        makeAssemblyDiagram("DToL Apple Story Assembly", 10, 5, "#example", 1000);
+
+        function saveSVG() {
+            const svg_data = document.getElementById("dtol_svg").innerHTML;
+            const head = '<svg width="1000" height="165" viewBox="0 -20 1000 165" id="dtol_svg" title="dtol_svg" version="1.1" xmlns="http://www.w3.org/2000/svg">'
+            const full_svg = head + svg_data + "</svg>"
+            const blob = new Blob([full_svg], { type: "image/svg+xml" });
+            saveAs(blob, "dtol_apple_activity.svg");
+        }
+    </script>
+</body>
+
+</html>

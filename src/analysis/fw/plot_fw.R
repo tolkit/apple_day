@@ -49,9 +49,10 @@ plot_apple_variable_windows <- function(data,
 # Malus sylvestris
 
 sylv <- drMalSylv7_windows[grepl("SUPER_[[:digit:]]*$", ID),][, ID_sort := gsub("SUPER_", "", ID)]
-sylv <- drMalSylv7_windows[order(as.numeric(ID_sort))]
+sylv <- sylv[order(as.numeric(ID_sort))]
 
-pdf(file = "../img/MsylvGC.pdf", width = 40, height = 4)
+# pdf(  file = "../img/MsylvGC.pdf", width = 40, height = 4)
+png(file = "../img/MsylvGC.png", units = "in", width = 40, height = 4, res = 400)
 layout.matrix <- matrix(seq(1:17), nrow = 1, ncol = 17)
 
 layout(mat = layout.matrix,
@@ -89,7 +90,8 @@ dev.off()
 bard <- drMalDome11_windows[grepl("SUPER_[[:digit:]]*$", ID),][, ID_sort := gsub("SUPER_", "", ID)]
 bard <- bard[order(as.numeric(ID_sort))]
 
-pdf(file = "../img/BardseyGC.pdf", width = 40, height = 4)
+#pdf(file = "../img/BardseyGC.pdf", width = 40, height = 4)
+png(file = "../img/BardseyGC.png", units = "in", width = 40, height = 4, res = 400)
 layout(mat = layout.matrix,
        heights = rep(1, 17),
        widths = rep(2, 17))
@@ -125,7 +127,8 @@ dev.off()
 cost <- drMalDome5_windows[grepl("SUPER_[[:digit:]]*$", ID),][, ID_sort := gsub("SUPER_", "", ID)]
 cost <- cost[order(as.numeric(ID_sort))]
 
-pdf(file = "../img/CostardGC.pdf", width = 40, height = 4)
+#pdf(file = "../img/CostardGC.pdf", width = 40, height = 4)
+png(file = "../img/CostardGC.png", units = "in", width = 40, height = 4, res = 400)
 layout(mat = layout.matrix,
        heights = rep(1, 17),
        widths = rep(2, 17))
@@ -163,7 +166,8 @@ dev.off()
 brown <- drMalDome10_windows[grepl("SUPER_[[:digit:]]*$", ID),][, ID_sort := gsub("SUPER_", "", ID)]
 brown <- brown[order(as.numeric(ID_sort))]
 
-pdf(file = "../img/BrownSnoutGC.pdf", width = 40, height = 4)
+#pdf(file = "../img/BrownSnoutGC.pdf", width = 40, height = 4)
+png(file = "../img/BrownSnoutGC.png", units = "in", width = 40, height = 4, res = 400)
 layout(mat = layout.matrix,
        heights = rep(1, 17),
        widths = rep(2, 17))
@@ -199,7 +203,8 @@ dev.off()
 fok <- drMalDome58_windows[grepl("SUPER_[[:digit:]]*$", ID),][, ID_sort := gsub("SUPER_", "", ID)]
 fok <- fok[order(as.numeric(ID_sort))]
 
-pdf(file = "../img/FlowerOfKentGC.pdf", width = 40, height = 4)
+# pdf(file = "../img/FlowerOfKentGC.pdf", width = 40, height = 4)
+png(file = "../img/FlowerOfKentGC.png", units = "in", width = 40, height = 4, res = 400)
 layout(mat = layout.matrix,
        heights = rep(1, 17),
        widths = rep(2, 17))

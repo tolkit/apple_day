@@ -6,6 +6,8 @@ library(ggplot2)
 library(poppr)
 library(ape)
 
+# note that scotch dumpling == scotch bridget (mis-sample)
+
 setwd("~/Documents/apple_day/src/analysis/variants/")
 
 vcf <- read.vcfR("./no_missing_merged.recode.vcf", verbose = FALSE)
@@ -43,7 +45,7 @@ tip1 <- gsub("../bams/", "", tree$tip.label)
 tip2 <- gsub(".sorted.bam", "", tip1)
 TIPS <- pca3[, .(ssid, cultivar)][order(tip2)]$cultivar
 # Malus sylvestris have no names for some reason
-TIPS[TIPS == ""] <- "Malus sylvestris"
+TIPS[TIPS == ""] <- expression(italic("Malus sylvestris"))
 
 pdf(file = "./img/aboot_apple_tree.pdf", height = 10)
 ape::plot.phylo(tree, show.tip.label = FALSE, x.lim = 0.2)
