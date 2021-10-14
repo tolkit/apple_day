@@ -139,6 +139,9 @@ for bcf in ./*.bcf; do bcftools index $bcf; done
 Then merge. 
 
 ```bash
+# make merge.txt
+for file in ./*.bcf; do echo $file; done > merge.txt
+
 mbMem=5000; bsub -n 20 -q normal -R"span[hosts=1] select[mem>${mbMem}] rusage[mem=${mbMem}]" -M${mbMem} -o %J.out -e %J.err "source activate /lustre/scratch123/tol/teams/blaxter/users/mb39/miniconda3/envs/apple_analyses; bcftools merge -l merge.txt --threads 20 -Oz -o merged.vcf.gz"
 ```
 

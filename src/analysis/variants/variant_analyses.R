@@ -2,7 +2,6 @@
 library(data.table)
 library(adegenet)
 library(vcfR)
-library(ggplot2)
 library(poppr)
 library(ape)
 
@@ -10,7 +9,7 @@ library(ape)
 
 setwd("~/Documents/apple_day/src/analysis/variants/")
 
-vcf <- read.vcfR("./no_missing_merged.recode.vcf", verbose = FALSE)
+vcf <- read.vcfR("./data/no_missing_merged.recode.vcf", verbose = FALSE)
 # polyploid calls removed here
 x <- vcfR2genlight(vcf)
 
@@ -31,12 +30,15 @@ keys <- fread("../../../data/apple_metadata/apple_key.tsv")
 
 pca3 <- keys[pca2, on = .(ssid = id)]
 
-pca_by_species <- ggplot(pca3, aes(x = PC1, y = PC2)) +
-    geom_point(aes(colour = species))
-ggsave(
-    plot = pca_by_species,
-    filename = "./img/pca_by_species.pdf", device = "pdf"
-)
+# merge with even more metadata!
+metadata <- fread("../../../data/apple_metadata/national_fruit_coll_apple_seq.tsv")
+
+#pca_by_species <- ggplot(pca3, aes(x = PC1, y = PC2)) +
+ #   geom_point(aes(colour = species))
+#ggsave(
+#    plot = pca_by_species,
+#    filename = "./img/pca_by_species.pdf", device = "pdf"
+#)
 
 # this takes a few minutes
 tree <- poppr::aboot(x = x, sample = 300, showtree = F, cutoff = 50)
@@ -54,7 +56,7 @@ dev.off()
 
 # pi windows
 
-pi_windows <- fread("./no_missing_merged_windows.windowed.pi")
+pi_windows <- fread("./data/no_missing_merged_windows.windowed.pi")
 
 pi_windows_plot <- function(data,
                             chromosome = "SUPER_1",

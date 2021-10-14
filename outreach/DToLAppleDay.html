@@ -12,10 +12,18 @@
 <body>
     <h1>Assemble your own sequence of letters</h1>
     <p>Use this image as a template </p>
+    <input type="text" id="mytextbox" value="Change me!" />
+    <button onclick="changeDiagram()">Change text!</button>
     <div id="example"></div>
     <button onclick="saveSVG()">Save SVG</button>
     <script>
         makeAssemblyDiagram("DToL Apple Story Assembly", 10, 5, "#example", 1000);
+
+        function changeDiagram() {
+            d3.select("svg").remove();
+            const textbox = document.getElementById('mytextbox');
+            makeAssemblyDiagram(textbox.value, 10, 5, "#example", 1000);
+        }
 
         function saveSVG() {
             const svg_data = document.getElementById("dtol_svg").innerHTML;
