@@ -1,0 +1,15 @@
+# BUSCO version is: 5.0.0 
+# The lineage dataset is:  (Creation date: 2020-09-10, number of species: 31, number of BUSCOs: 2326)
+# Summarized benchmarking in BUSCO notation for file /lustre/scratch116/tol/projects/darwin/data/dicots/Malus_domestica/assembly/curated/drMalDome10.1/drMalDome10_1.curated_primary.fa
+# BUSCO was run in mode: genome
+# Gene predictor used: metaeuk
+
+	***** Results: *****
+
+	C:98.3%[S:59.5%,D:38.8%],F:0.6%,M:1.1%,n:2326	   
+	2287	Complete BUSCOs (C)			   
+	1384	Complete and single-copy BUSCOs (S)	   
+	903	Complete and duplicated BUSCOs (D)	   
+	13	Fragmented BUSCOs (F)			   
+	26	Missing BUSCOs (M)			   
+	2326	Total BUSCO groups searched		   
