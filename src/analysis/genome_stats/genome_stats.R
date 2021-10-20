@@ -47,9 +47,10 @@ a <- seq(0, max(gc_len_col$length), by = 1000000)
 a[c(FALSE, TRUE)] <- NA
 
 png(
-  file = "img/GC_length_all_apples.png",
+  file = "img/GC_length_all_apples_text.png",
   units = "in", width = 12, height = 8, res = 400
 )
+par(mar=c(5, 5, 4, 2))
 plot(gc_len_col$length,
   gc_len_col$gc,
   col = gc_len_col$col,
@@ -58,7 +59,8 @@ plot(gc_len_col$length,
   xaxt = "n",
   bty = "n",
   ylab = "GC content",
-  xlab = "Chromosome length"
+  xlab = "Chromosome length",
+  cex.lab = 1.9
 )
 axis(
   side = 1,
@@ -68,13 +70,13 @@ axis(
 
 # uncomment this to add text labels
 # calculate the centroids for labels
-# centroids <- aggregate(cbind(length,
-#                            gc) ~ chromosome, gc_len_col, mean)
+ centroids <- aggregate(cbind(length,
+                            gc) ~ chromosome, gc_len_col, mean)
 
-#text(
-#  x = centroids$length,
-#  y = centroids$gc, labels = centroids$chromosome
-#)
+text(
+  x = centroids$length,
+  y = centroids$gc, labels = centroids$chromosome
+)
 
 legend(30000000, 0.388,
   legend = c("Crab-apple", "Domestic apple"),

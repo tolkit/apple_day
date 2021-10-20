@@ -157,7 +157,7 @@ mbMem=5000; bsub -n 20 -q normal -R"span[hosts=1] select[mem>${mbMem}] rusage[me
 
 #### Diversity in windows
 
-See `/variants`.
+See `/variants`. Change scale bar to be the same for each chromosome.
 
 #### Synteny between cultivars & crab apple
 

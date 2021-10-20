@@ -41,6 +41,12 @@ There are many people to thank, I list them below:
 - Jack Monaghan
 - Caroline Howard
 - Shane McCarthy
-- Alan Tracey (and the assembly team!)
+- Alan Tracey
 - Max Coleman
 - Alex Twyford
+- Tom Hooijenga
+- Nancy Holyroyd
+- Ian Still
+- Maja Todorovic
+- Ilia Leitch
+- Jennifer Johns
