@@ -3,6 +3,7 @@ library(ggplot2)
 library(stringr)
 
 setwd("~/Documents/apple_day/src/analysis/minimap2/")
+source("../helpers.R")
 
 # ref is domestica
 #ali <- read_paf("./5_syl_m_domestica_sylvestris.paf")
