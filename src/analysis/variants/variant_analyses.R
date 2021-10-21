@@ -35,12 +35,12 @@ pca3 <- keys[pca2, on = .(ssid = id)]
 # merge with even more metadata!
 metadata <- fread("../../../data/apple_metadata/national_fruit_coll_apple_seq.tsv")
 
-#pca_by_species <- ggplot(pca3, aes(x = PC1, y = PC2)) +
- #   geom_point(aes(colour = species))
-#ggsave(
+# pca_by_species <- ggplot(pca3, aes(x = PC1, y = PC2)) +
+#   geom_point(aes(colour = species))
+# ggsave(
 #    plot = pca_by_species,
 #    filename = "./img/pca_by_species.pdf", device = "pdf"
-#)
+# )
 
 # this takes a few minutes
 tree <- poppr::aboot(x = x, sample = 300, showtree = F, cutoff = 50)
@@ -69,6 +69,11 @@ par(mfrow = c(
 ))
 for (chrom in chroms) {
     par(mar = c(2, 5, 1, 5))
-    pi_windows_plot(pi_windows, title = chrom, chromosome = chrom, ylim = c(summary(pi_windows$PI)["Min."], summary(pi_windows$PI)["Max."]))
+    pi_windows_plot(
+        pi_windows,
+        title = chrom,
+        chromosome = chrom,
+        ylim = c(summary(pi_windows$PI)["Min."], summary(pi_windows$PI)["Max."])
+    )
 }
 dev.off()

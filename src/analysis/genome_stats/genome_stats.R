@@ -50,7 +50,7 @@ png(
   file = "img/GC_length_all_apples_text.png",
   units = "in", width = 12, height = 8, res = 400
 )
-par(mar=c(5, 5, 4, 2))
+par(mar = c(5, 5, 4, 2))
 plot(gc_len_col$length,
   gc_len_col$gc,
   col = gc_len_col$col,
@@ -70,8 +70,10 @@ axis(
 
 # uncomment this to add text labels
 # calculate the centroids for labels
- centroids <- aggregate(cbind(length,
-                            gc) ~ chromosome, gc_len_col, mean)
+centroids <- aggregate(cbind(
+  length,
+  gc
+) ~ chromosome, gc_len_col, mean)
 
 text(
   x = centroids$length,

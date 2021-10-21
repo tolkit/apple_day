@@ -17,6 +17,13 @@ par(mfrow = c(
 ))
 for (chrom in chroms) {
     par(mar = c(2, 5, 1, 5))
-    pi_windows_plot(pi_windows, title = chrom, chromosome = chrom, ylim = c(summary(pi_windows$PI)["Min."], summary(pi_windows$PI)["Max."]))
+    pi_windows_plot(pi_windows,
+        title = chrom,
+        chromosome = chrom,
+        ylim = c(
+            summary(pi_windows$PI)["Min."],
+            summary(pi_windows$PI)["Max."]
+        )
+    )
 }
 dev.off()
