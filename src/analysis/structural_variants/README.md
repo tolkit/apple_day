@@ -39,8 +39,8 @@ done
 
 Got to sort the sam files, convert to bam. E.g.
 
-```bash 
-samtools sort drMalDome5.sam -o drMalDome5_sorted.bam
+```bash
+mbMem=5000; bsub -n 20 -q normal -R"span[hosts=1] select[mem>${mbMem}] rusage[mem=${mbMem}]" -M${mbMem} -o %J.out -e %J.err "source activate /lustre/scratch123/tol/teams/blaxter/users/mb39/miniconda3/envs/apple_analyses; for i in {10,11,58}; do samtools sort -@ 20 drMalDome${i}.sam -o ./bams/drMalDome${i}_sorted.bam; done"
 ```
 
 Weirdly, have to downgrade samtools here to 1.9... some bug in nglmr I think. This is the sniffles command.

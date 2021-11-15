@@ -16,3 +16,5 @@ FastK will compute the histogram:
 ```bash
 mbMem=5000; bsub -n 20 -q normal -R"span[hosts=1] select[mem>${mbMem}] rusage[mem=${mbMem}]" -M${mbMem} -o %J.out -e %J.err "/software/team301/FASTK/FastK -t20 -k21 ./sanger_newton_drMalDome6.R{1,2}.fq.gz"
 ```
+
+It looks like Newton's apple is an autotriploid. Possibly generated after self fertilisation of a diploid individual from a reduced and an unreduced gamete.

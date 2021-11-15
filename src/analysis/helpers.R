@@ -56,7 +56,7 @@ pi_windows_plot <- function(data,
                             ADD_HORIZ = TRUE,
                             ...) {
   x <- data[CHROM == chromosome]$BIN_START
-  y <- pi_windows[CHROM == chromosome]$PI
+  y <- data[CHROM == chromosome]$PI
 
   a <- seq(0, tail(data[CHROM == chromosome]$BIN_START, n = 1), by = 1000000)
   a[c(TRUE, FALSE)] <- NA
@@ -103,7 +103,10 @@ read_plot_fastk_histex <- function(path,
                                    range = 2:100,
                                    RETURN = FALSE,
                                    ...) {
-  spectrum <- fread(path, skip = 7, col.names = c("index", "count", "cumulative_per"))
+  spectrum <- fread(path,
+    skip = 7,
+    col.names = c("index", "count", "cumulative_per")
+  )
 
   spectrum[, index := as.numeric(gsub(":", "", index))]
 
@@ -140,8 +143,11 @@ read_plot_fastk_histex <- function(path,
 #           alignment_colour1 = test[test$strand == "+",]$COLOUR,
 #           alignment_colour2 = test[test$strand == "-",]$COLOUR, line_size = 8) + theme_bw()
 
-my_dotplot <- function(ali, order_by = c("size", "qstart", "provided"), label_seqs = FALSE,
-                       dashes = TRUE, ordering = list(), alignment_colour1 = "black",
+my_dotplot <- function(ali,
+                       order_by = c("size", "qstart", "provided"),
+                       label_seqs = FALSE,
+                       dashes = TRUE, ordering = list(),
+                       alignment_colour1 = "black",
                        alignment_colour2 = "black",
                        xlab = "query", ylab = "target", line_size = 2) {
   by <- match.arg(order_by)
