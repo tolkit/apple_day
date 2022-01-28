@@ -14,6 +14,14 @@ tar -xvzf sratoolkit.2.11.1-ubuntu64.tar.gz
 
 These are downloading now.
 
+## Pipeline
+
+Please see the bash scripts in this directory. `download_sra_accessions.bash` -> `sra_to_fastq.bash` -> `bsub_loop_make_sra_bams.bash` -> `bsub_make_bcfs_sra.bash` -> `filter_bcfs_sra.bash`.
+
+A note on making the filtered bcf's.
+
+
+
 ## References
 
 <a id="1">[1]</a> Sun et al., (2020) Phased diploid genome assemblies and pan-genomes provide insights into the genetic history of apple domestication. *Nature genetics* <b>52</b>(12), 1423-1432.

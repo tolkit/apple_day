@@ -133,6 +133,8 @@ Combine the calls. First index each bcf.
 ```bash
 #!/usr/bin/env bash
 # this is pretty quick, so I just did it on the head node. Shh.
+# if not zipped
+# for bcf in ./SRR*.bcf; do bgzip $bcf; done
 for bcf in ./*.bcf; do bcftools index $bcf; done
 ```
 

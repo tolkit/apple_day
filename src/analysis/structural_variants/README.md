@@ -69,3 +69,11 @@ Then using vcftools:
 ```bash
 vcftools --vcf no_missing.recode.vcf --window-pi 10000 --out drMalDome5_windows_filtered_no_missing
 ```
+
+## Different SV pipeline
+
+Perhaps the assemblies can be mapped to detect structural variation between species. Minimap2 can align genomes into a PAF? These can then be turned into a GFA using miniasm?
+
+See https://github.com/lh3/minimap2/blob/fe35e679e95d936698e9e937acc48983f16253d6/cookbook.md
+
+Also what about Newton's triploid assembly..?

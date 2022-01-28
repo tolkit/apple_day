@@ -18,13 +18,24 @@ We have done several outreach projects so far. A growing list:
 
 - <a href="https://genome.gallery/event/hinxton-hall-hidden-heritage-and-home-grown-veg/">Hinxton Hall: Hidden Heritage and Home Grown Veg</a>.
 - <a href = "https://stories.rbge.org.uk/archives/35795">In collaboration with the Royal Botanical Gardens Edinburgh</a>, we talked about Apple Day with the public, showcasing the many Scottish varieties of apple present in the gardens, discussing the origins of apples, and highlighting the research we are doing here at DToL. There is also an adapted post on the <a href="https://www.darwintreeoflife.org/news_item/blazing-the-apple-trail-in-edinburgh/?utm_source=dtoltwitter&utm_medium=social&utm_term=&utm_content=blog&utm_campaign=">DToL website</a>.
-
-Upcoming:
-- <a href="https://www.rhs.org.uk/gardens/wisley/whats-on/half-term">RHS Wisley</a> half term Apple Day outreach.
+- <a href="https://www.rhs.org.uk/gardens/wisley/whats-on/half-term">RHS Wisley</a> half term Apple Day outreach. An informal public forum for chatting to the public in the atrium of the newly built RHS Hilltop.
 - <a href="https://www.eventbrite.co.uk/e/curiosity-club-tickets-154540565993">Curiosity Club</a> organised by Wellcome Connecting Science.
 
+A special thanks to Jack Monaghan for organising these activities.
 
 ## People
+
+None of this would have been possible without the immense time and effort from a great many people. I am especially grateful to Michelle Hart who took the time to write a Standard Operating Procedure specifically for collecting apples and who shared it with all the partners.
+
+The partner institutions are: 
+
+- Royal Botanical Garden Edinburgh
+- Royal Botanical Gardens Kew
+- Cambridge University Botanic Garden
+- East Malling Research 
+- RHS Wisley
+- Wellcome Sanger Research Institute 
+- The National Trust
 
 There are many people to thank, I list them below:
 
@@ -50,3 +61,5 @@ There are many people to thank, I list them below:
 - Maja Todorovic
 - Ilia Leitch
 - Jennifer Johns
+- Michelle Hart
+- David Bell
